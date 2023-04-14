@@ -1,0 +1,3551 @@
+# Translation of Plugins - WooCommerce Checkout &amp; Funnel Builder by CartFlows – Create High Converting Stores For WooCommerce - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WooCommerce Checkout &amp; Funnel Builder by CartFlows – Create High Converting Stores For WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-22 23:18:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WooCommerce Checkout &amp; Funnel Builder by CartFlows – Create High Converting Stores For WooCommerce - Stable (latest release)\n"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1467
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:207
+msgid "Un-Checked"
+msgstr "未チェック"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1414
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:154
+msgid "Enable Field"
+msgstr "フィールドを有効化"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1269
+msgid "Enable Coupon Field"
+msgstr "クーポンフィールドを有効化"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1144
+msgid "Display product images"
+msgstr "商品画像を表示"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1632
+msgid "Hide Order Summary"
+msgstr "注文の概要を非表示"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1631
+msgid "Show Order Summary"
+msgstr "注文の概要を表示"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1081
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1083
+#: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:269
+msgid "Payment"
+msgstr "決済"
+
+#: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:167
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1076
+#: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:152
+msgid "Customer information"
+msgstr "顧客情報"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:857
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:1018
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Order Review"
+msgstr "注文レビュー"
+
+#: classes/class-cartflows-helper.php:554 wizard/assets/build/wizard-app.js:5
+#: wizard/assets/src/wizard-steps/OptinStep.js:202
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: classes/class-cartflows-helper.php:545
+msgid "Last name"
+msgstr "姓"
+
+#: classes/class-cartflows-helper.php:536
+msgid "First name"
+msgstr "名"
+
+#: admin-core/inc/global-settings.php:481
+msgid "Enter Google Map API key"
+msgstr "Google Map API キーを入力"
+
+#: wizard/ajax/wizard.php:203
+msgid "Please enter your email ID."
+msgstr "メール ID を入力してください。"
+
+#. translators: %s flow id
+#: admin-core/ajax/ab-steps.php:180
+msgid "Step deleted - %s"
+msgstr "ステップが削除されました - %s"
+
+#. translators: %s step id
+#: admin-core/ajax/ab-steps.php:144
+msgid "Can't delete a variation for this step - %s"
+msgstr "このステップのバリエーションを削除できません - %s"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:148
+#: admin-core/assets/build/editor-app.js:30
+msgid "Order Bumps"
+msgstr "オーダーバンプ"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr "アクションが見つかりません"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr "予約アクションを検索"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "アクションを表示"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "新規予約アクション"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "予約アクションを編集"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "予約アクションを新規追加"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+#: admin-core/assets/build/editor-app.js:31
+msgid "Add"
+msgstr "追加"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr "予約アクション"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "予約アクション"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr "予約済みアクションは特定の日時にトリガーされるフックです。"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+msgctxt "post"
+msgid "In-Progress"
+msgstr "進行中"
+
+#. translators: %s: count
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:38
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "失敗 <span class=\"count\">(%s)</span>"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgctxt "post"
+msgid "Failed"
+msgstr "失敗"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:819
+msgid "%s Support for strings longer than this will be removed in a future version."
+msgstr "%s これよりも長い文字列のサポートは、今後のバージョンで削除される予定です。"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:72
+msgid "Unable to save action."
+msgstr "アクションを保存できません。"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
+msgid "Unknown status found for action."
+msgstr "アクションに不明なステータスが見つかりました。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:109
+msgid "Data store:"
+msgstr "データストア:"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:105
+msgid "Version:"
+msgstr "バージョン:"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:102
+msgid "This section shows details of Action Scheduler."
+msgstr "このセクションにはアクションスケジューラーの詳細が表示されます。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:102
+msgid "Action Scheduler"
+msgstr "アクションスケジューラー"
+
+#: libraries/action-scheduler/classes/ActionScheduler_QueueRunner.php:192
+msgid "Every minute"
+msgstr "毎分"
+
+#. translators: %s: date interval
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:461
+msgid " (%s)"
+msgstr " (%s)"
+
+#. translators: %s: date interval
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:458
+msgid " (%s ago)"
+msgstr " (%s前)"
+
+#. translators: %s: amount of claims
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:357
+msgid "Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
+msgid_plural "Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
+msgstr[0] "最大数の同時実行キューがすでに進行しています (%s件)。現在のキューが完了するまで、新しいキューの処理は開始されません。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:243
+msgid "Non-repeating"
+msgstr "繰り返しなし"
+
+#. translators: %s: time interval
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:237
+msgid "Every %s"
+msgstr "%s ごと"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:201
+msgid "Now!"
+msgstr "今すぐ"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:174
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s秒"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:169
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s分"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:164
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s時間"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:159
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s日"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:154
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s週"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:149
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%sか月"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:144
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s年"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "それがキューの一部として実行されたかのように今すぐ操作を処理する"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr "実行"
+
+#. translators: %s: count
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
+msgid "In-Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
+msgstr[0] "進行中 <span class=\"count\">(%s)</span>"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:147
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:100
+msgid "Recurrence"
+msgstr "繰り返し"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:146
+msgid "Optional action group."
+msgstr "任意のアクショングループ。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:146
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr "グループ"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:145
+msgid "Optional data array passed to the action hook."
+msgstr "アクションフックに渡された任意のデータ配列。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:145
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr "引数"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:144
+msgid "Action statuses are Pending, Complete, Canceled, Failed"
+msgstr "アクションステータスは、保留中、完了、中止、失敗です"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:143
+msgid "Name of the action hook that will be triggered."
+msgstr "トリガーされるアクションフックの名前。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:147
+msgid "The action's schedule frequency."
+msgstr "アクションの予約頻度。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "Scheduled"
+msgstr "予約済み"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:149
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr "ログ"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:149
+msgid "Activity log for the action."
+msgstr "アクションのアクティビティログ。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:143
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr "フック"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:141
+msgid "Scheduled Action Columns"
+msgstr "予約済みアクションカラム"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:139
+msgid "Columns"
+msgstr "カラム"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:78
+msgid "Database error."
+msgstr "データベースエラー。"
+
+#. translators: 1: next cleanup message 2: github issue URL
+#: libraries/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
+msgid "Action Scheduler has migrated data to custom tables; however, orphaned log entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn more &raquo;</a>"
+msgstr "アクションスケジューラーによって、データがカスタムテーブルに移行されましたが、WordPress コメントテーブルに孤立したログエントリーがあります。%1$s <a href=\"%2$s\">さらに詳しく &raquo;</a>"
+
+#. translators: %s: date interval
+#: libraries/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
+msgid "This data will be deleted in %s."
+msgstr "このデータは%sで削除されます。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:117
+msgid "Newest Scheduled Date"
+msgstr "最新の予定日"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:116
+msgid "Oldest Scheduled Date"
+msgstr "最古の予定日"
+
+#. translators: %d: seconds
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:377
+msgid "The next queue will begin processing in approximately %d seconds."
+msgstr "次のキューは、約%d秒後に処理を開始します。"
+
+#. translators: %s: process URL
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:374
+msgid "A new queue has begun processing. <a href=\"%s\">View actions in-progress &raquo;</a>"
+msgstr "新しいキューの処理が開始しました。<a href=\"%s\">進行中のアクションを表示 &raquo;</a>"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr "予定日"
+
+#. translators: 1: action ID 2: schedule
+#: libraries/action-scheduler/classes/ActionScheduler_InvalidActionException.php:21
+msgid "Action [%1$s] has an invalid schedule: %2$s"
+msgstr "アクション [%1$s] に無効な予約があります。%2$s"
+
+#: libraries/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr "メモリ使用量の削減を試みています..."
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:60
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:75
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:76
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+msgid "Scheduled Actions"
+msgstr "予約済みアクション"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php:161
+msgid "Invalid action - must be a recurring action."
+msgstr "無効なアクション - 定期的なアクションである必要があります。"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:381
+msgid "Canceled"
+msgstr "キャンセル済み"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:380
+msgid "Failed"
+msgstr "失敗"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:379
+msgid "In-progress"
+msgstr "進行中"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:377
+msgid "Complete"
+msgstr "完了"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr "アクションをリセット"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
+msgid "action started"
+msgstr "アクションを開始しました"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
+msgid "action complete"
+msgstr "アクションを完了しました"
+
+#. translators: %s: exception message
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+msgid "action failed: %s"
+msgstr "アクションに失敗しました: %s"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:138
+msgid "action canceled"
+msgstr "アクションをキャンセルしました"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
+msgid "action created"
+msgstr "アクションを作成しました"
+
+#. translators: %s: context
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
+msgid "action started via %s"
+msgstr "%s 経由でアクションが開始されました"
+
+#. translators: %s: context
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
+msgid "action complete via %s"
+msgstr "%s 経由でアクションが完了しました"
+
+#. translators: 1: context 2: exception message
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
+msgid "action failed via %1$s: %2$s"
+msgstr "%1$s 経由でアクションが失敗しました。%2$s"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:672
+msgid "Search"
+msgstr "検索"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:467
+msgid "Filter"
+msgstr "絞り込み"
+
+#: admin-core/views/debugger.php:68
+msgid "Download log"
+msgstr "ダウンロードログ"
+
+#: admin-core/views/debugger.php:51
+msgid "Copied to clipboard"
+msgstr "クリップボードにコピー"
+
+#: admin-core/views/debugger.php:51
+msgid "Copy log"
+msgstr "コピーログ"
+
+#: admin-core/inc/log-status.php:210
+msgid "Invalid file."
+msgstr "無効なファイルです。"
+
+#: admin-core/inc/log-status.php:109
+msgid "Log deleted successfully!"
+msgstr "ログを正常に削除しました !"
+
+#. translators: %d refers to the total number of taskes completed
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:153
+msgid "%d scheduled task completed."
+msgid_plural "%d scheduled tasks completed."
+msgstr[0] "%d件の予約タスクが完了しました。"
+
+#. translators: %s refers to the exception error message
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:136
+msgid "There was an error running the action scheduler: %s"
+msgstr "アクションスケジューラの実行中にエラーが発生しました: %s"
+
+#. translators: %d refers to how many scheduled taks were found to run
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:100
+msgid "Found %d scheduled task"
+msgid_plural "Found %d scheduled tasks"
+msgstr[0] "%d件の予約タスクが見つかりました"
+
+#. translators: %d: amount of actions
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+msgid "Running %d action"
+msgid_plural "Running %d actions"
+msgstr[0] "%d件のアクションを実行中"
+
+#. translators: 1: source action ID 2: source store class 3: destination action
+#. ID 4: destination store class
+#: libraries/action-scheduler/classes/migration/Runner.php:107
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr "%2$sの ID %1$dのアクションを、%4$sの ID %3$d に移行しました。"
+
+#. translators: %d: amount of actions
+#: libraries/action-scheduler/classes/migration/Runner.php:82
+msgid "Migrating %d action"
+msgid_plural "Migrating %d actions"
+msgstr[0] "%d件のアクションを移行しています"
+
+#: libraries/action-scheduler/classes/migration/Controller.php:162
+msgid "Action Scheduler migration in progress. The list of scheduled actions may be incomplete."
+msgstr "アクションスケジューラーの移行が進行中です。予約済みアクションのリストが不完全な可能性があります。"
+
+#: libraries/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr "移行を実行する前に、移行先のロガーを設定する必要があります"
+
+#: libraries/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr "移行を実行する前に、移行先のストアを設定する必要があります"
+
+#: libraries/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr "移行を実行する前に、移行元のロガーを設定する必要があります"
+
+#: libraries/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr "移行を実行する前に、移行元のストアを設定する必要があります"
+
+#: libraries/action-scheduler/classes/migration/ActionMigrator.php:95
+msgid "Unable to remove source migrated action %s"
+msgstr "移行元のアクション%sを削除できません"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr "アクショングループ"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "ゴミ箱にアクションが見つかりません"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:838
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:719
+msgid "Invalid action ID. No status found."
+msgstr "アクション ID が無効です。ステータスが見つかりません。"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:665
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:573
+msgid "Unable to claim actions. Database error."
+msgstr "アクションをクレームできません。データベースエラー。"
+
+#. translators: %s: group name
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:651
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:593
+msgid "The group \"%s\" does not exist."
+msgstr "%s というグループは存在しません。"
+
+#. translators: %s: action ID
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:444
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:535
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:567
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:777
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:819
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:421
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:432
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:459
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:752
+msgid "Unidentified action %s"
+msgstr "不明なアクション %s"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:243
+msgid "Invalid value for select or count parameter. Cannot query actions."
+msgstr "変数の選択またはカウントに無効な値です。アクションをクエリーできません。"
+
+#. translators: %s: error message
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:86
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:35
+#: libraries/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+msgid "Error saving action: %s"
+msgstr "アクション保存エラー: %s"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:115
+msgid "Count"
+msgstr "カウント"
+
+#: libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:113
+msgid "Action Status"
+msgstr "操作ステータス"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:129
+msgid "About Action Scheduler %s"
+msgstr "アクションスケジューラーについて%s"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:378
+msgid "Pending"
+msgstr "承認待ち"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:301
+msgid "ActionScheduler_Action::$args too long. To ensure the args column can be indexed, action args should not be more than %d characters when encoded as JSON."
+msgstr "ActionScheduler_Action::$args が長すぎます。引数列がインデックス化されるようにするには、JSON でエンコードする際にアクション引数を%d文字以下に収める必要があります。"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:148
+msgid "There was a failure fetching this action"
+msgstr "アクションの取得に失敗しました"
+
+#. translators: %s: exception message
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:146
+msgid "There was a failure fetching this action: %s"
+msgstr "アクションの取得に失敗しました。%s"
+
+#. translators: %s: context
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:129
+msgid "action ignored via %s"
+msgstr "%s 経由でアクションが無視されました"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:131
+msgid "action ignored"
+msgstr "アクションが無視されました"
+
+#. translators: 1: error message 2: filename 3: line
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
+msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
+msgstr "予期しないシャットダウン: %2$sの%3$s行目、PHP 致命的エラー %1$s"
+
+#. translators: %s: amount of time
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+msgid "action timed out after %s seconds"
+msgstr "%s秒後にアクションがタイムアウトしました"
+
+#. translators: %s: search query
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:567
+msgid "Search results for \"%s\""
+msgstr "\"%s\" の検索結果"
+
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler.php:195
+msgid "%s() was called before the Action Scheduler data store was initialized"
+msgstr "アクションスケジューラーのデータストアが初期化される前に、%s() が呼び出されました"
+
+#: admin-core/inc/log-status.php:175
+msgid "Filename is empty. Please refresh the page and retry."
+msgstr "ファイル名が空です。ページを再読み込みし、もう一度お試しください。"
+
+#: admin-core/inc/log-status.php:171 admin-core/inc/log-status.php:195
+msgid "Nonce verification failed. Please refresh the page and retry."
+msgstr "Nonce 認証に失敗しました。ページを再読み込みし、もう一度お試しください。"
+
+#: admin-core/inc/log-status.php:80
+msgid "You don't have permission to view this page."
+msgstr "このページを表示する権限がありません。"
+
+#. translators: %s refers to the action ID
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+msgid "Started processing action %s"
+msgstr "アクション%sの処理を開始しました"
+
+#. translators: %s: action ID
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:695
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "アクション %s を失敗としてマークできません。データベースエラー。"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:238
+msgid "Invalid schedule. Cannot save action."
+msgstr "スケジュールが無効です。アクションを保存できませんでした。"
+
+#. translators: %s: action ID
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:683
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "アクション %s でクレームをロック解除できません。データベースエラー。"
+
+#. translators: %s: claim ID
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:668
+msgid "Unable to unlock claim %s. Database error."
+msgstr "クレーム %s をロック解除できません。データベースエラー。"
+
+#. translators: %s: action HTML
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:402
+msgid "Successfully canceled action: %s"
+msgstr "アクションが正常にキャンセルされました: %s"
+
+#. translators: %s: action HTML
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:398
+msgid "Successfully executed action: %s"
+msgstr "アクションが正常に実行されました: %s"
+
+#. translators: %s: action HTML
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:406
+msgid "Successfully processed change for action: %s"
+msgstr "アクションの変更が正常に処理されました: %s"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr "このアクションを今すぐキャンセルし、今後このアクションが実行されないようにする"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:122
+msgid "Claim ID"
+msgstr "クレーム ID"
+
+#. translators: 1: action ID 2: arguments
+#: libraries/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
+msgid "Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. $args = %2$s"
+msgstr "アクション [%1$s] に無効な引数があります。JSON を配列にデコードできません。$args = %2$s"
+
+#. translators: %d: amount of time
+#: libraries/action-scheduler/classes/ActionScheduler_DataController.php:133
+msgid "Stopped the insanity for %d second"
+msgid_plural "Stopped the insanity for %d seconds"
+msgstr[0] "%d秒間停止しました"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "The date/time the action is/was scheduled to run."
+msgstr "アクション実行の予約日時。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:131
+msgid "Action Scheduler is a scalable, traceable job queue for background processing large sets of actions. Action Scheduler works by triggering an action hook to run at some time in the future. Scheduled actions can also be scheduled to run on a recurring schedule."
+msgstr "アクションスケジューラーは、大規模なアクションをバックグラウンド処理する際の拡張、追跡可能なジョブキューです。アクションスケジューラーは、将来のいずれかの時点でアクションフックをトリガーして実行することで動作します。予約済みアクションは、定期的なスケジュールで実行するよう予約することもできます。"
+
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr "同時実行バッチの数が多すぎます。"
+
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid "There are too many concurrent batches, but the run is forced to continue."
+msgstr "同時実行バッチの数が多すぎますが、強制的に実行が続行されます。"
+
+#. translators: %s php class name
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: libraries/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+msgid "The %s class can only be run within WP CLI."
+msgstr "%s クラスは WP CLI 内でのみ実行できます。"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:610
+msgid "Search hook, args and claim ID"
+msgstr "フック、引数、クレーム ID の検索"
+
+#. translators: %s: exception message
+#: libraries/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:156
+msgid "There was a failure scheduling the next instance of this action: %s"
+msgstr "この操作の次回のインスタンスの予約に失敗しました: %s"
+
+#. translators: %d refers to the total number of batches executed
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:117
+msgid "%d batch executed."
+msgid_plural "%d batches executed."
+msgstr[0] "%d件のバッチを実行しました。"
+
+#. translators: 1: action HTML 2: action ID 3: error message
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:412
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr "次のアクションの変更を処理できませんでした: \"%1$s\" (ID: %2$d)。エラー: %3$s"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:341
+msgid "It appears one or more database tables were missing. Attempting to re-create the missing table(s)."
+msgstr "存在しないデータベースのテーブルがあるようです。不足しているテーブルの再作成を試行しています。"
+
+#. translators: 1: action ID 2: exception message
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+msgid "Error processing action %1$s: %2$s"
+msgstr "アクション %1$s 処理エラー: %2$s"
+
+#. translators: 1: action ID 2: hook name
+#: libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr "次のフックを含む %1$s アクションの処理が完了しました: %2$s"
+
+#: classes/class-cartflows-admin.php:126
+#: admin-core/assets/build/editor-app.js:12
+msgid "Step"
+msgstr "ステップ"
+
+#: admin-core/inc/global-settings.php:530
+msgid "Delete plugin data on plugin deletion"
+msgstr "プラグイン削除時にプラグインデータを削除"
+
+#: admin-core/inc/flow-meta.php:57
+msgid "Disallow flow indexing"
+msgstr "フローのインデックス作成禁止"
+
+#. translators: %1$1s: link html start, %2$12: link html end
+#: admin-core/inc/global-settings.php:311
+msgid "Facebook Pixel not working correctly? %1$1s Click here %2$2s to know more."
+msgstr "Facebook Pixel が正しく機能していませんか ? %1$1sここをクリック%2$2sして詳細を知る。"
+
+#. translators: %1$s: link html start, %2$s: link html end
+#: admin-core/inc/global-settings.php:167
+msgid "For more information about the CartFlows Permalink settings please %1$sClick here.%2$s"
+msgstr "CartFlows のパーマリンク設定の詳細については%1$sここをクリック%2$sしてください。"
+
+#: admin-core/inc/admin-helper.php:456
+msgid "System Fonts"
+msgstr "システムフォント"
+
+#: admin-core/inc/admin-helper.php:474
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: admin-core/inc/global-settings.php:535
+msgid "Are you sure? Do you want to delete plugin data while deleting the plugin? Type \"DELETE\" to confirm!"
+msgstr "本当にプラグイン削除をする際にプラグインデータを削除してもよいですか ? \"DELETE\" と入力して確認してください。"
+
+#: admin-core/inc/global-settings.php:70
+msgid "Show Ready Templates for"
+msgstr "準備したテンプレートを表示するページビルダー"
+
+#: modules/woo-dynamic-flow/classes/class-cartflows-wd-flow-product-meta.php:135
+msgid "Type to search a flow..."
+msgstr "入力してフローを検索..."
+
+#: modules/woo-dynamic-flow/classes/class-cartflows-wd-flow-product-meta.php:133
+msgid "Select the Flow"
+msgstr "フローを選択"
+
+#: modules/woo-dynamic-flow/classes/class-cartflows-wd-flow-product-meta.php:145
+msgid "Add to cart"
+msgstr "お買い物カゴに追加"
+
+#: modules/woo-dynamic-flow/classes/class-cartflows-wd-flow-product-meta.php:143
+msgid "Add to Cart text"
+msgstr "「お買い物カゴに追加」テキスト"
+
+#. Translators: $s shipping destination.
+#: modules/checkout/templates/checkout/shipping-methods.php:56
+#: woocommerce/template/cart/cart-shipping.php:51
+msgid "Shipping to %s."
+msgstr "%s に配送します。"
+
+#: modules/checkout/templates/checkout/shipping-methods.php:59
+#: woocommerce/template/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr "配送設定は購入手続き時に更新されます。"
+
+#: modules/checkout/templates/checkout/shipping-methods.php:67
+#: woocommerce/template/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr "配送費用は購入手続き時に計算されます。"
+
+#. translators: %1$s: link html start, %2$s: link html end
+#: admin-core/ajax/importer.php:658
+msgid "Invalid License Key! %1$sActivate CartFlows Pro%2$s"
+msgstr "無効なライセンスキー。%1$sCartFlows Pro を有効化%2$s"
+
+#. translators: %1$s: link html start, %2$s: link html end
+#: admin-core/ajax/importer.php:648
+msgid "CartFlows Pro Required! %1$sUpgrade to CartFlows Pro%2$s"
+msgstr "CartFlows Pro が必要です。%1$sCartFlows Pro にアップグレード%2$s"
+
+#. translators: %1$s: link html start, %2$s: link html end
+#: admin-core/ajax/importer.php:653 wizard/ajax/wizard.php:527
+msgid "Activate the CartFlows Pro to import the flow! %1$sActivate CartFlows Pro%2$s"
+msgstr "CartFlows Pro を有効化してフローをインポートする ! %1$s CartFlows Pro を有効化%2$s"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:352
+msgid "Type to search for a product..."
+msgstr "入力して商品を検索..."
+
+#: classes/class-cartflows-admin.php:201
+msgid "Docs"
+msgstr "ドキュメンテーション"
+
+#: classes/importer/batch-process/class-cartflows-importer-elementor.php:51
+msgid "(✕) Invalid content."
+msgstr "(✕) 無効なコンテンツ。"
+
+#: classes/importer/batch-process/class-cartflows-importer-elementor.php:46
+msgid "(✕) Empty content."
+msgstr "(✕) 空のコンテンツ。"
+
+#: admin-core/inc/global-settings.php:213
+msgid "Facebook Pixel Events"
+msgstr "Facebook ピクセルイベント"
+
+#: admin-core/inc/global-settings.php:128
+msgid "Default Permalinks"
+msgstr "デフォルトのパーマリンク"
+
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:133
+#: admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/editor-app.js:31
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: admin-core/inc/admin-menu.php:120 admin-core/inc/admin-menu.php:171
+msgid "Back to Step Editing"
+msgstr "ステップ編集に戻る"
+
+#: classes/importer/batch-process/helpers/class-wp-background-process-cartflows-sync-library.php:69
+msgid "All processes are complete"
+msgstr "すべてのプロセスが完了しました"
+
+#: admin-core/inc/global-settings.php:368
+msgid "Google Analytics Events"
+msgstr "Google Analytics イベント"
+
+#: admin-core/inc/global-settings.php:325
+#: admin-core/assets/build/settings-app.js:8
+msgid "Google Analytics"
+msgstr "Google アナリティクス"
+
+#: admin-core/inc/admin-menu.php:196
+msgid "Go to Flow Editing"
+msgstr "フロー編集に移動"
+
+#: admin-core/inc/flow-meta.php:45 admin-core/inc/global-settings.php:65
+msgid "General "
+msgstr "一般"
+
+#: admin-core/ajax/importer.php:673 admin-core/ajax/importer.php:823
+#: admin-core/ajax/importer.php:935
+msgid "Flows data not found."
+msgstr "フローデータが見つかりませんでした。"
+
+#: admin-core/inc/global-settings.php:351
+msgid "Enter Google Analytics ID"
+msgstr "Google アナリティクス IDを入力"
+
+#: admin-core/inc/flow-meta.php:98
+msgid "Enable Flow Analytics"
+msgstr "フロー分析を有効化"
+
+#: admin-core/ajax/importer.php:844 admin-core/ajax/importer.php:959
+msgid "Step data not found."
+msgstr "ステップデータが見つかりません。"
+
+#: admin-core/inc/flow-meta.php:79
+msgid "Sandbox"
+msgstr "サンドボックス"
+
+#: libraries/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:97
+#: admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/settings-app.js:2
+msgid "Status"
+msgstr "ステータス"
+
+#: admin-core/api/common-settings.php:128 admin-core/api/flow-data.php:139
+#: admin-core/api/flows.php:238 admin-core/api/home-page.php:102
+#: admin-core/api/product/product-data.php:120 admin-core/api/step-data.php:141
+msgid "Sorry, you cannot list resources."
+msgstr "リソースをリストすることはできません。"
+
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:93
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:200
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: admin-core/inc/admin-helper.php:811
+#: admin-core/assets/build/settings-app.js:2
+msgid "Restore"
+msgstr "復元"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:141
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:293
+msgid "Products"
+msgstr "商品"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:383
+msgid "Global Settings"
+msgstr "全体設定"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:942
+msgid "Coupon"
+msgstr "クーポン"
+
+#: admin-core/inc/admin-helper.php:737
+msgid "Archived"
+msgstr "アーカイブ化"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:268
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: admin-core/ajax/flows.php:154 admin-core/ajax/steps.php:400
+#: admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/editor-app.js:31
+#: admin-core/assets/build/settings-app.js:2
+msgid "(no title)"
+msgstr "(タイトルなし)"
+
+#: admin-core/inc/global-settings.php:120
+msgid "Permalinks"
+msgstr "パーマリンク"
+
+#: admin-core/api/flow-data.php:70
+msgid "Flow ID."
+msgstr "フロー ID。"
+
+#: modules/email-report/templates/email-stat-content.php:112
+#: modules/email-report/templates/email-stat-content.php:247
+#: admin-core/assets/build/editor-app.js:12
+#: admin-core/assets/build/settings-app.js:1
+msgid "Total Visits"
+msgstr "総訪問数"
+
+#: admin-core/ajax/importer.php:115
+msgid "No flows to export"
+msgstr "エクスポートするフローがありません"
+
+#: admin-core/inc/global-settings.php:172
+msgid "FaceBook Pixel"
+msgstr "Facebook ピクセル"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:236
+msgid "Fields Settings"
+msgstr "フィールド設定"
+
+#: admin-core/ajax/importer.php:1305 wizard/ajax/wizard.php:378
+msgid "Successful!"
+msgstr "成功 !"
+
+#: admin-core/ajax/importer.php:852 admin-core/ajax/importer.php:967
+msgid "Successfully imported the Step!"
+msgstr "ステップのインポートに成功しました。"
+
+#: admin-core/ajax/flows.php:172
+msgid "Successfully saved the flow data!"
+msgstr "フローデータの保存に成功しました !"
+
+#: admin-core/ajax/flows.php:701
+msgid "Successfully restored the Flow!"
+msgstr "フローの復元に成功しました !"
+
+#: admin-core/ajax/importer.php:740 wizard/ajax/wizard.php:619
+msgid "Successfully imported the Flow!"
+msgstr "フローのインポートに成功しました !"
+
+#: admin-core/ajax/flows.php:228
+msgid "Successfully deleted the Flows!"
+msgstr "フローの削除に成功しました"
+
+#: admin-core/ajax/flows.php:823
+msgid "Successfully deleted the Flow!"
+msgstr "フローの削除に成功しました !"
+
+#: admin-core/ajax/importer.php:395
+msgid "Successfully created the step!"
+msgstr "ステップの作成に成功しました !"
+
+#: admin-core/ajax/importer.php:590
+msgid "Successfully created the Flow!"
+msgstr "フローの作成に成功しました !"
+
+#: admin-core/ajax/flows.php:640
+msgid "Successfully cloned the Flow!"
+msgstr "フローの複製に成功しました !"
+
+#: admin-core/api/product/product-data.php:68 admin-core/api/step-data.php:69
+msgid "Step ID."
+msgstr "ステップ ID。"
+
+#: admin-core/ajax/ajax-errors.php:61 wizard/ajax/ajax-errors.php:61
+msgid "Sorry, something went wrong."
+msgstr "エラーが発生しました。"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:926
+msgid "Search for a product..."
+msgstr "商品を検索 ..."
+
+#: admin-core/ajax/ajax-errors.php:60
+#: modules/checkout/classes/class-cartflows-checkout-ajax.php:110
+#: wizard/ajax/ajax-errors.php:60
+msgid "Nonce validation failed"
+msgstr "Nonce 検証に失敗しました"
+
+#: admin-core/ajax/common-settings.php:115
+#: admin-core/ajax/common-settings.php:160 admin-core/ajax/home-page.php:82
+#: admin-core/ajax/home-page.php:122
+msgid "No post data found!"
+msgstr "投稿データが見つかりません !"
+
+#. translators: %s flow id
+#: admin-core/ajax/steps.php:389
+msgid "No data is saved"
+msgstr "データは保存されません"
+
+#. translators: %s: step ID
+#: admin-core/ajax/importer.php:388
+msgid "Invalid step id %1$s."
+msgstr "ステップ ID %1$s が無効です。"
+
+#: admin-core/ajax/importer.php:197
+msgid "Invalid flow ID."
+msgstr "フロー ID が無効です。"
+
+#. translators: %s step id
+#: admin-core/ajax/ab-steps.php:262
+msgid "A/B test settings updated for this step - %s"
+msgstr "このステップで更新された A/B テスト設定 - %s"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:260
+msgid "Enable Shipping Details"
+msgstr "発送情報詳細の有効化"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:254
+msgid "Enable Billing Details"
+msgstr "支払い情報詳細の有効化"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:144
+msgid "Enable Advanced Options"
+msgstr "高度な設定を有効化"
+
+#: admin-core/inc/global-settings.php:129
+msgid "Default WordPress Permalink"
+msgstr "デフォルトの WordPress パーマリンク"
+
+#: admin-core/ajax/flows.php:109 admin-core/ajax/importer.php:108
+msgid "Flows exported successfully"
+msgstr "フローが正常にエクスポートされました"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1014
+msgid "CartFlows Checkout"
+msgstr "CartFlows 購入手続き"
+
+#. translators: %1$s: link html start, %2$s: link html end
+#: admin-core/inc/global-settings.php:72
+msgid "CartFlows offers flow templates that can be imported in one click. These templates are available in few different page builders. Please choose your preferred page builder from the list so you will only see templates that are made using that page builder. %1$sLearn More >>%2$s"
+msgstr "CartFlows はワンクリックでインポートできるフローテンプレートを提供します。テンプレートはいくつかのページビルダーで利用可能です。リストからお好みのページビルダーを選んでください。そうすれば、そのページビルダーを使って作られたテンプレートのみが表示されます。%1$sさらに詳しく >>%2$s"
+
+#: modules/email-report/templates/email-stat-content.php:172
+#: modules/email-report/templates/email-stat-content.php:304
+#: admin-core/assets/build/settings-app.js:1
+msgid "Offers Revenue"
+msgstr "オファーの収益"
+
+#. translators: 1: The HTTP response code.
+#: classes/importer/batch-process/class-cartflows-batch-process.php:506
+msgid "Unexpected HTTP response code: %s"
+msgstr "予期しない HTTP 応答コード: %s"
+
+#: admin-core/inc/global-settings.php:335
+msgid "Enable Google Analytics Tracking For the whole site"
+msgstr "すべてのサイトで Google アナリティクストラッキングを有効化"
+
+#: admin-core/inc/global-settings.php:329
+msgid "Enable Google Analytics Tracking For CartFlows Pages"
+msgstr "CartFlows ページの Google アナリティクストラッキングを有効化"
+
+#: admin-core/inc/global-settings.php:176
+msgid "Enable Facebook Pixel Tracking For CartFlows Pages"
+msgstr "CartFlows ページの Facebook ピクセルトラッキングを有効化"
+
+#: admin-core/inc/global-settings.php:182
+msgid "Enable Facebook Pixel Tracking For the whole site"
+msgstr "すべてのサイトで Facebook ピクセルトラッキングを有効化"
+
+#: admin-core/ajax/importer.php:205
+msgid "Flow exported successfully"
+msgstr "フローが正常にエクスポートされました"
+
+#: admin-core/ajax/ajax-errors.php:59 wizard/ajax/ajax-errors.php:59
+msgid "Sorry, you are not allowed to do this operation."
+msgstr "この操作を実行する権限がありません。"
+
+#: admin-core/ajax/flows.php:141
+msgid "Can't update the flow data"
+msgstr "フローデータを更新できません"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:248
+msgid "Enable Order Details"
+msgstr "注文詳細を有効化"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:242
+msgid "Enable Order Overview"
+msgstr "注文概要を有効化"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:282
+msgid "Enable Advance Options"
+msgstr "高度な設定を有効化"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:276
+msgid "Checkout Texts & Buttons"
+msgstr "購入手続きテキストとボタン"
+
+#. translators: %s: step ID
+#: admin-core/ajax/importer.php:991 admin-core/ajax/importer.php:1067
+msgid "Invalid step id %1$s or post id %2$s."
+msgstr "ステップ ID %1$s または投稿ID %2$s が無効。"
+
+#: admin-core/ajax/home-page.php:143
+msgid "Successfully hidden!"
+msgstr "非表示に成功しました !"
+
+#: admin-core/ajax/common-settings.php:205
+msgid "Successfully saved data!"
+msgstr "データの保存に成功しました !"
+
+#: admin-core/ajax/steps.php:93
+msgid "Can't update the step title"
+msgstr "ステップタイトルを更新できません"
+
+#. translators: %s flow id
+#: admin-core/ajax/steps.php:436
+msgid "Data saved succesfully for step id %s"
+msgstr "ステップ ID %s のデータが正常に保存されました"
+
+#: admin-core/inc/admin-helper.php:790
+msgid "Deleted variation can't be restored."
+msgstr "削除したバリエーションは復元できません。"
+
+#: admin-core/ajax/flows.php:395
+msgid "Can't update the flow title"
+msgstr "フロータイトルを更新できません"
+
+#. translators: %1$1s: link html start, %2$12: link html end
+#: admin-core/inc/global-settings.php:463
+msgid "Google Analytics not working correctly? %1$1s Click here %2$2s to know more."
+msgstr "Google Analytics が正しく機能していませんか ? %1$1sここをクリック%2$2sして詳細を知る。"
+
+#. translators: %s flow id
+#: admin-core/ajax/ab-steps.php:102
+msgid "Step successfully hidden - %s"
+msgstr "ステップが正常に非表示になりました - %s"
+
+#. translators: %s step id
+#: admin-core/ajax/ab-steps.php:90 admin-core/ajax/ab-steps.php:219
+msgid "Can't create a variation for this step - %s"
+msgstr "このステップのバリエーションを作成できません - %s"
+
+#: admin-core/ajax/flows.php:893 admin-core/ajax/flows.php:952
+msgid "Successfully updated the Flow status!"
+msgstr "フローステータスが正常に更新されました !"
+
+#: admin-core/ajax/flows.php:669 admin-core/ajax/flows.php:729
+#: admin-core/ajax/flows.php:789
+msgid "No Flow ID has been supplied to delete!"
+msgstr "削除するフロー ID が指定されていません !"
+
+#: admin-core/ajax/flows.php:440
+msgid "No Flow ID has been supplied to clone!"
+msgstr "複製するフロー ID が指定されていません !"
+
+#. translators: %s flow id
+#: admin-core/ajax/flows.php:411 admin-core/ajax/steps.php:109
+msgid "Flow title updated - %s"
+msgstr "フロータイトルが更新されました - %s"
+
+#: admin-core/ajax/flows.php:256 admin-core/ajax/flows.php:328
+#: admin-core/ajax/flows.php:851 admin-core/ajax/flows.php:923
+msgid "No Flow IDs has been supplied to delete!"
+msgstr "削除するフロー ID が指定されていません !"
+
+#: admin-core/ajax/flows.php:96
+msgid "No Flow IDs has been supplied to export!"
+msgstr "エクスポートするフロー ID が指定されていません !"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:459
+msgid "Hover Animation"
+msgstr "ホバーアニメーション"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:263
+#: admin-core/assets/build/editor-app.js:31 modules/gutenberg/build/blocks.js:7
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/src/components/background/index.js:437
+#: modules/gutenberg/src/components/background/index.js:730
+#: modules/gutenberg/src/components/image-size-control/index.js:53
+#: modules/gutenberg/src/components/image-size-control/index.js:83
+#: modules/gutenberg/src/components/image-size-control/index.js:113
+#: modules/gutenberg/src/components/responsive-border/index.js:23
+msgid "Width"
+msgstr "幅"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:233
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:262
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:341
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:529
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:458
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:473
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:127
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:189
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:334
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:211
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:239
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:285
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Typography"
+msgstr "タイポグラフィ"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:190
+#: admin-core/assets/build/editor-app.js:30 modules/gutenberg/build/blocks.js:7
+#: modules/gutenberg/src/components/background/index.js:229
+msgid "Type"
+msgstr "タイプ"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:197
+msgid "Transparent"
+msgstr "透明"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:259
+msgid "Structure"
+msgstr "構造"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:378
+msgid "Round Corners"
+msgstr "角丸"
+
+#: admin-core/inc/flow-meta.php:70
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:115
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:124
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:133
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:142
+msgid "No"
+msgstr "いいえ"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:236
+msgid "Move Down"
+msgstr "下に移動"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:738
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/src/components/number-control/index.js:166
+#: modules/gutenberg/src/components/range/Range.js:180
+msgid "Margin"
+msgstr "マージン"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:196
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/background/index.js:115
+#: modules/gutenberg/src/components/background/index.js:138
+#: modules/gutenberg/src/components/color-switch-control/index.js:36
+msgid "Gradient"
+msgstr "グラデーション"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:267
+#: modules/gutenberg/build/blocks.js:11
+msgid "Full Width"
+msgstr "全幅"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:342
+msgid "Custom Width"
+msgstr "カスタム幅"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:393
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Colors"
+msgstr "色"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:461
+msgid "Button Settings"
+msgstr "ボタン設定"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:208
+msgid "Border Size"
+msgstr "枠線のサイズ"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:416
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:646
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:752
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:258
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:421
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Border Radius"
+msgstr "枠線の丸み"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:448
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+msgid "Background"
+msgstr "背景"
+
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:34
+msgid "Optin Form."
+msgstr "オプトインフォーム。"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:237
+msgid "Move Up"
+msgstr "上に移動"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:239
+msgid "Move Right"
+msgstr "右に移動"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:238
+msgid "Move Left"
+msgstr "左に移動"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:266
+msgctxt "Width."
+msgid "Auto"
+msgstr "自動"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:198
+msgid "3D"
+msgstr "3D"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:35
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:36
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:34
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:35
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:35
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:36
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:34
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:35
+msgid "Cartflows Modules"
+msgstr "Cartflows モジュール"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:328
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:393
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:459
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:525
+msgid "Text Typography"
+msgstr "テキストタイポグラフィ"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:772
+msgid "Field Label Color"
+msgstr "フィールドラベルの色"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:195
+msgid "Flat"
+msgstr "フラット"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:356
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:422
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:488
+msgid "Heading Typography"
+msgstr "見出しタイポグラフィ"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:33
+msgid "Order Details Form."
+msgstr "注文詳細フォーム。"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:34
+msgid "Checkout Form."
+msgstr "購入手続きフォーム。"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:360
+msgid "Padding Top/Bottom"
+msgstr "上部 / 下部余白"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:369
+msgid "Padding Left/Right"
+msgstr "左/右のパディング"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:294
+msgid "Mobile Alignment"
+msgstr "モバイルでの配置"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:217
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:233
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:246
+msgid "Hover Styles"
+msgstr "ホバースタイル"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:164
+msgid "After Text"
+msgstr "テキストの後"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:163
+msgid "Before Text"
+msgstr "テキストの前"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:351
+msgid "Custom Height"
+msgstr "カスタム高さ"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:252
+msgid "Appear Icon From Top"
+msgstr "上からアイコンが表示される"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:250
+msgid "Appear Icon From Right"
+msgstr "右からアイコンが表示される"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:251
+msgid "Appear Icon From Left"
+msgstr "左からアイコンが表示される"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:253
+msgid "Appear Icon From Bottom"
+msgstr "下からアイコンが表示される"
+
+#. translators: %s: link
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:192
+msgid "The PRO layout options are available in the CartFlows Pro. %1$s  Upgrade Now! %2$s"
+msgstr "PRO レイアウト設定は CartFlows Pro で利用可能です。%1$s 今すぐアップグレード ! %2$s"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:352
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:544
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:200
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:346
+msgid "The type of border to use. Double borders must have a width of at least 3px to render properly."
+msgstr "使用する枠線のタイプ。二重線を正しくレンダリングするには、少なくとも3 px の幅が必要です。"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:241
+msgid "Animate Bottom"
+msgstr "下にアニメーション"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:240
+msgid "Animate Top"
+msgstr "上にアニメーション"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:33
+msgid "A simple next step button."
+msgstr "シンプルな次のステップボタン。"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:219
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/src/components/spacing-control/index.js:506
+msgid "Top"
+msgstr "上"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:164
+#: admin-core/assets/build/editor-app.js:30
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Title"
+msgstr "タイトル"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:491
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Text Alignment"
+msgstr "テキスト配置"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:176
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Sub Title"
+msgstr "サブタイトル"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:153
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:229
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Spacing"
+msgstr "間隔"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:355
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:547
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:203
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:349
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:512
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:265
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-border/index.js:120
+msgid "Solid"
+msgstr "単色"
+
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:171
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:183
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:195
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:207
+msgid "Show"
+msgstr "表示"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:138
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:205
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Shipping Address"
+msgstr "配送先住所"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:563
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:685
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:397
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:301
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:381
+msgid "Rounded Corners"
+msgstr "角丸"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:304
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:337
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Padding"
+msgstr "パディング"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:620
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:351
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:343
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-border/index.js:48
+#: modules/gutenberg/src/components/typography/index.js:278
+msgid "Normal"
+msgstr "通常"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:223
+msgid "Middle"
+msgstr "中央"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:201
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Layout"
+msgstr "レイアウト"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:315
+msgid "Justify"
+msgstr "両端揃え"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:511
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:264
+msgid "Inherit"
+msgstr "継承"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:465
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:260
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Icon Size"
+msgstr "アイコンサイズ"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:149
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:187
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/icon-picker/index.js:20
+msgid "Icon"
+msgstr "アイコン"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:725
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:411
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:403
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-border/index.js:52
+msgid "Hover"
+msgstr "マウスオーバー"
+
+#: admin-core/inc/admin-helper.php:791
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:172
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:184
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:196
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:208
+msgid "Hide"
+msgstr "非表示"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:207
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:115
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:244
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Global"
+msgstr "全般"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:338
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:497
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Downloads"
+msgstr "ダウンロード"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:358
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:550
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:206
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:352
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:513
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:266
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-border/index.js:141
+msgid "Double"
+msgstr "ダブル"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:357
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:549
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:205
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:351
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:514
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:267
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-border/index.js:127
+msgid "Dotted"
+msgstr "ドット"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:688
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:826
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Description Color"
+msgstr "説明文の色"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:356
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:548
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:204
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:350
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:515
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:268
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-border/index.js:134
+msgid "Dashed"
+msgstr "破線"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:469
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:679
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Customer Details"
+msgstr "お客様詳細"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:166
+msgid "BUY NOW"
+msgstr "今すぐ購入"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:327
+msgid "Button Size"
+msgstr "ボタンサイズ"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:377
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:582
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:230
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:377
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:530
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:278
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Border Width"
+msgstr "枠線の幅"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:350
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:542
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:198
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:344
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:506
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:259
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Border Style"
+msgstr "枠線のスタイル"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:318
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:447
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:668
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:389
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:373
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-border/index.js:47
+msgid "Border"
+msgstr "枠線"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1056
+msgid "Billing Details"
+msgstr "請求先詳細"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:129
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:193
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Billing Address"
+msgstr "請求先住所"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:284
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:299
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:294
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Alignment"
+msgstr "配置"
+
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:33
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:66
+#: modules/gutenberg/classes/class-cartflows-block-config.php:578
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:655
+#: modules/gutenberg/build/blocks-placeholder.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Optin Form"
+msgstr "オプトインフォーム"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:172
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:240
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Icon Spacing"
+msgstr "アイコン間隔"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:160
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:195
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Icon Position"
+msgstr "アイコンの位置"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:483
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:536
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:627
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:716
+#: admin-core/assets/build/editor-app.js:31 modules/gutenberg/build/blocks.js:7
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Content"
+msgstr "コンテンツ"
+
+#: modules/elementor/class-cartflows-el-widgets-loader.php:126
+#: modules/gutenberg/classes/class-cartflows-init-blocks.php:488
+msgid "Cartflows"
+msgstr "CartFlows"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:201
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Before Title & Sub Title"
+msgstr "タイトルとサブタイトルの前"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:199
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Before Title"
+msgstr "タイトルの前"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:200
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "After Title"
+msgstr "タイトルの後"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:213
+msgid "Icon Vertical Alignment"
+msgstr "アイコンの縦配置"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:418
+msgid "Hover Text Color"
+msgstr "マウスオーバー時のテキスト色"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:431
+msgid "Hover Background Color"
+msgstr "マウスオーバー時の背景色"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:544
+msgid "Title and Sub Title Spacing"
+msgstr "タイトルとサブタイトルの間隔"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:101
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:159
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Thank You Text"
+msgstr "送信完了メッセージ"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1062
+msgid "Shipping Details"
+msgstr "配送先詳細"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:190
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:208
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Select Layout"
+msgstr "レイアウトを選択"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:221
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:360
+msgid "Sections Heading"
+msgstr "セクション見出し"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:249
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:389
+msgid "Sections Content"
+msgstr "セクションコンテンツ"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:32
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:65
+#: modules/gutenberg/classes/class-cartflows-block-config.php:157
+msgid "Order Details Form"
+msgstr "注文詳細フォーム"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:32
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:70
+#: modules/gutenberg/classes/class-cartflows-block-config.php:54
+#: modules/gutenberg/build/blocks-placeholder.js:10
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Next Step Button"
+msgstr "次のステップボタン"
+
+#: classes/class-cartflows-functions.php:592
+msgid "Learn More »"
+msgstr "詳細はこちら »"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:702
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:851
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Information Background Color"
+msgstr "情報の背景色"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:157
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:237
+msgid "Heading Bottom Spacing"
+msgstr "見出し下部の間隔"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:788
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:941
+msgid "Field Border Color"
+msgstr "フィールド枠線の色"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:301
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:161
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:472
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:237
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Field Background Color"
+msgstr "フィールド背景色"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:960
+msgid "Error Messages"
+msgstr "エラーメッセージ"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:808
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:969
+msgid "Error Message Color"
+msgstr "エラーメッセージの色"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:33
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:66
+#: modules/gutenberg/classes/class-cartflows-block-config.php:373
+#: modules/gutenberg/build/blocks-placeholder.js:9
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Checkout Form"
+msgstr "購入手続きフォーム"
+
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:202
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "After Title & Sub Title"
+msgstr "タイトルとサブタイトルの後"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:670
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:805
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Payment Section"
+msgstr "支払いセクション"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:111
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:296
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:169
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:444
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Order Overview"
+msgstr "注文概要"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:172
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:253
+msgid "Spacing Between Sections"
+msgstr "セクション間の間隔"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:320
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:175
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:488
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:248
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Input Text / Placeholder Color"
+msgstr "テキスト / プレースホルダーの色を入力"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:724
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:865
+msgid "Section Padding"
+msgstr "セクションパディング"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:878
+msgid "Section Margin"
+msgstr "セクションマージン"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:920
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Field Validation"
+msgstr "フィールドの検証"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:768
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:912
+msgid "Field Validation & Error Messages"
+msgstr "フィールドの検証とエラーメッセージ"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:142
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:157
+msgid "Two Step ( PRO )"
+msgstr "2ステップ (PRO)"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-markup.php:171
+msgid "Order not found. You cannot access this page directly."
+msgstr "注文が見つかりません。このページに直接アクセス出来ません。"
+
+#: admin-core/inc/admin-menu.php:295 admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/settings-app.js:1
+msgid "Home"
+msgstr "ホーム"
+
+#. translators: %s badge count
+#: modules/flow/view/view-flow-inner-step.php:36
+msgid "Variation-%s"
+msgstr "バリエーション-%s"
+
+#. translators: %s flow id
+#: admin-core/ajax/steps.php:356
+msgid "This step can not be deleted."
+msgstr "このステップを削除できませんでした。"
+
+#: modules/flow/view/view-flow-inner-step.php:34
+#: admin-core/assets/build/editor-app.js:6
+#: admin-core/assets/build/editor-app.js:21
+msgid "Control"
+msgstr "コントロール"
+
+#: admin-core/inc/admin-helper.php:660
+msgid "A/B Test"
+msgstr "A / B テスト"
+
+#: admin-core/views/header.php:22
+msgid "Generate More Leads & More Sales"
+msgstr "より多くのリードと売り上げを生み出す"
+
+#. Translators: %d stock amount
+#: admin-core/ajax/meta-data.php:137
+msgid "Stock: %d"
+msgstr "在庫: %d"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:370
+msgid "Usage Tracking"
+msgstr "使用状況の追跡"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:263
+msgid "No Thanks"
+msgstr "いいえ、結構です"
+
+#: admin-core/inc/global-settings.php:89
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:788
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:949
+#: admin-core/assets/build/editor-app.js:31
+msgid "Product Options"
+msgstr "商品オプション"
+
+#: woocommerce/template/order/order-details.php:50
+msgid "Order details"
+msgstr "注文詳細"
+
+#: woocommerce/template/order/order-details.php:98
+msgid "Note:"
+msgstr "注:"
+
+#: admin-core/inc/global-settings.php:427
+msgid "Purchase"
+msgstr "購入"
+
+#: admin-core/inc/global-settings.php:397
+msgid "Add To Cart"
+msgstr "お買い物カゴに追加"
+
+#: admin-core/inc/global-settings.php:381
+msgid "Begin Checkout"
+msgstr "購入手続きを開始"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:274
+msgid "Thank You Page Text"
+msgstr "サンキューページのテキスト"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:250
+#: modules/flow/view/meta-flow-steps.php:20
+msgid "Optin (Woo)"
+msgstr "オプトイン (Woo)"
+
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:324
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:506
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Submit Button"
+msgstr "送信ボタン"
+
+#: classes/class-cartflows-default-meta.php:714
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:694
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Submit"
+msgstr "送信"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:289
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:299
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:311
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:503
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:306
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:587
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/spacing-control/index.js:509
+msgid "Right"
+msgstr "右"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:573
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/responsive-focal-point-picker/index.js:56
+msgid "Position"
+msgstr "位置"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:288
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:298
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:303
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:495
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:298
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:579
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/spacing-control/index.js:515
+msgid "Left"
+msgstr "左"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:155
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:300
+#: admin-core/assets/build/editor-app.js:31
+msgid "Form Fields"
+msgstr "フォームフィールド"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:511
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:132
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/typography/font-typography.js:143
+#: modules/gutenberg/src/components/typography/font-typography.js:148
+#: modules/gutenberg/src/components/typography/font-typography.js:153
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:287
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:297
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:307
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:499
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:302
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:583
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Center"
+msgstr "中央"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:691
+#: modules/gutenberg/build/blocks.js:11
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:349
+msgid "Select Free Product"
+msgstr "無料商品を選択"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:685
+msgid "Optin Settings"
+msgstr "オプトイン設定"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:705
+msgid "Enter form field"
+msgstr "フォームフィールドを入力"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:657
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:209
+msgid "Add this shortcode to your optin page"
+msgstr "このショートコードをオプトインページに追加"
+
+#: modules/optin/classes/class-cartflows-optin-markup.php:329
+msgid "Please update the selected product's price to zero (0)."
+msgstr "選択した商品の価格をゼロ (0) に更新してください。"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:350
+msgid "Select Free and Virtual product only."
+msgstr "無料と仮想商品のみ選択。"
+
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:708
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:284
+msgid "Enter comma seprated field name. E.g. first_name, last_name"
+msgstr "カンマ区切りのフィールド名を入力。例: 名, 性"
+
+#: modules/flow/classes/class-cartflows-step-meta-base.php:58
+#: admin-core/assets/build/editor-app.js:31
+msgid "Design"
+msgstr "デザイン"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:288
+msgid "Redirect Link"
+msgstr "リダイレクトリンク"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:291
+msgid "https://"
+msgstr "https://"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:281
+msgid "Redirect After Purchase"
+msgstr "購入後にリダイレクト"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:194
+#: admin-core/assets/build/editor-app.js:12
+msgid "Upgrade to CartFlows Pro"
+msgstr "CartFlows Pro にアップグレード"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1114
+msgid "Place Order Button Text"
+msgstr "注文ボタンのテキスト"
+
+#: modules/checkout/classes/class-cartflows-checkout-ajax.php:145
+msgid "Coupon has been removed."
+msgstr "クーポンを削除しました。"
+
+#: modules/checkout/classes/class-cartflows-checkout-ajax.php:142
+msgid "Sorry there was a problem removing this coupon."
+msgstr "このクーポンの削除中に問題が発生しました。"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1045
+msgid "Checkout Settings"
+msgstr "購入手続き設定"
+
+#: modules/checkout/classes/class-cartflows-checkout-ajax.php:166
+msgid " has been removed."
+msgstr "は削除されました。"
+
+#: modules/checkout/classes/class-cartflows-checkout-ajax.php:163
+msgid "Sorry there was a problem removing "
+msgstr "削除中に問題が発生しました"
+
+#: admin-core/inc/global-settings.php:275
+msgid "Purchase Complete"
+msgstr "購入完了"
+
+#: admin-core/inc/global-settings.php:198
+msgid "Enter Facebook pixel ID"
+msgstr "Facebook pixel ID を入力"
+
+#: admin-core/inc/global-settings.php:259
+#: admin-core/inc/global-settings.php:412
+msgid "Add Payment Info"
+msgstr "支払い情報を追加"
+
+#: admin-core/api/flows.php:163 admin-core/inc/admin-helper.php:691
+#: admin-core/inc/admin-helper.php:764 admin-core/inc/store-checkout.php:101
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+#: admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/settings-app.js:2
+msgid "Edit"
+msgstr "編集"
+
+#: admin-core/api/flows.php:185 admin-core/inc/admin-helper.php:652
+#: admin-core/inc/admin-helper.php:729 admin-core/inc/admin-helper.php:799
+#: admin-core/inc/admin-helper.php:819
+#: libraries/action-scheduler/classes/ActionScheduler_ListTable.php:92
+#: admin-core/assets/build/editor-app.js:21
+#: admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/settings-app.js:2
+msgid "Delete"
+msgstr "削除"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:213
+msgid "Slug"
+msgstr "スラッグ"
+
+#: admin-core/inc/flow-meta.php:51 admin-core/inc/global-settings.php:138
+msgid "Flow Slug"
+msgstr "フロースラッグ"
+
+#: admin-core/inc/global-settings.php:143
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1029
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:114
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:670
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:222
+msgid "Step Slug"
+msgstr "ステップスラッグ"
+
+#: admin-core/inc/global-settings.php:133
+msgid "Flow and Step Slug"
+msgstr "フローとステップのスラッグ"
+
+#: admin-core/inc/global-settings.php:160
+msgid "Flow Base"
+msgstr "フローベース"
+
+#: admin-core/inc/global-settings.php:154
+msgid "Step Base"
+msgstr "ステップベース"
+
+#: admin-core/inc/global-settings.php:150
+msgid "Post Type Permalink Base"
+msgstr "投稿タイプのパーマリンクベース"
+
+#: compatibilities/plugins/class-cartflows-learndash-compatibility.php:85
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:354
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:546
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:220
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:249
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:202
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:348
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/background/index.js:99
+#: modules/gutenberg/src/components/gutter-options/index.js:6
+#: modules/gutenberg/src/components/gutter-options/index.js:7
+#: modules/gutenberg/src/components/responsive-border/index.js:113
+#: modules/gutenberg/src/components/typography/index.js:328
+msgid "None"
+msgstr "なし"
+
+#: compatibilities/plugins/class-cartflows-learndash-compatibility.php:118
+msgid "Select CartFlows Template for this Course"
+msgstr "このコースの CartFlows テンプレートを選択"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1064
+#: woocommerce/template/checkout/form-shipping.php:30
+msgid "Ship to a different address?"
+msgstr "別の住所へ配送しますか ?"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:73
+msgid "Name: "
+msgstr "名前: "
+
+#: woocommerce/template/checkout/form-shipping.php:61
+msgid "Additional information"
+msgstr "追加情報"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:73
+msgid "Flow: "
+msgstr "フロー:"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:457
+#: modules/optin/classes/class-cartflows-optin-markup.php:220
+#: modules/thankyou/classes/class-cartflows-thankyou-markup.php:133
+msgid "Click Here to Reload"
+msgstr "ここをクリックしてリロード"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:319
+msgctxt "cartflows"
+msgid "CartFlows — Boxed"
+msgstr "CartFlows — ボックス"
+
+#: wizard/inc/wizard-core.php:154
+msgid "Skip Setup"
+msgstr "セットアップをスキップ"
+
+#: classes/class-cartflows-flow-frontend.php:89
+msgid "Click here to disable it"
+msgstr "無効にするにはここをクリック"
+
+#: wizard/inc/wizard-core.php:153
+msgid "Start Wizard"
+msgstr "ウィザードを開始"
+
+#: admin-core/inc/flow-meta.php:93 admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/editor-app.js:20
+msgid "Analytics"
+msgstr "アナリティクス"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:271
+#: modules/flow/view/meta-flow-steps.php:18
+msgid "Upsell (Woo)"
+msgstr "アップセル (Woo)"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:278
+#: modules/flow/view/meta-flow-steps.php:19
+msgid "Downsell (Woo)"
+msgstr "ダウンセル (Woo)"
+
+#: admin-core/ajax/importer.php:522
+#: modules/flow/classes/class-cartflows-step-post-type.php:257
+#: modules/flow/view/meta-flow-steps.php:16
+msgid "Checkout (Woo)"
+msgstr "購入手続き (Woo)"
+
+#: admin-core/ajax/importer.php:526
+#: modules/flow/classes/class-cartflows-step-post-type.php:264
+#: modules/flow/view/meta-flow-steps.php:17
+msgid "Thank You (Woo)"
+msgstr "サンキューページ (Woo)"
+
+#: admin-core/inc/flow-meta.php:66
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:114
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:123
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:132
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:141
+msgid "Yes"
+msgstr "はい"
+
+#: classes/logger/class-cartflows-log-handler-file.php:355
+#: classes/logger/class-cartflows-log-handler-file.php:375
+msgid "This method should not be called before plugins_loaded."
+msgstr "このメソッドは plugins_loaded より前に呼び出されるべきではありません。"
+
+#: admin-core/views/debugger.php:91 includes/admin/cartflows-error-log.php:71
+msgid "There are currently no logs to view."
+msgstr "表示すべきログがありません。"
+
+#. translators: 1: class name 2: Cartflows_Log_Handler_Interface
+#: classes/logger/class-cartflows-wc-logger.php:58
+msgid "The provided handler %1$s does not implement %2$s."
+msgstr "指定されたハンドラ %1$s は %2$s を実装していません。"
+
+#: admin-core/views/debugger.php:85 includes/admin/cartflows-error-log.php:66
+msgid "Delete log"
+msgstr "ログを削除"
+
+#. translators: 1: Cartflows_WC_Logger::log 2: level
+#: classes/logger/class-cartflows-wc-logger.php:136
+msgid "%1$s was called with an invalid level \"%2$s\"."
+msgstr "%1$s が無効なレベル\"%2$s\"で呼び出されました。"
+
+#. translators: %1$s: timestamp1, %2$s: timestamp2
+#: admin-core/views/debugger.php:36 includes/admin/cartflows-error-log.php:37
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: woocommerce/template/global/form-login.php:34
+msgid "Username or email"
+msgstr "ユーザー名またはメールアドレス"
+
+#: woocommerce/template/global/form-login.php:47
+msgid "Remember me"
+msgstr "ログイン状態を保存"
+
+#: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:185
+#: woocommerce/template/global/form-login.php:38
+msgid "Password"
+msgstr "パスワード"
+
+#: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:194
+#: woocommerce/template/global/form-login.php:54
+msgid "Lost your password?"
+msgstr "パスワードをお忘れですか ?"
+
+#: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:193
+#: woocommerce/template/global/form-login.php:51
+msgid "Login"
+msgstr "ログイン"
+
+#: woocommerce/template/checkout/payment.php:47
+msgid "Update totals"
+msgstr "金額を更新"
+
+#: woocommerce/template/checkout/payment.php:36
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "現在の状況で利用可能な支払方法がありません。お手伝いを必要とするか、または別の方法をご希望の場合はお問い合わせください。"
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/template/checkout/payment.php:45
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr "お使いのブラウザは JavaScript をサポートしていないか、無効になっています。注文の前に%1$s金額を更新%2$sボタンで合計できることを確認してください。もし更新に失敗するようであれば、上記表示金額とは異なった金額が請求される可能性があります。"
+
+#: woocommerce/template/checkout/payment.php:36
+msgid "Please fill in your details above to see available payment methods."
+msgstr "利用可能な支払い方法を確認し、上記に詳細を記入してください。"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:151
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:254
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:166
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Two Step"
+msgstr "2段階"
+
+#: admin-core/inc/flow-meta.php:108 admin-core/inc/flow-meta.php:113
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1175
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1182
+#: modules/flow/classes/class-cartflows-step-meta-base.php:80
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:128
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:135
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:726
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:732
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:306
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:312
+msgid "Custom Script"
+msgstr "カスタムスクリプト"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1070
+#: woocommerce/template/checkout/form-checkout.php:58
+msgid "Your order"
+msgstr "ご注文"
+
+#: woocommerce/template/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "購入手続きを行うには、ログインしている必要があります。"
+
+#: woocommerce/template/checkout/thankyou.php:31
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr "銀行か売り手がトランザクションを拒否したので残念ながらご注文を処理することはできません。もう一度ご購入を試みてください。"
+
+#: woocommerce/template/checkout/thankyou.php:66
+msgid "Total:"
+msgstr "合計金額:"
+
+#: modules/checkout/templates/checkout/order-review-table.php:81
+#: woocommerce/template/checkout/review-order.php:103
+#: woocommerce/template/order/order-details.php:57
+msgid "Total"
+msgstr "合計"
+
+#: modules/checkout/templates/checkout/shipping-methods.php:72
+#: woocommerce/template/cart/cart-shipping.php:67
+msgid "There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help."
+msgstr "利用できる配送方法がありません。住所が正しく入力されているか確認してください。もしくはお問い合わせください。"
+
+#: classes/class-cartflows-default-meta.php:547
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:102
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:161
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:277
+#: woocommerce/template/checkout/thankyou.php:42
+#: woocommerce/template/checkout/thankyou.php:86
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Thank you. Your order has been received."
+msgstr "ありがとうございました。ご注文を受け付けました。"
+
+#: modules/checkout/templates/checkout/order-review-table.php:17
+#: modules/checkout/templates/checkout/order-review-table.php:43
+#: woocommerce/template/checkout/review-order.php:24
+#: woocommerce/template/checkout/review-order.php:56
+msgid "Subtotal"
+msgstr "小計"
+
+#: woocommerce/template/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr "登録済みの方はこちら"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1510
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:241
+#: admin-core/assets/build/editor-app.js:31
+msgid "Required"
+msgstr "必須"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:917
+#: modules/checkout/templates/checkout/order-review-table.php:16
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:343
+#: woocommerce/template/checkout/review-order.php:23
+#: woocommerce/template/order/order-details.php:56
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/editor-app.js:31
+#: admin-core/assets/build/settings-app.js:1
+msgid "Product"
+msgstr "商品"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1493
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:233
+#: admin-core/assets/build/editor-app.js:31
+msgid "Placeholder"
+msgstr "プレースホルダー"
+
+#: woocommerce/template/checkout/thankyou.php:72
+msgid "Payment method:"
+msgstr "決済方法:"
+
+#: woocommerce/template/checkout/thankyou.php:34
+msgid "Pay"
+msgstr "支払い"
+
+#: woocommerce/template/checkout/thankyou.php:49
+msgid "Order number:"
+msgstr "注文番号:"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1484
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:224
+#: admin-core/assets/build/editor-app.js:31
+msgid "Options"
+msgstr "オプション"
+
+#. Translators: $s shipping destination.
+#: modules/checkout/templates/checkout/shipping-methods.php:75
+#: woocommerce/template/cart/cart-shipping.php:70
+msgid "No shipping options were found for %s."
+msgstr "%s の配送オプションが見つかりませんでした。"
+
+#: woocommerce/template/checkout/thankyou.php:36
+msgid "My account"
+msgstr "マイアカウント"
+
+#: woocommerce/template/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr "クーポンコードをお持ちの場合は、以下に適用してください。"
+
+#: woocommerce/template/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr "クーポンをお持ちですか ?"
+
+#: modules/checkout/templates/checkout/shipping-methods.php:69
+#: woocommerce/template/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr "住所を入力して配送オプションを表示してください。"
+
+#. Translators: $s shipping destination.
+#: modules/checkout/templates/checkout/shipping-methods.php:76
+#: woocommerce/template/cart/cart-shipping.php:71
+msgid "Enter a different address"
+msgstr "別のアドレスを入力してください"
+
+#: woocommerce/template/checkout/thankyou.php:60
+msgid "Email:"
+msgstr "メール:"
+
+#: woocommerce/template/checkout/thankyou.php:54
+msgid "Date:"
+msgstr "日付:"
+
+#: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:211
+#: woocommerce/template/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr "アカウントを作成しますか ?"
+
+#: woocommerce/template/checkout/form-coupon.php:34
+msgid "Coupon code"
+msgstr "クーポンコード"
+
+#: woocommerce/template/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr "ログインはこちらから"
+
+#: woocommerce/template/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr "ここをクリックしてコードを入力"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1463
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:203
+#: admin-core/assets/build/editor-app.js:31
+msgid "Checked"
+msgstr "チェック済み"
+
+#. Translators: $s shipping destination.
+#: modules/checkout/templates/checkout/shipping-methods.php:57
+#: woocommerce/template/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr "住所を変更"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1058
+#: woocommerce/template/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr "請求先情報の詳細"
+
+#: woocommerce/template/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr "請求 &amp; 配送"
+
+#: woocommerce/template/checkout/form-coupon.php:38
+msgid "Apply coupon"
+msgstr "クーポンを適用"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1430
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:170
+#: admin-core/assets/build/editor-app.js:30
+msgid "50%"
+msgstr "50%"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1426
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:166
+#: admin-core/assets/build/editor-app.js:30
+msgid "33%"
+msgstr "33%"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1434
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:174
+#: admin-core/assets/build/editor-app.js:30
+msgid "100%"
+msgstr "100%"
+
+#: woocommerce/template/checkout/form-login.php:32
+msgid "If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section."
+msgstr "以前に当店で買い物をしたことがある方は以下に詳細を入力してください。新規のお客様は「請求と配送」セクションに進んでください。"
+
+#: admin-core/inc/global-settings.php:93 admin-core/inc/global-settings.php:493
+msgid "Other"
+msgstr "その他"
+
+#: modules/flow/view/view-remote-importer.php:76
+#: admin-core/assets/build/editor-app.js:28
+#: admin-core/assets/build/settings-app.js:4
+msgid "Learn How"
+msgstr "方法を学ぶ"
+
+#: admin-core/api/flows.php:178 admin-core/assets/build/settings-app.js:2
+msgid "Export"
+msgstr "エクスポート"
+
+#: modules/flow/view/view-remote-importer.php:23
+#: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:30
+msgid "Steps Library"
+msgstr "ステップライブラリー"
+
+#: modules/flow/view/view-remote-importer.php:65
+#: admin-core/assets/build/editor-app.js:13
+#: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:28
+msgid "Select Step Type"
+msgstr "ステップタイプを選択"
+
+#: modules/flow/view/view-remote-importer.php:72
+#: admin-core/assets/build/editor-app.js:17
+#: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:26
+#: admin-core/assets/build/editor-app.js:28
+msgid "Create Step"
+msgstr "ステップの作成"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1369
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1410
+#: modules/checkout/templates/checkout/collapsed-order-summary.php:41
+msgid "Coupon Code"
+msgstr "クーポンコード"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1370
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1419
+#: modules/checkout/templates/checkout/collapsed-order-summary.php:46
+#: admin-core/assets/build/settings-app.js:2
+msgid "Apply"
+msgstr "適用"
+
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:97
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:144
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:417
+msgid "Floating Labels"
+msgstr "フロート・ラベル"
+
+#: modules/flow/view/meta-flow-steps.php:149
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/editor-app.js:10
+#: admin-core/assets/build/editor-app.js:21
+#: admin-core/assets/build/editor-app.js:22
+msgid "Add New Step"
+msgstr "新しいステップを追加"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:109
+#: modules/flow/classes/class-cartflows-flow-post-type.php:111
+#: modules/flow/classes/class-cartflows-step-post-type.php:171
+#: modules/flow/classes/class-cartflows-step-post-type.php:173
+#: admin-core/assets/build/settings-app.js:1
+msgid "Add New"
+msgstr "新規追加"
+
+#: classes/class-cartflows-loader.php:577
+msgid "Activate WooCommerce"
+msgstr "WooCommerce を有効化"
+
+#. translators: %s: singular custom post type name
+#: modules/flow/classes/class-cartflows-flow-post-type.php:344
+#: modules/flow/classes/class-cartflows-step-post-type.php:417
+msgid "%s saved."
+msgstr "%sを保存しました。"
+
+#. translators: %s: singular custom post type name
+#: modules/flow/classes/class-cartflows-flow-post-type.php:342
+#: modules/flow/classes/class-cartflows-step-post-type.php:415
+msgid "%s published."
+msgstr "%sを公開しました。"
+
+#. translators: %s: singular custom post type name
+#: modules/flow/classes/class-cartflows-flow-post-type.php:350
+#: modules/flow/classes/class-cartflows-step-post-type.php:423
+msgid "%s draft updated."
+msgstr "%sの下書きを更新しました。"
+
+#. translators: %1$s: singular custom post type name ,%2$s: date and time of
+#. the revision
+#: modules/flow/classes/class-cartflows-flow-post-type.php:340
+#: modules/flow/classes/class-cartflows-step-post-type.php:413
+msgid "%1$s restored to revision from %2$s"
+msgstr "%2$sのリビジョンから%1$sを復元しました。"
+
+#. translators: %s: singular custom post type name
+#: modules/flow/classes/class-cartflows-flow-post-type.php:332
+#: modules/flow/classes/class-cartflows-flow-post-type.php:338
+#: modules/flow/classes/class-cartflows-step-post-type.php:405
+#: modules/flow/classes/class-cartflows-step-post-type.php:411
+msgid "%s updated."
+msgstr "%sを更新しました。"
+
+#: admin-core/inc/admin-menu.php:510
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: admin-core/inc/admin-menu.php:502
+msgid "Thin 100"
+msgstr "Thin 100"
+
+#: admin-core/inc/admin-menu.php:507
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: admin-core/inc/admin-menu.php:505
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: admin-core/inc/admin-menu.php:506
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: admin-core/inc/admin-menu.php:504
+msgid "Light 300"
+msgstr "Light 300"
+
+#: admin-core/inc/admin-menu.php:503
+msgid "Extra-Light 200"
+msgstr "Extra-Light 200"
+
+#: admin-core/inc/admin-menu.php:509
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: admin-core/inc/admin-menu.php:508
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#. translators: %s: singular custom post type name
+#: modules/flow/classes/class-cartflows-flow-post-type.php:346
+#: modules/flow/classes/class-cartflows-step-post-type.php:419
+msgid "%s submitted."
+msgstr "%s件を送信しました。"
+
+#: modules/flow/view/view-remote-importer.php:74
+msgid "You need a Cartflows Pro version to import Upsell / Downsell"
+msgstr "アップセル / ダウンセルをインポートするには、Cartflows Pro バージョンが必要です"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:170
+#: admin-core/assets/build/editor-app.js:31
+msgid "View Step"
+msgstr "ステップを表示"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:108
+#: admin-core/assets/build/settings-app.js:2
+msgid "View Flow"
+msgstr "フローを表示"
+
+#: admin-core/api/flows.php:155 admin-core/inc/admin-helper.php:684
+#: admin-core/inc/admin-helper.php:757 admin-core/inc/store-checkout.php:94
+#: admin-core/views/debugger.php:41 includes/admin/cartflows-error-log.php:42
+#: modules/flow/classes/class-cartflows-flow-post-type.php:229
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/settings-app.js:2
+msgid "View"
+msgstr "表示"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:172
+msgid "Update Step"
+msgstr "ステップを更新"
+
+#: classes/class-cartflows-flow-frontend.php:63
+#: modules/flow/classes/class-cartflows-flow-post-type.php:107
+#: admin-core/assets/build/settings-app.js:2
+msgid "Edit Flow"
+msgstr "フローを編集"
+
+#: admin-core/inc/global-settings.php:85
+msgid "Divi"
+msgstr "Divi"
+
+#: admin-core/inc/admin-helper.php:439 admin-core/inc/flow-meta.php:62
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:167
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:194
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:96
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:358
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1457
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1474
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:183
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:143
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:197
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:214
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:413
+#: admin-core/assets/build/editor-app.js:31 modules/gutenberg/build/blocks.js:7
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/background/index.js:504
+#: modules/gutenberg/src/components/typography/font-typography.js:169
+#: modules/gutenberg/src/components/typography/font-typography.js:209
+#: modules/gutenberg/src/components/typography/index.js:274
+#: modules/gutenberg/src/components/typography/index.js:321
+msgid "Default"
+msgstr "デフォルト"
+
+#. translators: %s: singular custom post type name
+#: modules/flow/classes/class-cartflows-flow-post-type.php:334
+#: modules/flow/classes/class-cartflows-step-post-type.php:407
+msgid "Custom %s updated."
+msgstr "カスタム%sを更新しました。"
+
+#. translators: %s: singular custom post type name
+#: modules/flow/classes/class-cartflows-flow-post-type.php:336
+#: modules/flow/classes/class-cartflows-step-post-type.php:409
+msgid "Custom %s deleted."
+msgstr "カスタム%sを削除しました。"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:268
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:423
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:588
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:461
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:555
+#: modules/gutenberg/build/blocks.js:7
+#: modules/gutenberg/src/components/background/index.js:179
+#: modules/gutenberg/src/components/background/index.js:505
+#: modules/gutenberg/src/components/background/index.js:720
+msgid "Custom"
+msgstr "カスタム"
+
+#: modules/checkout/templates/wcf-template.php:50
+msgid "Copyright &copy;"
+msgstr "Copyright &copy; "
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:150
+msgid "Container Width (In px)"
+msgstr "コンテナの幅 (px)"
+
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:385
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:98
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:120
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/background/index.js:128
+#: modules/gutenberg/src/components/background/index.js:245
+#: modules/gutenberg/src/components/color-switch-control/index.js:47
+#: modules/gutenberg/src/components/responsive-border/index.js:25
+msgid "Color"
+msgstr "色"
+
+#: admin-core/api/flows.php:171 admin-core/inc/admin-helper.php:643
+#: admin-core/inc/admin-helper.php:720 admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/settings-app.js:2
+msgid "Clone"
+msgstr "複製"
+
+#. Author of the plugin
+msgid "CartFlows Inc"
+msgstr "CartFlows Inc"
+
+#. Plugin Name of the plugin
+#: modules/woo-dynamic-flow/classes/class-cartflows-wd-flow-product-meta.php:71
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/settings-app.js:1
+msgid "CartFlows"
+msgstr "CartFlows"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:437
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:274
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:529
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:591
+#: modules/gutenberg/build/blocks.js:11
+msgid "Buttons"
+msgstr "ボタン"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:626
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:331
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:407
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:718
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:752
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:448
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:421
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:623
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Border Hover Color"
+msgstr "枠線のホバーの色"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:398
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:605
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:840
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:245
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:393
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:498
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:703
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:547
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:996
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:290
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:497
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:617
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Border Color"
+msgstr "枠線の色"
+
+#: admin-core/inc/global-settings.php:81
+msgid "Beaver Builder"
+msgstr "Beaver Builder"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:509
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:433
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:320
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:688
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:611
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Background Hover Color"
+msgstr "背景のホバーの色"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:485
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:824
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:874
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:425
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:306
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:268
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:314
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:379
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:445
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:511
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:483
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:673
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:649
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:773
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:983
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:1045
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:371
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:363
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:433
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:422
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:477
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:567
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:658
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:747
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:491
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:605
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Background Color"
+msgstr "背景色"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:168
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/editor-app.js:21
+msgid "All Steps"
+msgstr "すべてのステップ"
+
+#: modules/checkout/templates/wcf-template.php:54
+msgid "All Rights Reserved"
+msgstr "All Rights Reserved"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:106
+msgid "All Flows"
+msgstr "すべてのフロー"
+
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:139
+msgid "Advanced Options"
+msgstr "上級者向け設定"
+
+#: modules/flow/view/view-flow-inner-step.php:48
+#: admin-core/assets/build/editor-app.js:7
+#: admin-core/assets/build/editor-app.js:22
+msgid "No Product Assigned"
+msgstr "商品が割り当てられていません"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:140
+#: modules/flow/classes/class-cartflows-flow-shortcodes.php:152
+#: modules/widgets/class-cartflows-next-step.php:82
+msgid "Next Step"
+msgstr "次のステップ"
+
+#: modules/widgets/class-cartflows-next-step.php:110
+msgid "New title"
+msgstr "新規タイトル"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:174
+msgid "New Step Name"
+msgstr "新規ステップ名"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:112
+msgid "New Flow Name"
+msgstr "新しいフロー名"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:453
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:623
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:473
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:567
+msgid "Left Right Spacing"
+msgstr "左右の余白"
+
+#: admin-core/ajax/importer.php:534
+#: modules/flow/classes/class-cartflows-step-post-type.php:243
+#: modules/flow/view/meta-flow-steps.php:15
+msgid "Landing"
+msgstr "ランディング"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:287
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:147
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:513
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:460
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:929
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:226
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:479
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Label Color"
+msgstr "ラベルの色"
+
+#: classes/class-cartflows-loader.php:584
+msgid "Install WooCommerce"
+msgstr "WooCommerce をインストール"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:273
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:137
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:338
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:424
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:199
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:402
+msgid "Input Fields"
+msgstr "入力フィールド"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://cartflows.com/"
+msgstr "https://cartflows.com/"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:342
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:407
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:473
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:303
+#: modules/gutenberg/build/blocks.js:11
+msgid "Heading Color"
+msgstr "見出しの色"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:243
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:193
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:289
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:377
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:286
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:505
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:598
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:687
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:92
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Heading"
+msgstr "見出し"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:103
+msgctxt "flow general name"
+msgid "Flows"
+msgstr "フロー"
+
+#: admin-core/inc/admin-menu.php:248 admin-core/inc/admin-menu.php:249
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/editor-app.js:30
+#: admin-core/assets/build/editor-app.js:31
+#: admin-core/assets/build/settings-app.js:1
+msgid "Flows"
+msgstr "フロー"
+
+#: modules/widgets/class-cartflows-next-step.php:131
+msgid "Flow ID:"
+msgstr "フローID:"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:104
+msgctxt "flow singular name"
+msgid "Flow"
+msgstr "フロー"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:183
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:132
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:94
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1022
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:157
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:291
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:160
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:152
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:107
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:663
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:215
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/inspector-tabs/InspectorTabs.js:149
+msgid "General"
+msgstr "一般"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:268
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:319
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:378
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:543
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:395
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:425
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:518
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:104
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:126
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/typography/font-typography.js:166
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:403
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:568
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:441
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:535
+msgid "Extra Small"
+msgstr "極小"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:419
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:584
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:457
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:551
+msgid "Extra Large"
+msgstr "特大"
+
+#: admin-core/inc/flow-meta.php:84
+msgid "Enable Test Mode"
+msgstr "テストモードを有効化"
+
+#: admin-core/inc/global-settings.php:77
+msgid "Elementor"
+msgstr "Elementor"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:169
+msgid "Edit Step"
+msgstr "ステップを編集"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:110
+msgid "Update Flow"
+msgstr "フローを更新"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:140
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:150
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:250
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:156
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:165
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Two Column"
+msgstr "2カラム"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:438
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:603
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:467
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:561
+msgid "Top Bottom Spacing"
+msgstr "上下の余白"
+
+#: wizard/inc/wizard-core.php:150
+msgid "Thanks for installing and using CartFlows!"
+msgstr "CartFlowsをインストールして使用していただきありがとうございます。"
+
+#: admin-core/ajax/importer.php:511 admin-core/ajax/importer.php:538
+#: admin-core/assets/build/editor-app.js:7
+msgid "Thank You"
+msgstr "ありがとうございます"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:465
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:411
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:292
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:658
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:599
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Text Hover Color"
+msgstr "テキストのホバーの色"
+
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:139
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:114
+#: admin-core/assets/build/editor-app.js:30
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Text"
+msgstr "テキスト"
+
+#: admin-core/inc/admin-menu.php:267 admin-core/inc/admin-menu.php:268
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/settings-app.js:1
+msgid "Templates"
+msgstr "テンプレート"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:320
+msgctxt "cartflows"
+msgid "Template for Page Builders"
+msgstr "ページビルダー用のテンプレート"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:204
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:277
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:183
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:186
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:112
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:141
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:150
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:352
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:432
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:207
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:407
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/inspector-tabs/InspectorTabs.js:169
+#: modules/gutenberg/src/components/responsive-border/index.js:22
+#: modules/gutenberg/src/components/typography/font-typography.js:197
+msgid "Style"
+msgstr "スタイル"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:165
+msgctxt "flow step general name"
+msgid "Steps"
+msgstr "ステップ"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:215
+msgid "Step Type"
+msgstr "ステップタイプ"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:225
+msgid "Step Flow"
+msgstr "ステップフロー"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:166
+msgctxt "flow step singular name"
+msgid "Step"
+msgstr "ステップ"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:397
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:562
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:435
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:529
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+#: modules/gutenberg/src/components/background/index.js:423
+#: modules/gutenberg/src/components/background/index.js:694
+msgid "Size"
+msgstr "サイズ"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1007
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:648
+msgid "Shortcodes"
+msgstr "ショートコード"
+
+#: admin-core/inc/admin-menu.php:276 admin-core/inc/admin-menu.php:277
+#: classes/class-cartflows-admin.php:200
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:169
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:58
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:307
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:58
+#: admin-core/assets/build/editor-app.js:1
+#: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:31
+#: admin-core/assets/build/settings-app.js:1
+msgid "Settings"
+msgstr "設定"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:925
+msgid "Select Product"
+msgstr "商品を選択"
+
+#: admin-core/inc/admin-helper.php:383 admin-core/assets/build/editor-app.js:30
+msgid "Select"
+msgstr "選択"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:734
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:352
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Sections"
+msgstr "セクション"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:710
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:839
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:166
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Section Background Color"
+msgstr "セクション背景色"
+
+#: modules/flow/classes/class-cartflows-step-post-type.php:167
+msgid "Search Steps"
+msgstr "ステップの検索"
+
+#: modules/flow/view/view-remote-importer.php:45
+msgid "Search Sites"
+msgstr "サイトを検索"
+
+#: modules/flow/classes/class-cartflows-flow-post-type.php:105
+#: admin-core/assets/build/settings-app.js:2
+msgid "Search Flows"
+msgstr "フローを検索"
+
+#: modules/flow/view/view-remote-importer.php:46
+msgid "Search Flow..."
+msgstr "フローを検索中..."
+
+#: classes/importer/class-cartflows-api.php:427
+msgid "Request successfully processed!"
+msgstr "リクエストは正常に処理されました。"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1630
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:815
+#: admin-core/assets/build/editor-app.js:30
+msgid "Remove"
+msgstr "削除"
+
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:120
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:403
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:181
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:587
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:207
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/dist/blocks.build.js:1
+msgid "Order Details"
+msgstr "注文詳細"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:139
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:149
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:246
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:155
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:164
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "One Column"
+msgstr "1カラム"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:559
+#: modules/checkout/templates/embed/checkout-template-simple.php:48
+#: modules/checkout/templates/wcf-template.php:40
+#: modules/optin/templates/optin-template-simple.php:29
+msgid "Your cart is currently empty."
+msgstr "現在お買い物カゴには何も入っていません。"
+
+#: modules/widgets/class-cartflows-next-step.php:127
+msgid "Title:"
+msgstr "タイトル:"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:219
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:247
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:441
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:674
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:861
+#: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:397
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:278
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:197
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:225
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:253
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:300
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:365
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:431
+#: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:497
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:643
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:345
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:627
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:732
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:812
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:1029
+#: modules/elementor/widgets/class-cartflows-el-next-step-button.php:358
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:350
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:410
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:319
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:368
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:398
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:464
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:523
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:554
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:615
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:645
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:704
+#: modules/elementor/widgets/class-cartflows-el-order-details-form.php:734
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:593
+#: modules/gutenberg/build/blocks.js:7 modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1
+msgid "Text Color"
+msgstr "文字色"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:407
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:572
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:445
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:539
+#: modules/gutenberg/src/components/gutter-options/index.js:13
+msgid "Small"
+msgstr "小"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:411
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:576
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:449
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:543
+#: modules/gutenberg/src/components/gutter-options/index.js:19
+msgid "Medium"
+msgstr "中"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:415
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:580
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:453
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:547
+#: modules/gutenberg/src/components/gutter-options/index.js:25
+msgid "Large"
+msgstr "大"
+
+#. Translators: %d: interval
+#: classes/importer/batch-process/helpers/class-wp-background-process.php:440
+msgid "Every %d Minutes"
+msgstr "%d分毎"
+
+#: admin-core/ajax/importer.php:507
+msgid "Checkout"
+msgstr "購入手続き"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:698
+msgid "Variations Not set"
+msgstr "バリエーションが設定されていません"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:709
+msgid "This product can't be purchased"
+msgstr "この商品は購入できません"
+
+#: modules/widgets/class-cartflows-next-step.php:135
+msgid "Step ID:"
+msgstr "ステップ ID:"
+
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:486
+msgid "Checkout ID not found"
+msgstr "購入手続き ID が見つかりません"
+
+#. Description of the plugin
+msgid "Create beautiful checkout pages & sales flows for WooCommerce."
+msgstr "WooCommerce 用の美しい購入手続きページと販売フローを作成します。"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:468
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:485
+msgid "Text / Placeholder Color"
+msgstr "テキスト/プレースホルダーの色"
+
+#. translators: %s flow id
+#: admin-core/ajax/flows.php:1031
+msgid "Steps sorted for flow - %s"
+msgstr "フロー用にソートされたステップ - %s"
+
+#. translators: %s flow id
+#: admin-core/ajax/flows.php:989
+msgid "Steps not sorted for flow - %s"
+msgstr "フロー用にソートされなかったステップ - %s"
+
+#. translators: %s flow id
+#: admin-core/ajax/steps.php:309
+msgid "Step not deleted for flow - %s"
+msgstr "削除されなかったフローのステップ - %s"
+
+#. translators: %s flow id
+#: admin-core/ajax/steps.php:347
+msgid "Step deleted for flow - %s"
+msgstr "削除されたフローのステップ - %s"
+
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:100
+msgid "Next Step Link"
+msgstr "次のステップのリンク"
+
+#: wizard/inc/wizard-core.php:151
+msgid "It is easy to use the CartFlows. Please use the setup wizard to quick start setup."
+msgstr "CartFlows は簡単に使用できます。セットアップウィザードを使用して、セットアップをクイックスタートしてください。"
+
+#: classes/class-cartflows-admin.php:81 wizard/views/wizard-base.php:19
+msgid "CartFlows Setup"
+msgstr "CartFlows のセットアップ"
+
+#: modules/widgets/class-cartflows-next-step.php:28
+msgid "CartFlows Next Step"
+msgstr "CartFlows の次のステップ"
+
+#: modules/widgets/class-cartflows-next-step.php:30
+msgid "Next Step Widgets"
+msgstr "次のステップのウィジェット"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1016
+msgid "Add this shortcode to your checkout page"
+msgstr "このショートコードを購入手続きページに追加"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:975
+msgid "Order Bump"
+msgstr "オーダーバンプ"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:222
+msgid "Checkout Design"
+msgstr "購入手続きのデザイン"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:228
+msgid "Checkout Skin"
+msgstr "購入手続きのスキン"
+
+#. translators: %s: html tags
+#: classes/class-cartflows-loader.php:567
+msgid "This %1$sCartFlows%2$s page requires %1$sWooCommerce%2$s plugin installed & activated."
+msgstr "この%1$sCartFlows%2$sページには、 %1$sWooCommerce%2$sプラグインのインストールと有効化が必要です。"
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:748
+msgid "Highlight Area Background Color"
+msgstr "ハイライトエリアの背景色"
+
+#: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:211
+#: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:119
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:263
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:252
+#: modules/elementor/widgets/class-cartflows-el-optin-form.php:168
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:389
+#: modules/gutenberg/build/blocks.js:11
+#: modules/gutenberg/dist/blocks.build.js:1 wizard/assets/build/wizard-app.js:5
+#: wizard/assets/src/wizard-steps/GlobalCheckout.js:407
+msgid "Primary Color"
+msgstr "メインの色"

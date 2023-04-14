@@ -1,0 +1,2180 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-17 09:34:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#: src/Utils/BlockTemplateUtils.php:331
+msgctxt "Template name"
+msgid "Mini Cart"
+msgstr "Міні кошик"
+
+#: assets/js/blocks/handpicked-products/block.json
+#: build/handpicked-products/block.json
+msgctxt "block title"
+msgid "Hand-picked Products"
+msgstr "Відібрані вручну товари"
+
+#: assets/js/blocks/handpicked-products/block.json
+#: build/handpicked-products/block.json
+msgctxt "block keyword"
+msgid "Handpicked Products"
+msgstr "Відібрані вручну товари"
+
+#: assets/js/blocks/product-tag/block.json build/product-tag/block.json
+msgctxt "block title"
+msgid "Products by Tag"
+msgstr "Товари за позначкою"
+
+#: assets/js/blocks/product-tag/block.json build/product-tag/block.json
+msgctxt "block description"
+msgid "Display a grid of products with selected tags."
+msgstr "Відображати сітку товарів із вибраними позначками."
+
+#: assets/js/blocks/products-by-attribute/block.json
+#: build/products-by-attribute/block.json
+msgctxt "block title"
+msgid "Products by Attribute"
+msgstr "Товари за атрибутом"
+
+#: assets/js/blocks/products-by-attribute/block.json
+#: build/products-by-attribute/block.json
+msgctxt "block description"
+msgid "Display a grid of products with selected attributes."
+msgstr "Відображати сітку товарів із зазначеними атрибутами."
+
+#: assets/js/blocks/featured-items/featured-category/block.json
+#: build/featured-category/block.json
+msgctxt "block title"
+msgid "Featured Category"
+msgstr "Обрані категорії"
+
+#: assets/js/blocks/featured-items/featured-product/block.json
+#: build/featured-product/block.json
+msgctxt "block title"
+msgid "Featured Product"
+msgstr "Вибраний товар"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-fee/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-fee/block.json
+#: build/inner-blocks/cart-order-summary-fee-block/block.json
+#: build/inner-blocks/checkout-order-summary-fee-block/block.json
+msgctxt "block title"
+msgid "Fees"
+msgstr "Збори"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-heading/block.json
+#: build/inner-blocks/cart-order-summary-heading-block/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Заголовок"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-shopping-button-block/block.json
+#: build/inner-blocks/mini-cart-shopping-button-block/block.json
+msgctxt "block title"
+msgid "Mini Cart Shopping Button"
+msgstr "Кнопка покупок у міні-кошику"
+
+#: assets/js/atomic/blocks/product-elements/add-to-cart-form/block.json
+#: assets/js/atomic/blocks/product-elements/product-details/block.json
+#: assets/js/atomic/blocks/product-elements/product-image-gallery/block.json
+#: assets/js/atomic/blocks/product-elements/product-meta/block.json
+#: assets/js/atomic/blocks/product-elements/product-reviews/block.json
+#: assets/js/atomic/blocks/product-elements/related-products/block.json
+#: assets/js/blocks/active-filters/block.json
+#: assets/js/blocks/attribute-filter/block.json
+#: assets/js/blocks/breadcrumbs/block.json
+#: assets/js/blocks/catalog-sorting/block.json
+#: assets/js/blocks/checkout/block.json
+#: assets/js/blocks/customer-account/block.json
+#: assets/js/blocks/featured-items/featured-category/block.json
+#: assets/js/blocks/featured-items/featured-product/block.json
+#: assets/js/blocks/filter-wrapper/block.json
+#: assets/js/blocks/handpicked-products/block.json
+#: assets/js/blocks/price-filter/block.json
+#: assets/js/blocks/product-best-sellers/block.json
+#: assets/js/blocks/product-categories/block.json
+#: assets/js/blocks/product-category/block.json
+#: assets/js/blocks/product-results-count/block.json
+#: assets/js/blocks/product-tag/block.json
+#: assets/js/blocks/products-by-attribute/block.json
+#: assets/js/blocks/products/all-products/block.json
+#: assets/js/blocks/rating-filter/block.json
+#: assets/js/blocks/single-product/block.json
+#: assets/js/blocks/stock-filter/block.json
+#: assets/js/blocks/store-notices/block.json build/active-filters/block.json
+#: build/add-to-cart-form/block.json build/all-products/block.json
+#: build/attribute-filter/block.json build/breadcrumbs/block.json
+#: build/catalog-sorting/block.json build/checkout/block.json
+#: build/customer-account/block.json build/featured-category/block.json
+#: build/featured-product/block.json build/filter-wrapper/block.json
+#: build/handpicked-products/block.json build/price-filter/block.json
+#: build/product-best-sellers/block.json build/product-categories/block.json
+#: build/product-category/block.json build/product-details/block.json
+#: build/product-image-gallery/block.json build/product-meta/block.json
+#: build/product-results-count/block.json build/product-reviews/block.json
+#: build/product-tag/block.json build/products-by-attribute/block.json
+#: build/rating-filter/block.json build/related-products/block.json
+#: build/single-product/block.json build/stock-filter/block.json
+#: build/store-notices/block.json
+msgctxt "block keyword"
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: assets/js/blocks/checkout/block.json build/checkout/block.json
+msgctxt "block title"
+msgid "Checkout"
+msgstr "Оформлення замовлення"
+
+#: assets/js/blocks/checkout/block.json build/checkout/block.json
+msgctxt "block description"
+msgid "Display a checkout form so your customers can submit orders."
+msgstr "Відображати форму оформлення замовлень, щоб покупці могли відправляти замовлення."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:418
+msgid "The minimum quantity that can be added to the cart."
+msgstr "Мінімальна кількість, яку можна додати в кошик."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:424
+msgid "The maximum quantity that can be added to the cart."
+msgstr "Максимальна кількість, яку можна додати в кошик."
+
+#. Translators: %s amount.
+#: src/StoreApi/Utilities/QuantityLimits.php:102
+msgid "The minimum quantity that can be added to the cart is %s"
+msgstr "Мінімальна кількість, яку можна додати до кошика, становить %s"
+
+#. translators: %s: rating
+#. translators: %s is referring to the average rating value
+#. translators: %s is the rating value wrapped in HTML strong tags.
+#: src/BlockTypes/ProductRating.php:83 build/active-filters-frontend.js:3
+#: build/active-filters-wrapper-frontend.js:3 build/active-filters.js:15
+#: build/all-reviews.js:9 build/rating-filter-frontend.js:17
+#: build/rating-filter-wrapper-frontend.js:5 build/rating-filter.js:13
+#: build/reviews-by-category.js:10 build/reviews-by-product.js:10
+#: build/reviews-frontend.js:5
+msgid "Rated %s out of 5"
+msgstr "Оцінено в %s з 5"
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:45
+msgid "Quantity of this item to add to the cart."
+msgstr "Кількість товару для додавання в кошик."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:53
+msgid "How the quantity of this item should be controlled, for example, any limits in place."
+msgstr "Як слід контролювати кількість цього товару, наприклад, які існують обмеження."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:59
+msgid "The minimum quantity allowed in the cart for this line item."
+msgstr "Мінімальна кількість, дозволена в кошику для даної позиції."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:65
+msgid "The maximum quantity allowed in the cart for this line item."
+msgstr "Максимальна кількість, дозволена в кошику для даної позиції."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:71
+#: src/StoreApi/Schemas/V1/ProductSchema.php:430
+msgid "The amount that quantities increment by. Quantity must be an multiple of this value."
+msgstr "Число, на яке збільшується кількість. Кількість має бути кратною цьому значенню."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:78
+msgid "If the quantity in the cart is editable or fixed."
+msgstr "Кількість у кошику доступна для редагування або фіксована."
+
+#: src/StoreApi/Utilities/QuantityLimits.php:93
+msgid "This item is already in the cart and its quantity cannot be edited"
+msgstr "Цей елемент уже в кошику, і його кількість не може бути змінена"
+
+#. Translators: %s amount.
+#: src/StoreApi/Utilities/QuantityLimits.php:124
+msgid "The quantity added to the cart must be a multiple of %s"
+msgstr "Кількість, додана до кошика, повинна бути кратною %s"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-items-block/block.json
+#: build/inner-blocks/mini-cart-items-block/block.json
+msgctxt "block title"
+msgid "Mini Cart Items"
+msgstr "Елементи міні-кошика"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-items-block/block.json
+#: build/inner-blocks/mini-cart-items-block/block.json
+msgctxt "block description"
+msgid "Contains the products table and other custom blocks of filled mini cart."
+msgstr "Містить таблицю товарів та інші довільні блоки заповненого міні-кошика."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-footer-block/block.json
+#: build/inner-blocks/mini-cart-footer-block/block.json
+msgctxt "block title"
+msgid "Mini Cart Footer"
+msgstr "Підвал міні-кошика"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-footer-block/block.json
+#: build/inner-blocks/mini-cart-footer-block/block.json
+msgctxt "block description"
+msgid "Block that displays the footer of the Mini Cart block."
+msgstr "Блок, який відображає підвал блоку міні-кошика."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-products-table-block/block.json
+#: build/inner-blocks/mini-cart-products-table-block/block.json
+msgctxt "block title"
+msgid "Mini Cart Products Table"
+msgstr "Таблиця товарів міні-кошика"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-products-table-block/block.json
+#: build/inner-blocks/mini-cart-products-table-block/block.json
+msgctxt "block description"
+msgid "Block that displays the products table of the Mini Cart block."
+msgstr "Блок, який відображає таблицю товарів міні-кошика."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-block/block.json
+#: build/inner-blocks/mini-cart-title-block/block.json
+msgctxt "block title"
+msgid "Mini Cart Title"
+msgstr "Заголовок міні-кошика"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-block/block.json
+#: build/inner-blocks/mini-cart-title-block/block.json
+msgctxt "block description"
+msgid "Block that displays the title of the Mini Cart block."
+msgstr "Блок, який відображає назву блоку міні-кошика."
+
+#: src/Utils/BlockTemplateUtils.php:140
+msgid "No theme is defined for this template."
+msgstr "Для цього шаблону не визначено жодної теми."
+
+#: assets/js/blocks/cart/inner-blocks/cart-accepted-payment-methods-block/block.json
+#: build/inner-blocks/cart-accepted-payment-methods-block/block.json
+msgctxt "block title"
+msgid "Accepted Payment Methods"
+msgstr "Можливі способи оплати"
+
+#: assets/js/blocks/cart/inner-blocks/cart-accepted-payment-methods-block/block.json
+#: build/inner-blocks/cart-accepted-payment-methods-block/block.json
+msgctxt "block description"
+msgid "Display accepted payment methods."
+msgstr "Відображати можливі способи оплати."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:308
+msgid "If this is a default attribute"
+msgstr "Якщо це атрибут за замовчуванням"
+
+#. translators: %1$d is the number of products in the cart. %2$s is the cart
+#. total
+#: src/BlockTypes/MiniCart.php:439 build/mini-cart-component-frontend.js:5
+msgid "%1$d item in cart, total price of %2$s"
+msgid_plural "%1$d items in cart, total price of %2$s"
+msgstr[0] "%1$d товар у кошику, загальна ціна %2$s"
+msgstr[1] "%1$d товари у кошику, загальна ціна %2$s"
+msgstr[2] "%1$d товарів у кошику, загальна ціна %2$s"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-totals-block/block.json
+#: build/inner-blocks/checkout-totals-block/block.json
+msgctxt "block description"
+msgid "Column containing the checkout totals."
+msgstr "Стовпець із підсумками оплати."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-totals-block/block.json
+#: build/inner-blocks/checkout-totals-block/block.json
+msgctxt "block title"
+msgid "Checkout Totals"
+msgstr "Підсумки до оплати"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-methods-block/block.json
+#: build/inner-blocks/checkout-shipping-methods-block/block.json
+msgctxt "block title"
+msgid "Shipping Options"
+msgstr "Варіанти доставки"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-address-block/block.json
+#: build/inner-blocks/checkout-shipping-address-block/block.json
+msgctxt "block description"
+msgid "Collect your customer's shipping address."
+msgstr "Отримайте адресу доставлення вашого клієнта."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-payment-block/block.json
+#: build/inner-blocks/checkout-payment-block/block.json
+msgctxt "block title"
+msgid "Payment Options"
+msgstr "Параметри оплати"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-payment-block/block.json
+#: build/inner-blocks/checkout-payment-block/block.json
+msgctxt "block description"
+msgid "Payment options for your store."
+msgstr "Параметри оплати для вашого магазину."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-note-block/block.json
+#: build/inner-blocks/checkout-order-note-block/block.json
+msgctxt "block description"
+msgid "Allow customers to add a note to their order."
+msgstr "Дозволити покупцям додавати примітку до свого замовлення."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-fields-block/block.json
+#: build/inner-blocks/checkout-fields-block/block.json
+msgctxt "block description"
+msgid "Column containing checkout address fields."
+msgstr "Стовпець, що містить поля адреси оформлення замовлення."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-fields-block/block.json
+#: build/inner-blocks/checkout-fields-block/block.json
+msgctxt "block title"
+msgid "Checkout Fields"
+msgstr "Поля для оформлення замовлення"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-contact-information-block/block.json
+#: build/inner-blocks/checkout-contact-information-block/block.json
+msgctxt "block description"
+msgid "Collect your customer's contact information."
+msgstr "Зберіть контактну інформацію клієнта."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-billing-address-block/block.json
+#: build/inner-blocks/checkout-billing-address-block/block.json
+msgctxt "block description"
+msgid "Collect your customer's billing address."
+msgstr "Зберіть платіжну адресу свого клієнта."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-actions-block/block.json
+#: build/inner-blocks/checkout-actions-block/block.json
+msgctxt "block description"
+msgid "Allow customers to place their order."
+msgstr "Дозвольте клієнтам оформити замовлення."
+
+#: assets/js/blocks/cart/inner-blocks/proceed-to-checkout-block/block.json
+#: build/inner-blocks/proceed-to-checkout-block/block.json
+msgctxt "block description"
+msgid "Allow customers proceed to Checkout."
+msgstr "Дозволити клієнтам перейти до Оформлення."
+
+#: assets/js/blocks/cart/inner-blocks/filled-cart-block/block.json
+#: build/inner-blocks/filled-cart-block/block.json
+msgctxt "block description"
+msgid "Contains blocks that are displayed when the cart contains products."
+msgstr "Містить блоки, які відображаються, коли кошик містить продукти."
+
+#: assets/js/blocks/cart/inner-blocks/filled-cart-block/block.json
+#: build/inner-blocks/filled-cart-block/block.json
+msgctxt "block title"
+msgid "Filled Cart"
+msgstr "Заповнений кошик"
+
+#: assets/js/blocks/cart/inner-blocks/empty-cart-block/block.json
+#: build/inner-blocks/empty-cart-block/block.json
+msgctxt "block description"
+msgid "Contains blocks that are displayed when the cart is empty."
+msgstr "Містить блоки, які відображаються, коли кошик порожній."
+
+#: assets/js/blocks/cart/inner-blocks/cart-totals-block/block.json
+#: build/inner-blocks/cart-totals-block/block.json
+msgctxt "block description"
+msgid "Column containing the cart totals."
+msgstr "Стовпець із підсумками кошика."
+
+#: assets/js/blocks/cart/inner-blocks/cart-totals-block/block.json
+#: build/inner-blocks/cart-totals-block/block.json
+msgctxt "block title"
+msgid "Cart Totals"
+msgstr "Усього в кошику"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-block/block.json
+#: build/inner-blocks/cart-order-summary-block/block.json
+#: build/inner-blocks/checkout-order-summary-block/block.json
+msgctxt "block description"
+msgid "Show customers a summary of their order."
+msgstr "Показати клієнтам підсумок їх замовлення."
+
+#: assets/js/blocks/cart/inner-blocks/cart-line-items-block/block.json
+#: build/inner-blocks/cart-line-items-block/block.json
+msgctxt "block description"
+msgid "Block containing current line items in Cart."
+msgstr "Блок, що містить поточні товари в кошику."
+
+#: assets/js/blocks/cart/inner-blocks/cart-line-items-block/block.json
+#: build/inner-blocks/cart-line-items-block/block.json
+msgctxt "block title"
+msgid "Cart Line Items"
+msgstr "Позиції в кошику"
+
+#: assets/js/blocks/cart/inner-blocks/cart-items-block/block.json
+#: build/inner-blocks/cart-items-block/block.json
+msgctxt "block description"
+msgid "Column containing cart items."
+msgstr "Стовпець із товарами в кошику."
+
+#: assets/js/blocks/cart/inner-blocks/cart-express-payment-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-express-payment-block/block.json
+#: build/inner-blocks/cart-express-payment-block/block.json
+#: build/inner-blocks/checkout-express-payment-block/block.json
+msgctxt "block description"
+msgid "Provide an express payment option for your customers."
+msgstr "Надайте своїм клієнтам можливість швидкої оплати."
+
+#: assets/js/blocks/cart/inner-blocks/cart-express-payment-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-express-payment-block/block.json
+#: build/inner-blocks/cart-express-payment-block/block.json
+#: build/inner-blocks/checkout-express-payment-block/block.json
+msgctxt "block title"
+msgid "Express Checkout"
+msgstr "Швидке оформлення замовлень"
+
+#: src/StoreApi/Utilities/OrderController.php:456 build/cart-frontend.js:3
+#: build/cart.js:33 build/checkout-frontend.js:3 build/checkout.js:23
+msgid "Sorry, this order requires a shipping option."
+msgstr "На жаль, для цього замовлення потрібен варіант доставки."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-block/block.json
+#: build/inner-blocks/cart-order-summary-block/block.json
+#: build/inner-blocks/checkout-order-summary-block/block.json
+msgctxt "block title"
+msgid "Order Summary"
+msgstr "Підсумок замовлення"
+
+#: assets/js/blocks/cart/inner-blocks/empty-cart-block/block.json
+#: build/inner-blocks/empty-cart-block/block.json
+msgctxt "block title"
+msgid "Empty Cart"
+msgstr "Порожній кошик"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-actions-block/block.json
+#: build/inner-blocks/checkout-actions-block/block.json
+msgctxt "block title"
+msgid "Actions"
+msgstr "Дії"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-billing-address-block/block.json
+#: build/inner-blocks/checkout-billing-address-block/block.json
+msgctxt "block title"
+msgid "Billing Address"
+msgstr "Платіжна адреса"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-contact-information-block/block.json
+#: build/inner-blocks/checkout-contact-information-block/block.json
+msgctxt "block title"
+msgid "Contact Information"
+msgstr "Контактна інформація"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-note-block/block.json
+#: build/inner-blocks/checkout-order-note-block/block.json
+msgctxt "block title"
+msgid "Order Note"
+msgstr "Примітка до замовлення"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-address-block/block.json
+#: build/inner-blocks/checkout-shipping-address-block/block.json
+msgctxt "block title"
+msgid "Shipping Address"
+msgstr "Адреса доставки"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-terms-block/block.json
+#: build/inner-blocks/checkout-terms-block/block.json
+msgctxt "block title"
+msgid "Terms and Conditions"
+msgstr "Правила та умови"
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:107
+msgid "Status"
+msgstr "Статус"
+
+#: patterns/filters.php:32 assets/js/blocks/product-new/block.js:62
+#: assets/js/blocks/product-on-sale/block.js:106
+#: assets/js/blocks/product-tag/block.js:156
+#: assets/js/blocks/product-top-rated/block.js:81 build/filter-wrapper.js:1
+#: build/product-category.js:6 build/product-new.js:6
+#: build/product-on-sale.js:6 build/product-tag.js:10
+#: build/product-top-rated.js:6 build/products-by-attribute.js:16
+#: build/stock-filter.js:15
+msgid "Filter by stock status"
+msgstr "Фільтрувати за статусом запасу"
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:178
+msgid "If true, calculates stock counts for products in the collection."
+msgstr "Якщо true, буде обчислено кількість запасів товарів в колекції."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:99
+msgid "Returns number of products with each stock status."
+msgstr "Повертає кількість товарів із кожним статусом запасу."
+
+#: src/BlockTypes/Checkout.php:314
+msgid "International"
+msgstr "Міжнародна"
+
+#: src/BlockTypes/Checkout.php:315
+msgid "Locations outside all other zones"
+msgstr "Місця за межами всіх інших зон"
+
+#: src/StoreApi/Routes/V1/CartExtensions.php:46
+msgid "Extension's name - this will be used to ensure the data in the request is routed appropriately."
+msgstr "Назва розширення - буде використовуватися для забезпечення належної маршрутизації даних у запиті."
+
+#: src/StoreApi/Routes/V1/CartExtensions.php:50
+msgid "Additional data to pass to the extension"
+msgstr "Додаткові дані для передачі розширенню"
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:291
+msgid "The rate at which tax is applied."
+msgstr "Ставка, за якою застосовується податок."
+
+#: src/StoreApi/Routes/V1/Batch.php:105
+msgid "Invalid path provided."
+msgstr "Надано неправильний шлях."
+
+#: src/Integrations/IntegrationRegistry.php:35
+msgid "Integration registry requires an identifier."
+msgstr "Реєстр інтеграції вимагає ідентифікатора."
+
+#. translators: %s: Integration name.
+#: src/Integrations/IntegrationRegistry.php:69
+msgid "\"%s\" is already registered."
+msgstr "\"%s\" вже зареєстровано."
+
+#. translators: %s: Integration name.
+#: src/Integrations/IntegrationRegistry.php:100
+msgid "Integration \"%s\" is not registered."
+msgstr "Інтеграція \"%s\" не зареєстрована."
+
+#: src/BlockTypes/AbstractBlock.php:111
+msgid "Block name is required."
+msgstr "Необхідно вказати ім'я блоку."
+
+#. translators: %s: product name.
+#: src/StoreApi/Utilities/CartController.php:349
+msgid "%s is out of stock and cannot be purchased. Please remove it from your cart."
+msgstr "%s немає в наявності і не може бути придбаний. Видаліть його з кошика."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:354
+msgid "%s are out of stock and cannot be purchased. Please remove them from your cart."
+msgstr "%s немає в наявності і їх не можна придбати. Видаліть їх із кошика."
+
+#. translators: %s: product name.
+#: src/StoreApi/Utilities/CartController.php:361
+msgid "%s cannot be purchased. Please remove it from your cart."
+msgstr "%s неможливо придбати. Будь ласка, видаліть його з кошика."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:366
+msgid "%s cannot be purchased. Please remove them from your cart."
+msgstr "%s неможливо придбати. Будь ласка, видаліть їх із кошика."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:373
+msgid "There are too many %s in the cart. Only 1 can be purchased. Please reduce the quantity in your cart."
+msgstr "У кошику занадто багато %s. Будь ласка, зменшіть кількість в кошику до 1."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:378
+msgid "There are too many %s in the cart. Only 1 of each can be purchased. Please reduce the quantities in your cart."
+msgstr "У кошику занадто багато %s. Будь ласка, зменшіть кількість кожного товару в кошику до 1."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:385
+msgid "There is not enough %s in stock. Please reduce the quantity in your cart."
+msgstr "%s недостатньо на складі. Будь ласка, зменшіть кількість у вашому кошику."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:390
+msgid "There are not enough %s in stock. Please reduce the quantities in your cart."
+msgstr "%s недостатньо на складі. Будь ласка, зменшіть кількість у вашому кошику."
+
+#: src/StoreApi/Utilities/CartController.php:404
+msgid "There was an error with an item in your cart."
+msgstr "Сталася помилка з товаром у вашому кошику."
+
+#. translators: 1: The first n-1 items of a list 2: the last item in the list.
+#: src/StoreApi/Utilities/ArrayUtils.php:29
+msgid "%1$s and %2$s"
+msgstr "%1$s і %2$s"
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:319
+msgid "List of required payment gateway features to process the order."
+msgstr "Список необхідних функцій платіжного шлюзу для обробки замовлення."
+
+#. translators: %s file handle name.
+#: src/Assets/Api.php:141
+msgid "Script with handle %s had a dependency on itself which has been removed. This is an indicator that your JS code has a circular dependency that can cause bugs."
+msgstr "Скрипт з дескриптором %s мав залежність від самого себе, яка була видалена. Це показник того, що ваш код JS має циклічну залежність, яка може викликати помилки."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:36
+msgid "Fee name."
+msgstr "Назва збору."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:42
+msgid "Fee total amounts provided using the smallest unit of the currency."
+msgstr "Загальна сума збору вказується з використанням найменшої одиниці валюти."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:50
+msgid "Total amount for this fee."
+msgstr "Загальна сума за цей збір."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:56
+msgid "Total tax amount for this fee."
+msgstr "Загальна сума податку за цей збір."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:193
+msgid "List of cart fees."
+msgstr "Список зборів в кошику."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:175
+msgid "Metadata related to the cart item"
+msgstr "Метадані, що відносяться до кошика"
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:183
+msgid "Name of the metadata."
+msgstr "Назва метаданих."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:189
+msgid "Value of the metadata."
+msgstr "Значення метаданих."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:195
+msgid "Optionally, how the metadata value should be displayed to the user."
+msgstr "Опціонально, як значення метаданих повинно відображатися користувачеві."
+
+#: src/StoreApi/Utilities/OrderController.php:231
+msgid "A valid email address is required"
+msgstr "Потрібна дійсна адреса електронної пошти"
+
+#. translators: %s provided email.
+#: src/StoreApi/Utilities/OrderController.php:241
+msgid "The provided email address (%s) is not valid—please provide a valid email address"
+msgstr "Зазначена адреса електронної пошти (%s) недійсна - будь ласка, вкажіть дійсну адресу електронної пошти"
+
+#. translators: %s country code.
+#: src/StoreApi/Utilities/OrderController.php:266
+msgid "Sorry, we do not ship orders to the provided country (%s)"
+msgstr "На жаль, ми не доставляємо замовлення до вказаної країни (%s)"
+
+#. translators: %s country code.
+#: src/StoreApi/Utilities/OrderController.php:281
+msgid "Sorry, we do not allow orders from the provided country (%s)"
+msgstr "На жаль, ми не приймаємо замовлення із вказаної країни (%s)"
+
+#. translators: %s Address type.
+#: src/StoreApi/Utilities/OrderController.php:312
+msgid "There was a problem with the provided %s:"
+msgstr "Виникла проблема з наданим %s:"
+
+#: src/StoreApi/Utilities/OrderController.php:313
+msgid "shipping address"
+msgstr "адреса доставки"
+
+#: src/StoreApi/Utilities/OrderController.php:313
+msgid "billing address"
+msgstr "платіжна адреса"
+
+#. translators: %s Field label.
+#: src/StoreApi/Utilities/OrderController.php:400
+msgid "%s is required"
+msgstr "%s обов’язково"
+
+#: src/StoreApi/Schemas/V1/BillingAddressSchema.php:77
+msgid "The provided email address is not valid"
+msgstr "Вказана електронна адреса недійсна"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:157
+msgid "The provided phone number is not valid"
+msgstr "Вказаний номер телефону недійсний"
+
+#. translators: %s valid country codes
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:128
+msgid "Invalid country code provided. Must be one of: %s"
+msgstr "Вказано недійсний код країни. Має бути один із: %s"
+
+#. translators: %1$s given state, %2$s valid states
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:140
+msgid "The provided state (%1$s) is not valid. Must be one of: %2$s"
+msgstr "Область (%1$s) вказана некоректно. Має бути одна із: %2$s"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:150
+msgid "The provided postcode / ZIP is not valid"
+msgstr "Вказаний поштовий індекс недійсний"
+
+#: src/StoreApi/Routes/V1/Checkout.php:401
+msgid "Unable to create order"
+msgstr "Неможливо створити замовлення"
+
+#: src/StoreApi/Routes/V1/Checkout.php:676
+msgid "An account is already registered with your email address. Please log in before proceeding."
+msgstr "Обліковий запис з такою адресою електронної пошти вже зареєстрований. Будь ласка, увійдіть в систему, перш ніж продовжити."
+
+#. translators: %s: extension namespace
+#: src/StoreApi/Schemas/ExtendSchema.php:335
+#: src/StoreApi/Schemas/ExtendSchema.php:343
+msgid "Extension data registered by %s"
+msgstr "Дані розширення зареєстровані %s"
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:136
+msgid "Current set billing address for the customer."
+msgstr "Поточна платіжна адреса покупця."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:187
+msgid "True if the cart meets the criteria for showing shipping costs, and rates have been calculated and included in the totals."
+msgstr "Значення True, якщо кошик задовольняє критеріям для відображення вартості доставки, а тарифи розраховані та включені до загальної суми."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:247
+msgid "Total price of shipping. If shipping has not been calculated, a null response will be sent."
+msgstr "Загальна вартість доставки. Якщо вартість доставки не розрахована, буде надіслано нульову відповідь."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:253
+msgid "Total tax on shipping. If shipping has not been calculated, a null response will be sent."
+msgstr "Загальний податок на доставку. Якщо вартість доставки не розрахована, буде надіслано нульову відповідь."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:32
+msgid "The coupon's unique code."
+msgstr "Унікальний код купона."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:41
+msgid "The discount type for the coupon (e.g. percentage or fixed amount)"
+msgstr "Тип знижки по купону (наприклад, відсоток або фіксована сума)"
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:320
+msgid "Whether the product is visible in the catalog"
+msgstr "Видимість товару в каталозі"
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:57
+msgid "New account"
+msgstr "Новий обліковий запис"
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:84
+msgid "Welcome to {site_title}"
+msgstr "Вітаємо на {site_title}"
+
+#: src/StoreApi/Routes/V1/Checkout.php:670
+msgid "Please provide a valid email address."
+msgstr "Будь ласка, зазначте дійсну адресу електронної пошти."
+
+#: templates/emails/plain/customer-new-account-blocks.php:24
+msgid "To set your password, visit the following address: "
+msgstr "Щоб встановити свій пароль, відвідайте наступну адресу:"
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:74
+msgid "Your {site_title} account has been created!"
+msgstr "Ваш {site_title} обліковий запис створено!"
+
+#. translators: %s: Customer username
+#: templates/emails/plain/customer-new-account-blocks.php:19
+msgid "Hi %s,"
+msgstr "Привіт %s,"
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: templates/emails/customer-new-account-blocks.php:25
+#: templates/emails/plain/customer-new-account-blocks.php:21
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "Дякуємо, що створили обліковий запис на %1$s. Ваше ім'я користувача %2$s. Ви можете отримати доступ до свого облікового запису, щоб переглянути замовлення, змінити свій пароль і багато іншого на: %3$s"
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:172
+msgid "We look forward to seeing you soon."
+msgstr "Ми з нетерпінням чекаємо вас в найближчому майбутньому."
+
+#. translators: %s: Customer username
+#: templates/emails/customer-new-account-blocks.php:23
+msgid "Hello %s,"
+msgstr "Привіт %s,"
+
+#: templates/emails/customer-new-account-blocks.php:27
+msgid "Click here to set your new password."
+msgstr "Натисніть тут, щоб задати новий пароль."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:125
+msgid "Whether to create a new user account as part of order processing."
+msgstr "Чи потрібно створити новий обліковий запис в ході обробки замовлення."
+
+#. translators: %1$s is referring to a php constant name, %2$s is referring to
+#. the wp-config.php file.
+#: woocommerce-gutenberg-products-block.php:106
+msgid "WooCommerce Blocks development mode requires the %1$s constant to be defined and true in your %2$s file. Otherwise you are loading the blocks package from WooCommerce core."
+msgstr "Режим розробки блоків WooCommerce вимагає, щоб константа %1$s була задана у файлі %2$s і мала значення true. В іншому випадку ви завантажите пакет блоків з ядра WooCommerce."
+
+#: src/BlockTypes/ProductStockIndicator.php:84 build/all-products.js:26
+#: build/cart-blocks/cart-line-items--mini-cart-contents-block/products-table-frontend.js:3
+#: build/cart.js:7 build/checkout-blocks/order-summary-cart-items-frontend.js:3
+#: build/checkout.js:7 build/mini-cart-contents.js:1
+#: build/product-stock-indicator-frontend.js:3
+#: build/product-stock-indicator.js:3
+msgid "Available on backorder"
+msgstr "Доступно за замовленням"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:184
+msgid "List of categories, if applicable."
+msgstr "Список категорій, якщо є."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:197
+msgid "Category name"
+msgstr "Назва категорії"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:209
+msgid "Category link"
+msgstr "Посилання на категорію"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:218
+msgid "List of tags, if applicable."
+msgstr "Список позначок, якщо є."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:243
+msgid "Tag link"
+msgstr "Посилання позначки"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:259
+#: src/StoreApi/Schemas/V1/ProductSchema.php:327
+msgid "The attribute ID, or 0 if the attribute is not taxonomy based."
+msgstr "ID атрибута або 0, якщо атрибут не заснований на таксономії."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:265
+#: src/StoreApi/Schemas/V1/ProductSchema.php:340
+msgid "The attribute name."
+msgstr "Назва атрибута."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:271
+msgid "The attribute taxonomy, or null if the attribute is not taxonomy based."
+msgstr "Таксономія атрибута або порожньо, якщо атрибут не заснований на таксономії."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:277
+msgid "True if this attribute is used by product variations."
+msgstr "Вірно, якщо атрибут використовується у варіаціях товару."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:283
+msgid "List of assigned attribute terms."
+msgstr "Список призначених значень атрибута."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:290
+msgid "The term ID, or 0 if the attribute is not a global attribute."
+msgstr "ID значення або 0, якщо атрибут не є загальним."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:296
+msgid "The term name."
+msgstr "Назва значення."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:302
+msgid "The term slug."
+msgstr "Слаґ значення."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:333
+msgid "List of variation attributes."
+msgstr "Список атрибутів варіації."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:346
+msgid "The assigned attribute."
+msgstr "Призначений атрибут."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:358
+msgid "Does the product have additional options before it can be added to the cart?"
+msgstr "Чи має товар додаткові параметри, які можна налаштувати перед додаванням його в кошик?"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:376
+msgid "Is the product stock backordered? This will also return false if backorder notifications are turned off."
+msgstr "Запаси товару відносяться до невиконаного замовлення? Також дасть помилковий результат, якщо вимкнені повідомлення про невиконане замовлення."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:412
+msgid "Add to cart URL."
+msgstr "URL Додати у кошик."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:42
+msgid "The attribute taxonomy name."
+msgstr "Назва атрибута таксономії."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:168
+msgid "Taxes applied to this shipping rate using the smallest unit of the currency."
+msgstr "Податки, які застосовуються до цього тарифу доставки з використанням найменшої одиниці валюти."
+
+#: src/Shipping/PickupLocation.php:16 src/Shipping/PickupLocation.php:106
+#: build/cart-frontend.js:3 build/cart.js:33 build/checkout-frontend.js:3
+#: build/checkout.js:23 build/mini-cart-contents.js:3
+#: build/wc-blocks-data.js:13
+msgid "Local pickup"
+msgstr "Самовивіз"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:21
+#: src/StoreApi/Utilities/OrderController.php:351 build/wc-settings.js:1
+msgid "First name"
+msgstr "Ім'я"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:27
+#: src/StoreApi/Utilities/OrderController.php:355 build/wc-settings.js:1
+msgid "Last name"
+msgstr "Прізвище"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:33
+#: src/StoreApi/Utilities/OrderController.php:359 build/checkout.js:47
+#: build/wc-settings.js:1
+msgid "Company"
+msgstr "Компанія"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:51
+#: src/StoreApi/Utilities/OrderController.php:375 build/wc-settings.js:1
+#: build/wc-shipping-method-pickup-location.js:232
+msgid "City"
+msgstr "Місто"
+
+#: src/StoreApi/Utilities/OrderController.php:379 build/wc-settings.js:1
+msgid "State/County"
+msgstr "Штат / Округ"
+
+#: src/StoreApi/Schemas/V1/BillingAddressSchema.php:38
+msgid "Email"
+msgstr "Email"
+
+#. translators: %s: number of orders
+#: src/Domain/Services/DraftOrders.php:109
+msgid "Drafts <span class=\"count\">(%s)</span>"
+msgid_plural "Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Чернетка <span class=\"count\">(%s)</span>"
+msgstr[1] "Чернетки <span class=\"count\">(%s)</span>"
+msgstr[2] "Чернеток <span class=\"count\">(%s)</span>"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:75
+#: build/checkout-blocks/billing-address-frontend.js:1
+#: build/checkout-blocks/shipping-address-frontend.js:1 build/checkout.js:29
+#: build/checkout.js:47
+msgid "Phone"
+msgstr "Телефон"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:39
+#: src/StoreApi/Utilities/OrderController.php:363 build/wc-settings.js:1
+#: build/wc-shipping-method-pickup-location.js:232
+msgid "Address"
+msgstr "Адреса"
+
+#: src/BlockTypes/Checkout.php:460
+msgid "Credit card"
+msgstr "Кредитна картка"
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:299
+msgid "Line subtotal tax."
+msgstr "Рядок проміжного податку."
+
+#: src/StoreApi/Routes/V1/CartUpdateCustomer.php:44
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:98
+msgid "Billing address."
+msgstr "Платіжна адреса."
+
+#: src/StoreApi/Routes/V1/CartUpdateCustomer.php:51
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:109
+msgid "Shipping address."
+msgstr "Адреса доставки."
+
+#: src/StoreApi/Routes/V1/CartSelectShippingRate.php:64
+msgid "Shipping is disabled."
+msgstr "Доставка вимкнена."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:63
+#: src/StoreApi/Utilities/OrderController.php:383 build/wc-settings.js:1
+msgid "Postal code"
+msgstr "Почтовий код"
+
+#. translators: %1$s table name, %2$s database user, %3$s database name.
+#: src/Installer.php:109
+msgid "WooCommerce %1$s table creation failed. Does the %2$s user have CREATE privileges on the %3$s database?"
+msgstr "Не вдалося створити таблицю %1$s WooCommerce. Чи має користувач %2$s права на СТВОРЕННЯ в базі даних %3$s?"
+
+#: src/StoreApi/Routes/V1/AbstractRoute.php:168
+#: src/StoreApi/Routes/V1/AbstractRoute.php:180
+#: src/StoreApi/Routes/V1/AbstractRoute.php:192
+#: src/StoreApi/Routes/V1/AbstractRoute.php:204
+msgid "Method not implemented"
+msgstr "Метод не реалізований"
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:38
+#: src/StoreApi/Routes/V1/ProductReviews.php:177
+#: src/StoreApi/Routes/V1/Products.php:128
+msgid "Maximum number of items to be returned in result set. Defaults to no limit if left blank."
+msgstr "Максимальна кількість позицій, що повертається в наборі результатів. При порожньому полі обмеження відсутні."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:74
+msgid "Sort ascending or descending."
+msgstr "Сортування за зростанням або спаданням."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:82
+msgid "Sort by term property."
+msgstr "Сортувати за властивістю значення."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:94
+msgid "If true, empty terms will not be returned."
+msgstr "Якщо true, порожні умови не повертаються."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:50
+msgid "First line of the address being shipped to."
+msgstr "Перший рядок адреси доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:56
+msgid "Second line of the address being shipped to."
+msgstr "Другий рядок адреси доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:62
+msgid "City of the address being shipped to."
+msgstr "Місто, до якого виконується доставка."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:68
+msgid "ISO code, or name, for the state, province, or district of the address being shipped to."
+msgstr "Код ISO або назва області, провінції або району, куди виконується доставка."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:74
+msgid "Zip or Postcode of the address being shipped to."
+msgstr "Поштовий індекс, що відповідає адресі доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:80
+msgid "ISO code for the country of the address being shipped to."
+msgstr "Код ISO країни, в яку виконується доставка."
+
+#: src/StoreApi/Routes/V1/CartSelectShippingRate.php:44
+msgid "The chosen rate ID for the package."
+msgstr "Ідентифікатор обраного тарифу для пакунка."
+
+#: src/StoreApi/Routes/V1/CartApplyCoupon.php:58
+#: src/StoreApi/Routes/V1/CartCoupons.php:97
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:58
+msgid "Coupons are disabled."
+msgstr "Купони відключені."
+
+#: src/StoreApi/Routes/V1/CartApplyCoupon.php:39
+#: src/StoreApi/Routes/V1/CartCouponsByCode.php:42
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:39
+msgid "Unique identifier for the coupon within the cart."
+msgstr "Унікальний ідентифікатор купона в кошику."
+
+#: src/StoreApi/Routes/V1/CartCouponsByCode.php:73
+#: src/StoreApi/Routes/V1/CartCouponsByCode.php:88
+msgid "Coupon does not exist in the cart."
+msgstr "У кошику немає купона."
+
+#: src/StoreApi/Routes/V1/ProductCategoriesById.php:73
+msgid "Invalid category ID."
+msgstr "Невірний ідентифікатор категорії."
+
+#: src/StoreApi/Routes/V1/Products.php:330
+msgid "Limit result set to products based on a minimum price, provided using the smallest unit of the currency."
+msgstr "Обмежити результати товарами на основі мінімальної ціни, зазначеної з використанням найменшої грошової одиниці."
+
+#: src/StoreApi/Routes/V1/Products.php:337
+msgid "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
+msgstr "Обмежити результати товарами на основі максимальної ціни, зазначеної з використанням найменшої грошової одиниці."
+
+#: src/StoreApi/Routes/V1/Checkout.php:81
+msgid "Data to pass through to the payment method when processing payment."
+msgstr "Дані, необхідні службі оплати для обробки платежу."
+
+#: src/StoreApi/Routes/V1/Checkout.php:564
+msgid "Invalid payment result received from payment method."
+msgstr "Недійсний результат платежу, отриманий від способу оплати."
+
+#: src/StoreApi/Routes/V1/Checkout.php:599
+msgid "No payment method provided."
+msgstr "Спосіб оплати не вказаний."
+
+#: src/StoreApi/Routes/V1/CartUpdateItem.php:37
+msgid "Unique identifier (key) for the cart item to update."
+msgstr "Унікальний ідентифікатор (ключ) для оновлення позиції в кошику."
+
+#: src/StoreApi/Routes/V1/CartUpdateItem.php:41
+msgid "New quantity of the item in the cart."
+msgstr "Нова кількість товару у кошику."
+
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:66
+msgid "Invalid coupon code."
+msgstr "Недійсний код купона."
+
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:70
+msgid "Coupon cannot be removed because it is not already applied to the cart."
+msgstr "Купон не можна видалити, оскільки він ще не застосований до кошика."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:216
+msgid "Limit result set to reviews from specific category IDs."
+msgstr "Обмеження результатів відгуками про товари в певних категоріях."
+
+#: src/StoreApi/Routes/V1/CartRemoveItem.php:42
+msgid "Unique identifier (key) for the cart item."
+msgstr "Унікальний ідентифікатор (ключ) для товару кошика."
+
+#: src/StoreApi/Routes/V1/CartRemoveItem.php:64
+msgid "Cart item no longer exists or is invalid."
+msgstr "Товар у кошику більше не існує або є недійсним."
+
+#: src/StoreApi/Utilities/CartController.php:197
+msgid "Cart item is invalid."
+msgstr "Товар у кошику недійсний."
+
+#. translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:908
+msgid "\"%s\" is an invalid coupon code."
+msgstr "\"%s\" є недійсний кодом купона."
+
+#. translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:920
+msgid "Coupon code \"%s\" has already been applied."
+msgstr "Код купона \"%s\" вже застосовано."
+
+#. translators: %s: coupon code
+#: src/StoreApi/Utilities/CartController.php:964
+msgid "\"%s\" has already been applied and cannot be used in conjunction with other coupons."
+msgstr "\"%s\" вже застосовано і не може використовуватися разом з іншими купонами."
+
+#. translators: %1$s coupon code, %2$s reason.
+#: src/StoreApi/Utilities/CartController.php:1025
+msgid "The \"%1$s\" coupon has been removed from your cart: %2$s"
+msgstr "Купон \"%1$s\" видалено із вашого кошика: %2$s"
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:1115
+msgid "&quot;%s&quot; is not available for purchase."
+msgstr "Позиція \"%s\" недоступна для покупки."
+
+#: src/StoreApi/Utilities/OrderController.php:24
+msgid "Cannot create order from empty cart."
+msgstr "Неможливо створити замовлення, коли кошик порожній."
+
+#. translators: %s Coupon codes.
+#: src/StoreApi/Utilities/OrderController.php:208
+msgid "Invalid coupons were removed from the cart: \"%s\""
+msgstr "Недійсні купони видалені із кошика: \"%s\"."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:63
+msgid "ID of the parent product, if applicable."
+msgstr "Ідентифікатор батьківського товару, якщо застосовується."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:93
+#: src/StoreApi/Schemas/V1/ProductSchema.php:87
+msgid "Product short description in HTML format."
+msgstr "Короткий опис товару у форматі HTML."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:99
+#: src/StoreApi/Schemas/V1/ProductSchema.php:92
+msgid "Product full description in HTML format."
+msgstr "Повний опис товару у форматі HTML."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:108
+msgid "Price data provided using the smallest unit of the currency."
+msgstr "Інформація про ціну в найдрібнішій одиниці валюти."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:157
+msgid "Price string formatted as HTML."
+msgstr "Рядок ціни у форматі HTML."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:320
+msgid "List of variation IDs, if applicable."
+msgstr "Список варіантів ідентифікаторів, якщо є."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:111
+#: src/StoreApi/Schemas/V1/ProductSchema.php:382
+msgid "Quantity left in stock if stock is low, or null if not applicable."
+msgstr "Кількість товару в наявності, якщо запас низький, або нуль, якщо не застосовується."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:54
+msgid "Parent term ID, if applicable."
+msgstr "Ідентифікатор батьківського значення, якщо застосовується."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:30
+msgid "Min and max prices found in collection of products, provided using the smallest unit of the currency."
+msgstr "Мінімальна і максимальна ціни товарів, зазначені в найдрібнішій грошовій одиниці."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:53
+msgid "Returns number of products within attribute terms."
+msgstr "Повертає кількість товарів в межах атрибутів."
+
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:30
+msgid "The coupons unique code."
+msgstr "Унікальний код купонів."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:49
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:36
+msgid "Total amounts provided using the smallest unit of the currency."
+msgstr "Загальна сума, зазначена в найдрібнішій грошовій одиниці."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:57
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:44
+msgid "Total discount applied by this coupon."
+msgstr "Загальна сума знижки, яку дає купон."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:63
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:50
+msgid "Total tax removed due to discount applied by this coupon."
+msgstr "Загальна сума зниження податку після застосування знижки купона."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:45
+#: src/StoreApi/Utilities/OrderController.php:367 build/checkout.js:47
+#: build/wc-settings.js:1
+msgid "Apartment, suite, etc."
+msgstr "Квартира, офіс, тощо."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:57
+msgid "State/County code, or name of the state, county, province, or district."
+msgstr "Код області/регіону або назва області, району чи провінції."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:69
+msgid "Country/Region code in ISO 3166-1 alpha-2 format."
+msgstr "Код країни/регіону у форматі ISO 3166-1 alpha-2."
+
+#. translators: Placeholders are class and method names
+#: src/StoreApi/Schemas/V1/BillingAddressSchema.php:122
+#: src/StoreApi/Schemas/V1/ShippingAddressSchema.php:64
+msgid "%1$s requires an instance of %2$s or %3$s for the address"
+msgstr "%1$s вимагає екземпляр %2$s або %3$s для адреси"
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:69
+msgid "The order ID to process during checkout."
+msgstr "Ідентифікатор замовлення для обробки під час оформлення замовлення."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:75
+msgid "Order status. Payment providers will update this value after payment."
+msgstr "Статус замовлення. Платіжний сервіс оновить це значення після платежу."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:81
+msgid "Order key used to check validity or protect access to certain order data."
+msgstr "Ключ замовлення, який використовується для перевірки точності або захисту доступу до деяких даних замовлення."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:87
+msgid "Note added to the order by the customer during checkout."
+msgstr "Примітка, додана покупцем до замовлення під час його оформлення."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:92
+msgid "Customer ID if registered. Will return 0 for guests."
+msgstr "Ідентифікатор покупця, якщо він зареєстрований. Дорівнюватиме 0 для гостей."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:119
+msgid "The ID of the payment method being used to process the payment."
+msgstr "Ідентифікатор способу оплати, який використовується для обробки платежу."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:130
+msgid "Result of payment processing, or false if not yet processed."
+msgstr "Результат обробки платежу, або помилковий результат, якщо обробка не завершена."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:136
+msgid "Status of the payment returned by the gateway. One of success, pending, failure, error."
+msgstr "Статус платежу, що повертається шлюзом. Один з варіантів: успішно, в очікуванні, збій, помилка."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:141
+msgid "An array of data being returned from the payment gateway."
+msgstr "Масив даних, що повертається з платіжного шлюзу."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:157
+msgid "A URL to redirect the customer after checkout. This could be, for example, a link to the payment processors website."
+msgstr "URL-адреса для перенаправлення клієнтів після оформлення замовлення. Наприклад, це може бути посилання на веб-сайт платіжної системи."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:109
+msgid "List of applied cart coupons."
+msgstr "Список застосованих купонів для кошика."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:119
+msgid "List of available shipping rates for the cart."
+msgstr "Список доступних тарифів доставки для кошика."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:129
+msgid "Current set shipping address for the customer."
+msgstr "Задана адреса доставки для покупця."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:175
+msgid "True if the cart needs payment. False for carts with only free products and no shipping costs."
+msgstr "Значення true, якщо необхідно сплатити кошик. Значення false для кошиків, що включають тільки безкоштовні товари без вартості доставки."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:203
+msgid "Cart total amounts provided using the smallest unit of the currency."
+msgstr "Загальна сума кошика, зазначена в найдрібнішій грошовій одиниці."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:211
+msgid "Total price of items in the cart."
+msgstr "Загальна ціна товарів в кошику."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:217
+msgid "Total tax on items in the cart."
+msgstr "Загальний податок на товари в кошику."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:223
+msgid "Total price of any applied fees."
+msgstr "Загальна сума діючих зборів."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:229
+msgid "Total tax on fees."
+msgstr "Загальна сума податків на збори."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:235
+msgid "Total discount from applied coupons."
+msgstr "Загальна знижка від застосованих купонів."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:241
+msgid "Total tax removed due to discount from applied coupons."
+msgstr "Загальна сума зниження податку в результаті отримання знижки від застосування купонів."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:259
+msgid "Total price the customer will pay."
+msgstr "Загальна ціна, яку заплатить покупець."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:265
+msgid "Total tax applied to items and shipping."
+msgstr "Загальна сума податків на товари та доставку."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:271
+msgid "Lines of taxes applied to items and shipping."
+msgstr "Рядки податків, що застосовуються до товарів та доставку."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:279
+msgid "The name of the tax."
+msgstr "Назва податку."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:285
+msgid "The amount of tax charged."
+msgstr "Сума нарахованого податку."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:303
+msgid "List of cart item errors, for example, items in the cart which are out of stock."
+msgstr "Список помилок товарів кошика, наприклад, товарів, яких немає в наявності."
+
+#: src/StoreApi/Schemas/V1/ProductCategorySchema.php:59
+msgid "Number of reviews for products in this category."
+msgstr "Кількість відгуків для товарів цієї категорії."
+
+#: src/StoreApi/Schemas/V1/ErrorSchema.php:30
+msgid "Error code"
+msgstr "Код помилки"
+
+#: src/StoreApi/Schemas/V1/ErrorSchema.php:36
+msgid "Error message"
+msgstr "Повідомлення про помилку"
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:306
+msgid "Currency code (in ISO format) for returned prices."
+msgstr "Код валюти (у форматі ISO) для повернутих цін."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:312
+msgid "Currency symbol for the currency which can be used to format returned prices."
+msgstr "Символ валюти, яка буде використовуватися для повернутих цін."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:318
+msgid "Currency minor unit (number of digits after the decimal separator) for returned prices."
+msgstr "Дробова одиниця валюти (кількість цифр після десяткового знака) для повернутих цін."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:324
+msgid "Decimal separator for the currency which can be used to format returned prices."
+msgstr "Десятковий роздільник для валюти, яка буде використовуватися для повернутих цін."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:330
+msgid "Thousand separator for the currency which can be used to format returned prices."
+msgstr "Роздільник тисяч, який може використовуватися для форматування повернутих цін."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:336
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:342
+msgid "Price prefix for the currency which can be used to format returned prices."
+msgstr "Префікс ціни, який може використовуватися для форматування повернутих цін."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:117
+msgid "True if backorders are allowed past stock availability."
+msgstr "True, якщо дозволяється оформлення відкладених замовлень при наявності на складі."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:129
+#: src/StoreApi/Schemas/V1/ProductSchema.php:388
+msgid "If true, only one item of this product is allowed for purchase in a single order."
+msgstr "Якщо true, одне замовлення може містити лише одну позицію товару."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:256
+msgid "Decimal precision of the returned prices."
+msgstr "Десяткова точність повернених цін."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:285
+msgid "Item total amounts provided using the smallest unit of the currency."
+msgstr "Загальна сума для позиції, зазначена в найдрібнішій грошовій одиниці."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:293
+msgid "Line subtotal (the price of the product before coupon discounts have been applied)."
+msgstr "Рядок проміжного підсумку (ціна товару до застосування знижок по купону)."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:305
+msgid "Line total (the price of the product after coupon discounts have been applied)."
+msgstr "Рядок підсумку (ціна товару після застосування знижок по купону)."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:32
+msgid "The ID of the package the shipping rates belong to."
+msgstr "Ідентифікатор пакунку, до якого відносяться тарифи доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:38
+msgid "Name of the package."
+msgstr "Назва пакунку."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:44
+msgid "Shipping destination address."
+msgstr "Адреса призначення доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:88
+msgid "List of cart items the returned shipping rates apply to."
+msgstr "Список товарів кошика, до яких застосовуються тарифи доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:102
+msgid "Name of the item."
+msgstr "Назва елементу."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:108
+msgid "Quantity of the item in the current package."
+msgstr "Кількість товару в поточному пакунку."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:117
+msgid "List of shipping rates."
+msgstr "Список тарифів на доставку."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:138
+msgid "ID of the shipping rate."
+msgstr "Ідентифікатор тарифу доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:144
+msgid "Name of the shipping rate, e.g. Express shipping."
+msgstr "Назва тарифу на доставку, наприклад \"Швидка доставка\"."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:150
+msgid "Description of the shipping rate, e.g. Dispatched via USPS."
+msgstr "Опис тарифу на доставку, наприклад \"Доставка через поштову службу США\"."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:156
+msgid "Delivery time estimate text, e.g. 3-5 business days."
+msgstr "Текстовий опис приблизного часу доставки, наприклад \"3-5 робочих днів\"."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:162
+msgid "Price of this shipping rate using the smallest unit of the currency."
+msgstr "Ціна за цим тарифом на доставку, зазначена в найдрібнішій грошовій одиниці."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:174
+msgid "ID of the shipping method that provided the rate."
+msgstr "Ідентифікатор способу доставки, на основі якого був розрахований тариф."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:180
+msgid "Instance ID of the shipping method that provided the rate."
+msgstr "Ідентифікатор примірника способу доставки, на основі якого був розрахований тариф."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:186
+msgid "Meta data attached to the shipping rate."
+msgstr "Метадані, що додаються до ціни доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:208
+msgid "True if this is the rate currently selected by the customer for the cart."
+msgstr "True, якщо ця ставка зараз обрана покупцем для кошика."
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: src/BlockTypes/AbstractBlock.php:410
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: src/Domain/Services/DraftOrders.php:79
+#: src/Domain/Services/DraftOrders.php:103
+msgctxt "Order status"
+msgid "Draft"
+msgstr "Чернетка"
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:204
+msgid "Price data for the product in the current line item, including or excluding taxes based on the \"display prices during cart and checkout\" setting. Provided using the smallest unit of the currency."
+msgstr "Інформація про ціну товару в поточній позиції, включаючи або виключаючи податки в залежності від налаштування \"Відображення цін в кошику або при оформленні замовлення\". Вказана в найдрібнішій грошовій одиниці."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:250
+msgid "Raw unrounded product prices used in calculations. Provided using a higher unit of precision than the currency."
+msgstr "Чисті неокругленні ціни товарів, що використовуються в обчисленнях. Вказується більш точно, ніж валюта."
+
+#: src/StoreApi/Utilities/OrderController.php:371 build/wc-settings.js:1
+msgid "Country/Region"
+msgstr "Країна/Регіон"
+
+#. translators: %d is number of items in stock for product
+#. translators: %d stock amount (number of items in stock for product)
+#: src/BlockTypes/ProductStockIndicator.php:80 build/all-products.js:26
+#: build/cart-blocks/cart-line-items--mini-cart-contents-block/products-table-frontend.js:5
+#: build/cart.js:9 build/checkout-blocks/order-summary-cart-items-frontend.js:5
+#: build/checkout.js:9 build/mini-cart-contents.js:3
+#: build/product-stock-indicator-frontend.js:3
+#: build/product-stock-indicator.js:3
+msgid "%d left in stock"
+msgstr "%d залишилося в наявності"
+
+#: src/BlockTypes/MiniCart.php:607
+#: assets/js/blocks/checkout/empty-cart/index.js:23 build/cart.js:41
+#: build/checkout-frontend.js:3
+msgid "Your cart is currently empty!"
+msgstr "Ваш кошик зараз порожній!"
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:311
+msgid "Line total tax."
+msgstr "Рядок загального податку."
+
+#: src/StoreApi/Routes/V1/AbstractRoute.php:259
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Область запиту; визначає поля відповіді."
+
+#. Translators: %s Payment method ID.
+#: src/StoreApi/Routes/V1/Checkout.php:611
+msgid "The %s payment gateway is not available."
+msgstr "Платіжний шлюз %s недоступний."
+
+#. Translators: %s amount.
+#: src/StoreApi/Utilities/QuantityLimits.php:113
+msgid "The maximum quantity that can be added to the cart is %s"
+msgstr "Максимальна кількість, яку можна додати до кошика, становить %s"
+
+#. translators: %s number of products in cart.
+#. translators: %d is the count of products.
+#: src/BlockTypes/ProductCategories.php:379
+#: assets/js/editor-components/product-category-control/index.js:89
+#: build/featured-category.js:17 build/featured-product.js:17
+#: build/product-best-sellers.js:16 build/product-category.js:16
+#: build/product-new.js:16 build/product-on-sale.js:16
+#: build/product-query.js:14 build/product-top-rated.js:16
+#: build/products-by-attribute.js:14 build/reviews-by-category.js:24
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d товар"
+msgstr[1] "%d товари"
+msgstr[2] "%d товарів"
+
+#: src/BlockTypes/ProductCategories.php:219
+msgid "List of categories with their product counts"
+msgstr "Список категорій з їх кількістю товарів"
+
+#: src/BlockTypes/AbstractProductGrid.php:623
+#: src/BlockTypes/ProductSaleBadge.php:116 build/all-products.js:14
+#: build/cart-blocks/cart-cross-sells-products-frontend.js:3 build/cart.js:5
+#: build/product-image-frontend.js:1 build/product-image.js:1
+#: build/product-sale-badge-frontend.js:1 build/product-sale-badge.js:1
+msgid "Product on sale"
+msgstr "Товар зі знижкою"
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:190
+msgid "Taxonomy name."
+msgstr "Назва таксономії."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:61
+msgid "Term ID"
+msgstr "Ідентифікатор значення"
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:84
+#: assets/js/blocks/products/edit.js:46 build/all-products-frontend.js:7
+#: build/all-products.js:34 build/all-products.js:36
+msgid "Average rating"
+msgstr "Середня оцінка"
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:228
+msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+msgstr "Не можна додати \"%s\" до кошика, оскільки товар відсутній в наявності."
+
+#. translators: 1: product name 2: quantity in stock
+#: src/StoreApi/Utilities/CartController.php:244
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "Не можна додати таку кількість \"%1$s\" до кошика,тому що недостатньо в запасі (залишилось %2$s)."
+
+#: src/BlockTypes/AbstractProductGrid.php:622
+#: src/BlockTypes/ProductImage.php:110 src/BlockTypes/ProductSaleBadge.php:114
+#: build/all-products.js:14
+#: build/cart-blocks/cart-cross-sells-products-frontend.js:3 build/cart.js:5
+#: build/product-image-frontend.js:1 build/product-image.js:1
+#: build/product-sale-badge-frontend.js:1 build/product-sale-badge.js:1
+msgid "Sale"
+msgstr "Розпродаж"
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:1254
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s — обов'язкове  для заповнення поле"
+msgstr[1] "%s — обов'язкових для заповнення поля"
+msgstr[2] "%s — обов'язкових для заповнення полей"
+
+#: patterns/filters.php:12 build/active-filters.js:15 build/filter-wrapper.js:1
+msgid "Active filters"
+msgstr "Активні фільтри"
+
+#: patterns/filters.php:22 build/filter-wrapper.js:1 build/price-filter.js:5
+msgid "Filter by price"
+msgstr "Фільтрувати за ціною"
+
+#: src/StoreApi/Routes/V1/ProductsById.php:73
+msgid "Invalid product ID."
+msgstr "Неправильний номер товару."
+
+#: src/StoreApi/Routes/V1/Products.php:227
+msgid "Limit result set to those of particular parent IDs."
+msgstr "Обмежити результат позиціями, що мають конкретний батьківський номер."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:36
+msgid "Term name."
+msgstr "Назва значення."
+
+#: src/StoreApi/Routes/V1/Products.php:247
+msgid "Limit result set to products assigned a specific type."
+msgstr "Обмежити набір результатів товарами з конкретним типом."
+
+#: src/StoreApi/Routes/V1/Products.php:269
+#: src/StoreApi/Routes/V1/Products.php:288
+msgid "Limit result set to products assigned a specific category ID."
+msgstr "Обмежити набір результатів товарами з конкретної категорії."
+
+#: src/StoreApi/Routes/V1/Products.php:307
+msgid "Limit result set to products assigned a specific tag ID."
+msgstr "Обмежити набір результатів товарами з конкретним номером позначки."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:29
+#: src/StoreApi/Routes/V1/ProductReviews.php:168
+#: src/StoreApi/Routes/V1/Products.php:119
+msgid "Current page of the collection."
+msgstr "Поточна сторінка колекції."
+
+#: src/StoreApi/Routes/V1/Products.php:262
+msgid "Limit result set to featured products."
+msgstr "Обмежити результати \"обраними\" товарами."
+
+#: src/StoreApi/Routes/V1/Products.php:344
+msgid "Limit result set to products with specified stock status."
+msgstr "Кінцевий результат встановлений для товарів із зазначеним статусом запасу."
+
+#: src/StoreApi/Routes/V1/Products.php:323
+msgid "Limit result set to products on sale."
+msgstr "Обмежити результати товарами на розпродажі."
+
+#: src/StoreApi/Routes/V1/Products.php:255
+msgid "Limit result set to products with specific SKU(s). Use commas to separate."
+msgstr "Граничний результат встановлюється для товарів із конкретними одиницями товару. Використовуйте кому, щоб розділити."
+
+#: src/StoreApi/Routes/V1/Products.php:145
+msgid "Limit response to resources created after a given ISO8601 compliant date."
+msgstr "Обмежити відповідь для ресурсів, опублікованих після зазначеної дати в сумісному з ISO8601 форматі."
+
+#: src/StoreApi/Routes/V1/Products.php:356
+msgid "Limit result set to products with selected global attributes."
+msgstr "Обмежити набір результатів товарами з вибраними загальними атрибутами."
+
+#: src/StoreApi/Routes/V1/Products.php:362
+msgid "Attribute taxonomy name."
+msgstr "Назва атрибута таксономії."
+
+#: src/StoreApi/Routes/V1/Products.php:367
+msgid "List of attribute term IDs."
+msgstr "Список ідентифікаторів значення атрибута."
+
+#: src/StoreApi/Routes/V1/Products.php:375
+msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
+msgstr "Список атрибутів слаґів. Якщо вказано ідентифікатор значення, він буде проігнорований."
+
+#: src/StoreApi/Routes/V1/Products.php:393
+msgid "The logical relationship between attributes when filtering across multiple at once."
+msgstr "Логічне відношення між атрибутами, якщо фільтр застосований відразу до кількох із них."
+
+#: src/StoreApi/Routes/V1/Products.php:410
+msgid "Limit result set to products with a certain average rating."
+msgstr "Обмежити набір результатів товарами з певною середньою оцінкою."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:42
+msgid "String based identifier for the term."
+msgstr "Рядковий ідентифікатор значення."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:48
+msgid "Term description."
+msgstr "Опис значення."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:60
+msgid "Number of objects (posts of any type) assigned to the term."
+msgstr "Кількість об'єктів (записів будь-якого типу), призначених на значення."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:153
+msgid "Number of items in the cart."
+msgstr "Кількість товарів в кошику."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:143
+msgid "List of cart items."
+msgstr "Список товарів в кошику."
+
+#: woocommerce-gutenberg-products-block.php:69
+msgid "The WooCommerce Blocks feature plugin requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+msgstr "Плагін WooCommerce Blocks потребує більш нової версії WordPress, тому його робота була призупинена. Оновіть WordPress, щоб продовжувати користуватися WooCommerce Blocks."
+
+#: src/StoreApi/Utilities/CartController.php:1075
+#: src/StoreApi/Utilities/CartController.php:1358
+msgid "This product cannot be added to the cart."
+msgstr "Цей товар не можна додати до кошика."
+
+#. translators: %1$s: Attribute name, %2$s: Allowed values.
+#: src/StoreApi/Utilities/CartController.php:1234
+msgid "Invalid value posted for %1$s. Allowed values: %2$s"
+msgstr "Встановлено невірне значення для %1$s. Дозволені значення: %2$s"
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:1254
+msgid "Missing variation data for variable product."
+msgstr "Відсутні дані про варіації для змінного товару."
+
+#: src/StoreApi/Utilities/CartController.php:1281
+msgid "No matching variation found."
+msgstr "Не знайдено відповідної варіації."
+
+#: src/StoreApi/Routes/V1/ProductAttributeTerms.php:35
+msgid "Unique identifier for the attribute."
+msgstr "Унікальний ідентифікатор атрибута."
+
+#: src/StoreApi/Routes/V1/ProductAttributeTerms.php:60
+msgid "Attribute does not exist."
+msgstr "Атрибут не існує."
+
+#: src/StoreApi/Utilities/CartController.php:728
+msgid "Unable to retrieve cart."
+msgstr "Не вдалося отримати відомості про кошик."
+
+#: src/StoreApi/Routes/V1/CartItemsByKey.php:42
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:35
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:96
+msgid "Unique identifier for the item within the cart."
+msgstr "Унікальний ідентифікатор елемента в кошику."
+
+#: src/StoreApi/Routes/V1/CartItemsByKey.php:81
+#: src/StoreApi/Routes/V1/CartItemsByKey.php:119
+#: src/StoreApi/Utilities/CartController.php:191
+msgid "Cart item does not exist."
+msgstr "Елемент кошика не існує."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:89
+#: src/StoreApi/Routes/V1/CartItems.php:95
+msgid "Cannot create an existing cart item."
+msgstr "Неможливо створити вже наявний елемент у кошику."
+
+#: src/StoreApi/Routes/V1/ProductAttributesById.php:73
+msgid "Invalid attribute ID."
+msgstr "Невірний ідентифікатор атрибута."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:38
+msgid "Min price found in collection of products."
+msgstr "Мінімальна ціна, знайдена в колекції товарів."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:44
+msgid "Max price found in collection of products."
+msgstr "Максимальна ціна, знайдена в колекції товарів."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:67
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:90
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:113
+msgid "Number of products."
+msgstr "Кількість товарів."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:76
+msgid "Returns number of products with each average rating."
+msgstr "Повертає кількість товарів із середньою оцінкою кожного."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:172
+msgid "If true, calculates the minimum and maximum product prices for the collection."
+msgstr "Якщо true, обчислюються мінімальна і максимальна ціни товару для колекції."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:184
+msgid "If requested, calculates attribute term counts for products in the collection."
+msgstr "Якщо відправлений запит, буде обчислено кількість значень атрибутів товарів у колекції."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:208
+msgid "If true, calculates rating counts for products in the collection."
+msgstr "Якщо true, буде обчислено рейтинг товарів в колекції."
+
+#: src/StoreApi/Routes/V1/Products.php:152
+msgid "Limit response to resources created before a given ISO8601 compliant date."
+msgstr "Обмежити відповідь для ресурсів, опублікованих до зазначеної дати в сумісному з ISO8601 форматі."
+
+#: src/StoreApi/Routes/V1/Products.php:159
+msgid "When limiting response using after/before, which date column to compare against."
+msgstr "Якщо при обмеженні відповіді ви вказуєте значення «до» і «після», вкажіть колонку дат і з чим її порівнювати."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:181
+msgid "True if the cart needs shipping. False for carts with only digital goods or stores with no shipping methods set-up."
+msgstr "Значення true, якщо потрібна доставка товарів. Значення false для кошиків з товарами, які не потребують доставки, або для магазинів, для яких не вказані способи доставки."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:159
+msgid "Total weight (in grams) of all products in the cart."
+msgstr "Загальна вага (в грамах) всіх товарів в кошику."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:39
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:41
+msgid "The cart item product or variation ID."
+msgstr "Ідентифікатор товару або варіації в кошику."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:47
+msgid "Quantity of this item in the cart."
+msgstr "Кількість цього товару в кошику."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:105
+msgid "Stock keeping unit, if applicable."
+msgstr "Одиниця зберігання запасів, якщо застосовується."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:53
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:152
+msgid "Chosen attributes (for variations)."
+msgstr "Обрані атрибути (для варіацій)."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:60
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:160
+msgid "Variation attribute name."
+msgstr "Назва атрибута варіації."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:65
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:166
+msgid "Variation attribute value."
+msgstr "Значення атрибута варіації."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:48
+msgid "Attribute type."
+msgstr "Тип атрибута."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:54
+msgid "How terms in this attribute are sorted by default."
+msgstr "Спосіб сортування значень в цьому атрибуті за замовчуванням."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:60
+msgid "If this attribute has term archive pages."
+msgstr "Якщо цей атрибут має архівні сторінки значення."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:97
+msgid "Is the product on sale?"
+msgstr "Чи діє на товар знижка?"
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:218
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:268
+#: src/StoreApi/Schemas/V1/ProductSchema.php:122
+msgid "Regular product price."
+msgstr "Звичайна ціна товару."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:224
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:274
+#: src/StoreApi/Schemas/V1/ProductSchema.php:128
+msgid "Sale product price, if applicable."
+msgstr "Ціна розпродажу товару, якщо застосовується."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:230
+#: src/StoreApi/Schemas/V1/ProductSchema.php:134
+msgid "Price range, if applicable."
+msgstr "Діапазон цін, якщо застосовується."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:236
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:242
+#: src/StoreApi/Schemas/V1/ProductSchema.php:140
+#: src/StoreApi/Schemas/V1/ProductSchema.php:146
+msgid "Price amount."
+msgstr "Ціна."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:364
+msgid "Is the product purchasable?"
+msgstr "Чи можна товар придбати?"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:370
+msgid "Is the product in stock?"
+msgstr "Чи є товар на складі?"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:394
+msgid "Add to cart button parameters."
+msgstr "Параметри кнопки додавання до кошика."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:400
+msgid "Button text."
+msgstr "Текст кнопки."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:406
+msgid "Button description."
+msgstr "Опис кнопки."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:30
+msgid "Unique identifier for the fee within the cart."
+msgstr "Унікальний ідентифікатор комісії в кошику."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:35
+msgid "Full size image URL."
+msgstr "URL повнорозмірного зображення."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:41
+msgid "Thumbnail URL."
+msgstr "URL мініатюри."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:47
+msgid "Thumbnail srcset for responsive images."
+msgstr "Мініатюра srcset для адаптивних зображень."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:52
+msgid "Thumbnail sizes for responsive images."
+msgstr "Розміри мініатюри для адаптивних зображень."
+
+#: patterns/filters.php:42 build/attribute-filter.js:28
+#: build/filter-wrapper.js:1
+msgid "Filter by attribute"
+msgstr "Фільтрувати за атрибутом"
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:54
+#: src/StoreApi/Routes/V1/Products.php:172
+msgid "Ensure result set excludes specific IDs."
+msgstr "Переконайтесь що вибірка виключає певні ID."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:47
+#: src/StoreApi/Routes/V1/Products.php:138
+msgid "Limit results to those matching a string."
+msgstr "Обмежити результати по запиту."
+
+#: src/StoreApi/Routes/V1/Products.php:237
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Обмежити вибірку всіма елементи за винятком елементів з певним ідентифікатором предка."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:64
+#: src/StoreApi/Routes/V1/Products.php:182
+msgid "Limit result set to specific ids."
+msgstr "Обмежити вибірку до певних ID."
+
+#: src/BlockTypes/ProductSearch.php:43 src/BlockTypes/ProductSearch.php:111
+#: assets/js/blocks/product-search/block.js:61
+#: assets/js/blocks/product-search/edit.js:108 build/legacy-template.js:11
+#: build/product-search.js:1
+msgid "Search"
+msgstr "Пошук"
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:117
+msgid "Review rating (0 to 5)."
+msgstr "Оцінка відгуку (від 0 до 5)."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:102
+msgid "Reviewer name."
+msgstr "Ім'я автора відгуку."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:123
+msgid "Shows if the reviewer bought the product or not."
+msgstr "Показує чи автор відгуку купував товар чи ні."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:108
+msgid "The content of the review."
+msgstr "Вміст відгуку."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:77
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "Унікальний ідентифікатор товару, до якого належить відгук."
+
+#. translators: %d: avatar image size in pixels
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:137
+msgid "Avatar URL with image size of %d pixels."
+msgstr "URL аватари з розміром зображення в %d пікселів."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:144
+msgid "Avatar URLs for the object reviewer."
+msgstr "URL аватари оглядача об'єкта."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:64
+msgid "The date the review was created, in the site's timezone in human-readable format."
+msgstr "Дата створення рецензування в часовому поясі сайту у форматі, придатному для читання людиною."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:83
+msgid "Name of the product that the review belongs to."
+msgstr "Назва товару, до якого належить відгук."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:89
+msgid "Permalink of the product that the review belongs to."
+msgstr "Постійне посилання на товар, до якого належить огляд."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:95
+msgid "Image of the product that the review belongs to."
+msgstr "Зображення товару, до якого належить відгук."
+
+#: src/BlockTypes/ProductSearch.php:44 build/legacy-template.js:11
+#: build/product-search.js:1
+msgid "Search products…"
+msgstr "Шукати товари..."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:223
+msgid "Limit result set to reviews from specific product IDs."
+msgstr "Обмеження результатів відгуками про товари з певними ID."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:202
+#: src/StoreApi/Routes/V1/Products.php:207
+msgid "Sort collection by object attribute."
+msgstr "Сортувати колекцію по атрибуту об'єкта."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:187
+#: src/StoreApi/Routes/V1/Products.php:192
+msgid "Offset the result set by a specific number of items."
+msgstr "Зсув вибірки на певне число елементів."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:194
+#: src/StoreApi/Routes/V1/Products.php:199
+msgid "Order sort attribute ascending or descending."
+msgstr "Впорядкувати сортування атрибута за зростанням або спаданням."
+
+#. translators: 1: composer command. 2: plugin directory
+#: woocommerce-gutenberg-products-block.php:133
+#: woocommerce-gutenberg-products-block.php:151
+msgid "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Встановлення плагіна WooCommerce Blocks не завершено. Будь ласка, запустіть %1$s в каталозі %2$s."
+
+#: src/StoreApi/Routes/V1/Products.php:314
+msgid "Operator to compare product tags."
+msgstr "Оператор для порівняння тегів товарів."
+
+#: src/StoreApi/Routes/V1/Products.php:402
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Визначає, чи відображаються приховані або видимі каталоги товарів."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:75
+msgid "Product variation attributes, if applicable."
+msgstr "Атрибути асортименту товарів, якщо це доречно."
+
+#: src/StoreApi/Schemas/V1/ProductCategorySchema.php:65
+msgid "Category URL."
+msgstr "URL категорії."
+
+#: src/BlockTypes/ProductCategories.php:227
+#: src/BlockTypes/ProductCategories.php:231
+msgid "Select a category"
+msgstr "Оберіть категорію"
+
+#: src/BlockTypes/ProductCategories.php:239
+msgid "Go to category"
+msgstr "Перейти до категорії"
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:66
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Кількість термінів в атрибуті таксономії."
+
+#: patterns/just-arrived-full-hero.php:19 build/featured-category.js:7
+#: build/featured-product.js:7
+msgid "Shop now"
+msgstr "Купуйте зараз"
+
+#. translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:200
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "Режим розробки блоків WooCommerce вимагає створення файлів. У каталозі плагінів запустіть %1$s для встановлення залежностей, %2$s для створення файлів або %3$s для створення файлів і спостереження за змінами."
+
+#: src/StoreApi/Routes/V1/Products.php:276
+#: src/StoreApi/Routes/V1/Products.php:296
+msgid "Operator to compare product category terms."
+msgstr "Оператор для порівняння значень категорії товару."
+
+#: src/StoreApi/Routes/V1/Products.php:383
+msgid "Operator to compare product attribute terms."
+msgstr "Оператор для порівняння атрибутів товару."
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "Блоки WooCommerce для редактора Гутенберга."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "Блоки WooCommerce"
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:199
+msgid "Meta value."
+msgstr "Мета значення."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:193
+msgid "Meta key."
+msgstr "Мета ключ."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:36
+msgid "Attribute name."
+msgstr "Назва атрибуту."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:62
+msgid "Image alternative text."
+msgstr "Альтернативний текст зображення."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:57
+msgid "Image name."
+msgstr "Назва зображення."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:142
+#: src/StoreApi/Schemas/V1/ProductSchema.php:175
+msgid "List of images."
+msgstr "Список зображень."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:163
+msgid "Reviews average rating."
+msgstr "Середня оцінка відгуків."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:212
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:262
+#: src/StoreApi/Schemas/V1/ProductSchema.php:116
+msgid "Current product price."
+msgstr "Поточна ціна товару."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:103
+msgid "Unique identifier."
+msgstr "Унікальний ідентифікатор."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:69
+msgid "Product type."
+msgstr "Тип товару."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:135
+#: src/StoreApi/Schemas/V1/ProductSchema.php:80
+msgid "Product URL."
+msgstr "URL товару."
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:87
+#: src/StoreApi/Schemas/V1/ProductSchema.php:58
+msgid "Product name."
+msgstr "Назва товару."
+
+#: src/StoreApi/Routes/V1/ProductAttributesById.php:42
+#: src/StoreApi/Routes/V1/ProductCategoriesById.php:42
+#: src/StoreApi/Routes/V1/ProductsById.php:42
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:30
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:51
+#: src/StoreApi/Schemas/V1/ProductSchema.php:52
+#: src/StoreApi/Schemas/V1/TermSchema.php:30
+msgid "Unique identifier for the resource."
+msgstr "Унікальний ідентифікатор для ресурсу."
+
+#: src/BlockTypes/ProductCategories.php:218
+msgid "List of categories"
+msgstr "Список категорій"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:191
+msgid "Category ID"
+msgstr "ID категорії"
+
+#: src/StoreApi/Schemas/V1/ProductCategorySchema.php:52
+msgid "Category image."
+msgstr "Зображення категорії."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:203
+msgid "Category slug"
+msgstr "Слаґ категорії"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:237
+msgid "Tag slug"
+msgstr "Слаґ позначки"
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:70
+msgid "The date the review was created, as GMT."
+msgstr "Дата створення відгуку, за GMT."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:57
+msgid "The date the review was created, in the site's timezone."
+msgstr "Дата створення відгуку, згідно часового поясу сайту."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:30
+msgid "Image ID."
+msgstr "Ідентифікатор зображення."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:169
+msgid "Amount of reviews that the product has."
+msgstr "Кількість відгуків, які має товарів."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:225
+msgid "Tag ID"
+msgstr "ID позначки"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:231
+msgid "Tag name"
+msgstr "Назва позначки"
+
+#: src/StoreApi/Schemas/V1/CartItemSchema.php:123
+msgid "True if the product is on backorder."
+msgstr "Вірно, якщо товар знаходиться в невиконаному замовленні."
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"

@@ -1,0 +1,201 @@
+2023-04-12T19:35:13+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Internal/Admin/Coupons.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:87
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp9630bcd590188630cdfedae109fd5064\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(379): class_alias('Automattic\\WooC...', 'Automattic\\WooC...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(62): Automattic\WooCommerce\Admin\Features\Features->register_internal_class_aliases()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(53): Automattic\WooCommerce\Admin\Features\Features->__construct()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(65): Automattic\WooCommerce\Admin\Features\Features::get_instance()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(55): Automattic\WooCommerce\Internal\Admin\Loader->__construct()
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(194): Automattic\WooCommerce\Internal\Admin\Loader::get_instance()
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(98): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->hooks()
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#12 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Packages::on_init('')
+#13 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#14 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#16 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#17 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#18 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#19 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#20 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php доступно 87
+
+2023-04-12T19:35:13+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_Logger" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php:22
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(102): ActionScheduler::logger()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/action-scheduler.php(19): ActionScheduler::init('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/ActionScheduler_Versions.php(39): action_scheduler_initialize_3_dot_5_dot_4()
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#7 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#11 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php доступно 22
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Class "MailPoet\Config\Capabilities" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php:413
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php(319): MailPoet\Config\Initializer->setupCapabilities()
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): MailPoet\Config\Initializer->initialize('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php доступно 413
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-includes/block-patterns/query-small-posts.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-includes/block-patterns.php:34
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): _register_core_block_patterns_and_categories('')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#4 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#5 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#8 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-includes/block-patterns.php доступно 34
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/off-canvas/class-astra-off-canvas.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php:264
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(250): Astra_Builder_Customizer->load_header_components()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php(160): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php доступно 264
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/widgets.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:74
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php доступно 74
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/compatibility/class-astra-bb-ultimate-addon.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:145
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php доступно 145
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/TransientNotices.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:87
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp9630bcd590188630cdfedae109fd5064\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(119): class_exists('Automattic\\WooC...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(137): Automattic\WooCommerce\Admin\Features\Features::get_feature_class('TransientNotice...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#7 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#11 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php доступно 87
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor//includes/frontend.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Frontend')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(727): Elementor\Autoloader::autoload('Elementor\\Front...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#7 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#11 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php доступно 294
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/role-manager/role-manager.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Core\\RoleManage...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(732): Elementor\Autoloader::autoload('Elementor\\Core\\...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#7 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#11 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php доступно 294
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner_Deprecated" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:3
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(91): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(3): ActionScheduler::autoload('ActionScheduler...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(91): include('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(25): ActionScheduler::autoload('ActionScheduler...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(103): ActionScheduler::runner()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/action-scheduler.php(19): ActionScheduler::init('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/ActionScheduler_Versions.php(39): action_scheduler_initialize_3_dot_5_dot_4()
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#11 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#12 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#14 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#15 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php доступно 3
+
+2023-04-12T19:35:16+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/compatibility/woocommerce/woocommerce-common-functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/compatibility/woocommerce/class-astra-woocommerce.php:49
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/compatibility/woocommerce/class-astra-woocommerce.php(39): Astra_Woocommerce->__construct()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/compatibility/woocommerce/class-astra-woocommerce.php(3763): Astra_Woocommerce::get_instance()
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php(140): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#5 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#8 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/compatibility/woocommerce/class-astra-woocommerce.php доступно 49
+
+2023-04-12T19:35:17+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/base/skin-base.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/managers/skins.php:111
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(719): Elementor\Skins_Manager->__construct()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#6 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#10 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/managers/skins.php доступно 111
+

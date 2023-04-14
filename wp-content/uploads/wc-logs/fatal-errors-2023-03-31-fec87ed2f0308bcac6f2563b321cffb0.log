@@ -1,0 +1,1222 @@
+2023-03-31T08:10:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-image-editor-imagick.php на строке 432
+
+2023-03-31T10:23:05+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductNew.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T10:23:05+00:00 CRITICAL Uncaught Error: Class "MailPoetVendor\Doctrine\ORM\Query\AST\Node" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/AST/SelectStatement.php:5
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/composer/ClassLoader.php(292): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/composer/ClassLoader.php(193): Composer\Autoload\includeFile('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(492): Composer\Autoload\ClassLoader->loadClass('MailPoetVendor\\...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(472): MailPoetVendor\Doctrine\ORM\Query\Parser->SelectStatement()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(144): MailPoetVendor\Doctrine\ORM\Query\Parser->QueryLanguage()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(200): MailPoetVendor\Doctrine\ORM\Query\Parser->getAST()
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query.php(112): MailPoetVendor\Doctrine\ORM\Query\Parser->parse()
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query.php(118): MailPoetVendor\Doctrine\ORM\Query->parse()
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(506): MailPoetVendor\Doctrine\ORM\Query->_doExecute()
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(479): MailPoetVendor\Doctrine\ORM\AbstractQuery->executeIgnoreQueryCache(NULL, 1)
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(373): MailPoetVendor\Doctrine\ORM\AbstractQuery->execute(NULL, 1)
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/NewslettersRepository.php(123): MailPoetVendor\Doctrine\ORM\AbstractQuery->getResult()
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/Scheduler/Scheduler.php(77): MailPoet\Newsletter\NewslettersRepository->findActiveByTypeAndGroup('automatic', 'woocommerce')
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/Scheduler/AutomaticEmailScheduler.php(96): MailPoet\Newsletter\Scheduler\Scheduler->getNewsletters('automatic', 'woocommerce')
+#14 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php(176): MailPoet\Newsletter\Scheduler\AutomaticEmailScheduler->rescheduleAutomaticEmail('woocommerce', 'woocommerce_aba...', Object(MailPoet\Entities\SubscriberEntity))
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php(157): MailPoet\AutomaticEmails\WooCommerce\Events\AbandonedCart->rescheduleAbandonedCartEmail(Object(MailPoet\Entities\SubscriberEntity))
+#16 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(101): MailPoet\AutomaticEmails\WooCommerce\Events\AbandonedCart->handleSubscriberActivity(Object(MailPoet\Entities\SubscriberEntity))
+#17 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(85): MailPoet\Statistics\Track\SubscriberActivityTracker->processTracking(Object(MailPoet\Entities\SubscriberEntity))
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php(326): MailPoet\Statistics\Track\SubscriberActivityTracker->trackActivity()
+#19 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): MailPoet\Config\Initializer->initialize('')
+#20 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#21 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#22 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#23 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#24 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#25 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#26 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#27 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/AST/SelectStatement.php на строке 5
+
+2023-03-31T10:23:05+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Integrations/PayPal.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php(425): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Domain\Bootstrap->Automattic\WooCommerce\Blocks\Domain\{closure}(Object(Automattic\WooCommerce\Blocks\Registry\Container))
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value(Object(Automattic\WooCommerce\Blocks\Registry\Container))
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get(Object(Automattic\WooCommerce\Blocks\Registry\Container))
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Payments/Api.php(109): Automattic\WooCommerce\Blocks\Registry\Container->get('Automattic\\WooC...')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\Payments\Api->register_payment_method_integrations(Object(Automattic\WooCommerce\Blocks\Payments\PaymentMethodRegistry))
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Integrations/IntegrationRegistry.php(48): do_action('woocommerce_blo...', Object(Automattic\WooCommerce\Blocks\Payments\PaymentMethodRegistry))
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry->initialize('')
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#13 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#14 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#15 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#16 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#17 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:04:04+00:00 CRITICAL Uncaught Error: Class "MailPoetVendor\Doctrine\Common\Lexer\AbstractLexer" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Lexer.php:16
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/composer/ClassLoader.php(292): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor/composer/ClassLoader.php(193): Composer\Autoload\includeFile('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Parser.php(118): Composer\Autoload\ClassLoader->loadClass('MailPoetVendor\\...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query.php(111): MailPoetVendor\Doctrine\ORM\Query\Parser->__construct(Object(MailPoetVendor\Doctrine\ORM\Query))
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query.php(118): MailPoetVendor\Doctrine\ORM\Query->parse()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(506): MailPoetVendor\Doctrine\ORM\Query->_doExecute()
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(479): MailPoetVendor\Doctrine\ORM\AbstractQuery->executeIgnoreQueryCache(NULL, 1)
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(373): MailPoetVendor\Doctrine\ORM\AbstractQuery->execute(NULL, 1)
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/NewslettersRepository.php(123): MailPoetVendor\Doctrine\ORM\AbstractQuery->getResult()
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/Scheduler/Scheduler.php(77): MailPoet\Newsletter\NewslettersRepository->findActiveByTypeAndGroup('automatic', 'woocommerce')
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/Scheduler/AutomaticEmailScheduler.php(96): MailPoet\Newsletter\Scheduler\Scheduler->getNewsletters('automatic', 'woocommerce')
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php(176): MailPoet\Newsletter\Scheduler\AutomaticEmailScheduler->rescheduleAutomaticEmail('woocommerce', 'woocommerce_aba...', Object(MailPoet\Entities\SubscriberEntity))
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php(157): MailPoet\AutomaticEmails\WooCommerce\Events\AbandonedCart->rescheduleAbandonedCartEmail(Object(MailPoet\Entities\SubscriberEntity))
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(101): MailPoet\AutomaticEmails\WooCommerce\Events\AbandonedCart->handleSubscriberActivity(Object(MailPoet\Entities\SubscriberEntity))
+#14 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(85): MailPoet\Statistics\Track\SubscriberActivityTracker->processTracking(Object(MailPoet\Entities\SubscriberEntity))
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php(326): MailPoet\Statistics\Track\SubscriberActivityTracker->trackActivity()
+#16 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): MailPoet\Config\Initializer->initialize('')
+#17 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#18 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#19 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#20 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#21 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#22 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#23 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#24 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Lexer.php на строке 16
+
+2023-03-31T11:04:04+00:00 CRITICAL Uncaught Error: Class "MailPoetVendor\Doctrine\ORM\Query\Expr\Select" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php:301
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/NewslettersRepository.php(108): MailPoetVendor\Doctrine\ORM\QueryBuilder->select('n')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/Scheduler/Scheduler.php(77): MailPoet\Newsletter\NewslettersRepository->findActiveByTypeAndGroup('automatic', 'woocommerce')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Newsletter/Scheduler/AutomaticEmailScheduler.php(96): MailPoet\Newsletter\Scheduler\Scheduler->getNewsletters('automatic', 'woocommerce')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php(176): MailPoet\Newsletter\Scheduler\AutomaticEmailScheduler->rescheduleAutomaticEmail('woocommerce', 'woocommerce_aba...', Object(MailPoet\Entities\SubscriberEntity))
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php(157): MailPoet\AutomaticEmails\WooCommerce\Events\AbandonedCart->rescheduleAbandonedCartEmail(Object(MailPoet\Entities\SubscriberEntity))
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(101): MailPoet\AutomaticEmails\WooCommerce\Events\AbandonedCart->handleSubscriberActivity(Object(MailPoet\Entities\SubscriberEntity))
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(85): MailPoet\Statistics\Track\SubscriberActivityTracker->processTracking(Object(MailPoet\Entities\SubscriberEntity))
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php(326): MailPoet\Statistics\Track\SubscriberActivityTracker->trackActivity()
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): MailPoet\Config\Initializer->initialize('')
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#12 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#14 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#15 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#16 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php на строке 301
+
+2023-03-31T11:04:04+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/API/Google/Merchant.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(211): class_exists('Automattic\\WooC...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#5 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#14 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#15 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#16 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#17 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#18 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#19 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#20 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#21 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#22 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#23 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:36:30+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/widget/class-astra-header-widget-component.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php:264
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(242): Astra_Builder_Customizer->load_header_components()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(401): Astra_Builder_Customizer->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php(160): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php на строке 264
+
+2023-03-31T11:36:30+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/account/class-astra-header-account-component-loader.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/account/class-astra-header-account-component.php:34
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/account/class-astra-header-account-component.php(149): Astra_Header_Account_Component->__construct()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(262): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(242): Astra_Builder_Customizer->load_header_components()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(401): Astra_Builder_Customizer->__construct()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php(160): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#12 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#14 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/account/class-astra-header-account-component.php на строке 34
+
+2023-03-31T11:36:30+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-font-families.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:47
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php на строке 47
+
+2023-03-31T11:36:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Customers.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Init.php(142): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(403): rest_get_server()
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(780): WP->parse_request('')
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/functions.php(1334): WP->main('')
+#12 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(16): wp()
+#13 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#14 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:36:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Reports/Customers/Controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Customers.php(18): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Init.php(142): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(403): rest_get_server()
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#12 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(780): WP->parse_request('')
+#13 /var/www/che7235e81/www/show.net.ua/wp-includes/functions.php(1334): WP->main('')
+#14 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(16): wp()
+#15 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#16 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:36:36+00:00 CRITICAL During class fetch: Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Reports/ExportableTraits.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Reports/Customers/Controller.php(22): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Customers.php(18): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Init.php(142): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(403): rest_get_server()
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#12 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#13 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#14 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(780): WP->parse_request('')
+#15 /var/www/che7235e81/www/show.net.ua/wp-includes/functions.php(1334): WP->main('')
+#16 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(16): wp()
+#17 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#18 {main} в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Reports/Customers/Controller.php на строке 22
+
+2023-03-31T11:36:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/_inc/lib/core-api/class.jetpack-core-api-site-endpoints.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/_inc/lib/class.core-rest-api-endpoints.php:60
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Jetpack_Core_Json_Api_Endpoints::register_endpoints(Object(WP_REST_Server))
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(403): rest_get_server()
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(780): WP->parse_request('')
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/functions.php(1334): WP->main('')
+#11 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(16): wp()
+#12 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#13 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/_inc/lib/class.core-rest-api-endpoints.php на строке 60
+
+2023-03-31T11:36:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/MobileAppMagicLink.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Init.php(142): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(403): rest_get_server()
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(780): WP->parse_request('')
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/functions.php(1334): WP->main('')
+#12 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(16): wp()
+#13 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#14 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:36:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Reports/Customers/Controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Customers.php(18): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/API/Init.php(142): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\API\Init->rest_api_init(Object(WP_REST_Server))
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(403): rest_get_server()
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#12 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(780): WP->parse_request('')
+#13 /var/www/che7235e81/www/show.net.ua/wp-includes/functions.php(1334): WP->main('')
+#14 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(16): wp()
+#15 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#16 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:36:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryBlock.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:36:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks.asset.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php:98
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php(131): Automattic\WooCommerce\Blocks\Assets\Api->get_script_data('build/wc-blocks...', Array)
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/AssetsController.php(58): Automattic\WooCommerce\Blocks\Assets\Api->register_script('wc-blocks', 'build/wc-blocks...', Array, false)
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\AssetsController->register_assets('')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#6 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#10 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php на строке 98
+
+2023-03-31T11:38:47+00:00 CRITICAL Uncaught Error: Class "WPForms\Lite\Integrations\LiteConnect\LiteConnect" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/wpforms-lite/src/Lite/Admin/Education/LiteConnect.php:36
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/wpforms-lite/src/Lite/Admin/Education/LiteConnect.php(62): WPForms\Lite\Admin\Education\LiteConnect->allow_load()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/wpforms-lite/src/WPForms.php(300): WPForms\Lite\Admin\Education\LiteConnect->init()
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): WPForms\WPForms->WPForms\{closure}('')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/wpforms-lite/src/WPForms.php(259): do_action('wpforms_loaded')
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): WPForms\WPForms->objects('')
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#10 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#12 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#14 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/wpforms-lite/src/Lite/Admin/Education/LiteConnect.php на строке 36
+
+2023-03-31T11:38:47+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/compatibility/class-astra-visual-composer.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:147
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php на строке 147
+
+2023-03-31T11:38:47+00:00 CRITICAL Uncaught Error: Interface "Cartflows_WC_Logger_Interface" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/classes/logger/class-cartflows-wc-logger.php:15
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/classes/class-cartflows-loader.php(407): include_once()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/classes/class-cartflows-loader.php(238): Cartflows_Loader->load_core_files()
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Cartflows_Loader->load_plugin('')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#6 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#10 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/classes/logger/class-cartflows-wc-logger.php на строке 15
+
+2023-03-31T11:38:47+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/DB/Migration/AbstractMigration.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/DB/Migration/MigrationVersion141.php(18): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/var/www/che723...')
+#2 [internal function]: Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Exception/ValidateInterface.php(22): class_implements('Automattic\\WooC...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Internal/DependencyManagement/DBServiceProvider.php(144): Automattic\WooCommerce\GoogleListingsAndAds\Internal\DependencyManagement\DBServiceProvider->validate_interface('Automattic\\WooC...', 'Automattic\\WooC...')
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Internal/DependencyManagement/DBServiceProvider.php(100): Automattic\WooCommerce\GoogleListingsAndAds\Internal\DependencyManagement\DBServiceProvider->share_migration('Automattic\\WooC...', 'Automattic\\WooC...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/ServiceProvider/ServiceProviderAggregate.php(102): Automattic\WooCommerce\GoogleListingsAndAds\Internal\DependencyManagement\DBServiceProvider->register()
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(172): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\ServiceProvider\ServiceProviderAggregate->register('db_table')
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('db_table')
+#9 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('db_table')
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#14 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#16 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#17 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#19 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#20 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#21 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#22 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#23 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#24 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#25 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(237): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#26 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(198): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveCallable(Object(Closure))
+#27 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#28 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#29 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#30 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#31 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#32 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#33 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#34 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#35 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#36 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#37 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#38 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#39 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#40 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#41 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:39:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductOnSale.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:39:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductRating.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:39:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductSaleBadge.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T11:39:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/app/modules/kit-library/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('App\\Modules\\Kit...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/app/app.php(238): Elementor\Autoloader::autoload('Elementor\\App\\M...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(750): Elementor\App\App->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-03-31T11:39:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/app/modules/import-export/processes/revert.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('App\\Modules\\Imp...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/app/modules/import-export/module.php(93): Elementor\Autoloader::autoload('Elementor\\App\\M...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/app/app.php(235): Elementor\App\Modules\ImportExport\Module->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(750): Elementor\App\App->__construct()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#9 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#12 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#13 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-03-31T11:39:18+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/modules/admin-bar/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Modules\\AdminBa...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload('Elementor\\Modul...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-03-31T18:31:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/below-header/dynamic-css/dynamic.css.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/below-header/class-astra-below-header.php:36
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/below-header/class-astra-below-header.php(45): Astra_Below_Header->__construct()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(269): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(242): Astra_Builder_Customizer->load_header_components()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(401): Astra_Builder_Customizer->__construct()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php(160): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#12 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#14 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/below-header/class-astra-below-header.php на строке 36
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/_inc/lib/core-api/wpcom-endpoints/memberships.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/_inc/lib/core-api/load-wpcom-endpoints.php:32
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/_inc/lib/core-api/load-wpcom-endpoints.php(60): wpcom_rest_api_v2_load_plugin_files('wpcom-endpoints...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): load_wpcom_rest_api_v2_plugin_files('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/_inc/lib/core-api/load-wpcom-endpoints.php на строке 32
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-customizer.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:127
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php на строке 127
+
+2023-03-31T18:31:36+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent/Resource/Products.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent.php(2063): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Service\ShoppingContent->__construct(Object(Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Client), 'https://api-vip...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(256): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#7 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#14 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#16 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#17 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#19 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#20 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#21 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#22 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#23 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#24 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#25 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#26 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#27 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#28 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#29 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#30 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#31 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#32 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#33 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#34 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#35 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#36 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#37 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#38 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#39 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#40 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#41 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#42 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#43 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#44 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(237): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#45 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(198): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveCallable(Object(Closure))
+#46 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#47 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#48 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#49 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#50 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#51 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#52 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#53 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#54 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#55 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#56 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#57 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#58 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#59 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#60 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/core/class-astra-attr.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:71
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php на строке 71
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent/Resource/AccountsReturncarrier.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent.php(400): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Service\ShoppingContent->__construct(Object(Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Client), 'https://api-vip...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(256): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#7 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#14 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#16 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#17 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#19 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#20 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#21 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#22 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#23 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#24 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#25 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#26 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#27 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#28 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#29 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#30 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#31 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#32 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#33 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#34 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#35 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#36 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#37 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#38 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#39 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#40 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#41 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#42 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#43 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#44 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(237): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#45 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(198): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveCallable(Object(Closure))
+#46 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#47 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#48 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#49 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#50 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#51 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#52 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#53 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#54 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#55 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#56 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#57 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#58 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#59 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#60 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent/Resource/Orderinvoices.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent.php(1260): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Service\ShoppingContent->__construct(Object(Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Client), 'https://api-vip...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(256): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#7 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#14 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#16 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#17 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#19 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#20 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#21 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#22 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#23 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#24 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#25 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#26 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#27 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#28 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#29 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#30 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#31 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#32 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#33 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#34 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#35 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#36 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#37 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#38 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#39 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#40 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#41 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#42 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#43 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#44 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(237): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#45 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(198): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveCallable(Object(Closure))
+#46 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#47 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#48 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#49 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#50 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#51 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#52 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#53 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#54 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#55 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#56 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#57 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#58 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#59 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#60 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/classes/class-cartflows-flow-shortcodes.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/classes/class-cartflows-flow-loader.php:57
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/classes/class-cartflows-flow-loader.php(41): Cartflows_Flow_Loader->include_files()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/classes/class-cartflows-flow-loader.php(32): Cartflows_Flow_Loader->__construct()
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/classes/class-cartflows-flow-loader.php(65): Cartflows_Flow_Loader::get_instance()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/class-cartflows-flow.php(46): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/class-cartflows-flow.php(35): Cartflows_Flow->__construct()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/class-cartflows-flow.php(53): Cartflows_Flow::get_instance()
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/classes/class-cartflows-loader.php(417): include_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/classes/class-cartflows-loader.php(238): Cartflows_Loader->load_core_files()
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Cartflows_Loader->load_plugin('')
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#12 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#14 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#15 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#16 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/cartflows/modules/flow/classes/class-cartflows-flow-loader.php на строке 57
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/modules/theme-tools/responsive-videos.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/modules/module-extras.php:73
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/class.jetpack.php(1907): require_once()
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Jetpack::load_modules('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/modules/module-extras.php на строке 73
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/schemes/color-picker.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Core\\Schemes\\Co...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/schemes/manager.php(76): Elementor\Autoloader::autoload('Elementor\\Core\\...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/schemes/manager.php(354): Elementor\Core\Schemes\Manager->register_scheme('Elementor\\Core\\...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/schemes/manager.php(367): Elementor\Core\Schemes\Manager->register_default_schemes()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(716): Elementor\Core\Schemes\Manager->__construct()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#7 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#10 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#12 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#14 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-03-31T18:31:37+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Jobs/JobInitializer.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Internal/DependencyManagement/AbstractServiceProvider.php(119): class_implements('Automattic\\WooC...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Internal/DependencyManagement/JobServiceProvider.php(115): Automattic\WooCommerce\GoogleListingsAndAds\Internal\DependencyManagement\AbstractServiceProvider->conditionally_share_with_tags('Automattic\\WooC...', 'Automattic\\WooC...', 'Automattic\\WooC...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/ServiceProvider/ServiceProviderAggregate.php(102): Automattic\WooCommerce\GoogleListingsAndAds\Internal\DependencyManagement\JobServiceProvider->register()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(172): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\ServiceProvider\ServiceProviderAggregate->register('Automattic\\WooC...')
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#12 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#14 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#15 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#16 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T18:32:09+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/mobile-trigger/dynamic-css/dynamic.css.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/mobile-trigger/class-astra-mobile-trigger.php:35
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/mobile-trigger/class-astra-mobile-trigger.php(44): Astra_Mobile_Trigger->__construct()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(265): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(242): Astra_Builder_Customizer->load_header_components()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(401): Astra_Builder_Customizer->__construct()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php(160): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#12 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#13 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#14 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/builder/type/header/mobile-trigger/class-astra-mobile-trigger.php на строке 35
+
+2023-03-31T18:32:13+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/Init.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(124): class_exists('Automattic\\WooC...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(137): Automattic\WooCommerce\Admin\Features\Features::get_feature_class('PaymentGatewayS...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#7 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#11 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T18:32:13+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductAddToCart.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypesController.php(64): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php доступно 90
+
+2023-03-31T18:32:13+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/modules/admin-bar/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Modules\\AdminBa...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload('Elementor\\Modul...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-03-31T18:48:58+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/addons/breadcrumbs/class-astra-breadcrumbs-markup.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/addons/breadcrumbs/class-astra-breadcrumbs.php:52
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/addons/breadcrumbs/class-astra-breadcrumbs.php(40): Astra_Breadcrumbs->__construct()
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/addons/breadcrumbs/class-astra-breadcrumbs.php(107): Astra_Breadcrumbs::get_instance()
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php(157): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#5 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#8 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/addons/breadcrumbs/class-astra-breadcrumbs.php на строке 52
+
+2023-03-31T18:48:58+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/admin/includes/class-astra-api-init.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:106
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php на строке 106
+
+2023-03-31T18:48:59+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent/Resource/Localinventory.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/google/apiclient-services/src/ShoppingContent.php(1231): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Service\ShoppingContent->__construct(Object(Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Client), 'https://api-vip...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(256): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#7 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#14 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#16 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#17 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#19 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#20 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#21 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#22 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#23 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#24 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#25 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#26 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#27 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#28 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#29 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#30 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#31 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#32 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#33 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#34 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#35 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#36 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#37 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#38 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#39 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#40 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#41 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#42 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#43 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#44 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(237): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#45 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(198): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveCallable(Object(Closure))
+#46 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#47 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#48 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#49 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#50 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#51 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#52 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#53 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#54 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#55 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#56 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#57 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#58 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#59 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#60 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T18:48:59+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/V12/Errors/GoogleAdsFailure.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/Util/V12/GoogleAdsFailures.php(92): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Google\\Ads\\Goog...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Google/Ads/GoogleAdsClient.php(36): Google\Ads\GoogleAds\Util\V12\GoogleAdsFailures::init()
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Internal/DependencyManagement/GoogleServiceProvider.php(155): Automattic\WooCommerce\GoogleListingsAndAds\Google\Ads\GoogleAdsClient->__construct('api-vipgo.wooco...')
+#3 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Internal\DependencyManagement\GoogleServiceProvider->Automattic\WooCommerce\GoogleListingsAndAds\Internal\DependencyManagement\{closure}()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(239): call_user_func_array(Object(Closure), Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(198): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveCallable(Object(Closure))
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#9 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#13 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#14 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#16 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#17 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#19 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#20 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#21 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#22 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#23 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#24 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#25 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#26 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#27 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#28 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#29 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#30 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#31 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#32 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#33 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#34 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#35 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-03-31T18:48:59+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/modules/shapes/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Modules\\Shapes\\...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload('Elementor\\Modul...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-03-31T19:28:43+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/inc/dynamic-css/container-layouts.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php:56
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-settings.php(591): include()
+#1 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#3 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#4 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#5 {main}
+  thrown в /var/www/che7235e81/www/show.net.ua/wp-content/themes/astra/functions.php на строке 56
+
+2023-03-31T19:28:51+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/API/Site/Controllers/MerchantCenter/IssuesController.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(211): class_exists('Automattic\\WooC...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('rest_controller', false)
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('rest_controller', false)
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('rest_controller')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/API/Site/RESTControllers.php(54): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('rest_controller')
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/API/Site/RESTControllers.php(44): Automattic\WooCommerce\GoogleListingsAndAds\API\Site\RESTControllers->register_controllers()
+#8 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\API\Site\RESTControllers->Automattic\WooCommerce\GoogleListingsAndAds\API\Site\{closure}(Object(WP_REST_Server))
+#9 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#12 /var/www/che7235e81/www/show.net.ua/wp-includes/rest-api.php(403): rest_get_server()
+#13 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#14 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#16 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#17 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp.php(780): WP->parse_request('')
+#18 /var/www/che7235e81/www/show.net.ua/wp-includes/functions.php(1334): WP->main('')
+#19 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(16): wp()
+#20 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#21 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php доступно 90
+
+2023-03-31T19:33:16+00:00 CRITICAL Uncaught Error: Class "MailPoet\Settings\Pages" not found in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php:443
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php(320): MailPoet\Config\Initializer->setupPages()
+#1 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): MailPoet\Config\Initializer->initialize('')
+#2 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#5 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#7 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#9 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/mailpoet/lib/Config/Initializer.php доступно 443
+
+2023-03-31T19:33:17+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/modules/class-full-sync-immediately.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-modules.php(140): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\Jetp...')
+#1 [internal function]: Automattic\Jetpack\Sync\Modules::load_module('Automattic\\Jetp...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-modules.php(124): array_map(Array, Array)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-modules.php(67): Automattic\Jetpack\Sync\Modules::initialize_modules()
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-listener.php(85): Automattic\Jetpack\Sync\Modules::get_modules()
+#5 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-listener.php(75): Automattic\Jetpack\Sync\Listener->init()
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-listener.php(62): Automattic\Jetpack\Sync\Listener->__construct()
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-actions.php(721): Automattic\Jetpack\Sync\Listener::get_instance()
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-actions.php(143): Automattic\Jetpack\Sync\Actions::initialize_listener()
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-sync/src/class-main.php(89): Automattic\Jetpack\Sync\Actions::init()
+#10 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\Jetpack\Sync\Main::on_plugins_loaded_late('')
+#11 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#12 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#14 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#15 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#16 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#17 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#18 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php доступно 90
+
+2023-03-31T19:33:17+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/modules/announcements/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Modules\\Announc...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/modules-manager.php(53): Elementor\Autoloader::autoload('Elementor\\Modul...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(730): Elementor\Core\Modules_Manager->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php доступно 294
+
+2023-03-31T19:33:17+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/modules/promotions/module.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Modules\\Promoti...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/settings/settings.php(446): Elementor\Autoloader::autoload('Elementor\\Modul...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(723): Elementor\Settings->__construct()
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#8 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#11 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#12 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php доступно 294
+
+2023-03-31T19:33:17+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/core/kits/manager.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('Core\\Kits\\Manag...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(715): Elementor\Autoloader::autoload('Elementor\\Core\\...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Elementor\Plugin->init('')
+#4 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/che7235e81/www/show.net.ua/wp-settings.php(623): do_action('init')
+#7 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#8 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#10 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#11 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/elementor/includes/autoloader.php доступно 294
+
+2023-03-31T19:33:17+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/API/Google/AdsAsset.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ11_9_1\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(211): class_exists('Automattic\\WooC...')
+#2 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#3 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#4 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#5 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#6 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#7 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#8 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#9 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#10 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(157): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#11 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#12 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#13 [internal function]: Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#14 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#15 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(253): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#16 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/Definition.php(212): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolveClass('Automattic\\WooC...')
+#17 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Definition/DefinitionAggregate.php(106): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\Definition->resolve(false)
+#18 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(162): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Definition\DefinitionAggregate->resolveTagged('Automattic\\WooC...', false)
+#19 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/vendor/league/container/src/Container.php(178): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#20 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Container.php(90): Automattic\WooCommerce\GoogleListingsAndAds\Vendor\League\Container\Container->get('Automattic\\WooC...')
+#21 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(139): Automattic\WooCommerce\GoogleListingsAndAds\Container->get('Automattic\\WooC...')
+#22 /var/www/che7235e81/www/show.net.ua/wp-content/plugins/google-listings-and-ads/src/Infrastructure/GoogleListingsAndAdsPlugin.php(97): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->maybe_register_services()
+#23 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\GoogleListingsAndAdsPlugin->Automattic\WooCommerce\GoogleListingsAndAds\Infrastructure\{closure}('')
+#24 /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#25 /var/www/che7235e81/www/show.net.ua/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#26 /var/www/che7235e81/www/show.net.ua/wp-settings.php(486): do_action('plugins_loaded')
+#27 /var/www/che7235e81/www/show.net.ua/wp-config.php(88): require_once('/var/www/che723...')
+#28 /var/www/che7235e81/www/show.net.ua/wp-load.php(50): require_once('/var/www/che723...')
+#29 /var/www/che7235e81/www/show.net.ua/wp-blog-header.php(13): require_once('/var/www/che723...')
+#30 /var/www/che7235e81/www/show.net.ua/index.php(17): require('/var/www/che723...')
+#31 {main}
+  thrown у /var/www/che7235e81/www/show.net.ua/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php доступно 90
+
+2023-03-31T19:45:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у /var/www/che7235e81/www/show.net.ua/wp-includes/class-wp-image-editor-imagick.php доступно 432
+
