@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-28 13:22:39+0000\n"
+"PO-Revision-Date: 2023-04-14 09:38:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -287,7 +287,7 @@ msgstr "Senza categoria"
 
 #: wp-includes/block-template-utils.php:178
 msgid "Displays when a visitor views a non-existent page, such as a dead link or a mistyped URL."
-msgstr "Viene visualizzata quando un visitatore visualizza una pagina inesistente, ad esempio un collegamento non funzionante o un URL digitato in modo errato."
+msgstr "Viene visualizzata quando un visitatore visualizza una pagina inesistente, ad esempio un link non funzionante o un URL digitato in modo errato."
 
 #: wp-includes/block-template-utils.php:174
 msgid "Displays your site's Privacy Policy page."
@@ -2230,7 +2230,7 @@ msgstr "Sottomenu di %s"
 
 #: wp-includes/blocks/navigation-link.php:306
 msgid "A link to a post format"
-msgstr "Un collegamento ad un formato articolo"
+msgstr "Un link ad un formato articolo"
 
 #: wp-includes/blocks/navigation-link.php:305
 msgid "Post Format Link"
@@ -10726,7 +10726,7 @@ msgstr "Formato dell'articolo predefinito."
 
 #: wp-includes/option.php:2232
 msgid "Convert emoticons like :-) and :-P to graphics on display."
-msgstr "Convertire in visualizzazione gli emoticon tipo :-) e :-P in simboli grafici."
+msgstr "Visualizza gli emoticon tipo :-) e :-P come simboli grafici."
 
 #: wp-includes/option.php:2221
 msgid "WordPress locale code."
@@ -12388,16 +12388,16 @@ msgstr "Quando si è in modalità di riordino. Saranno disponibili, nella lista 
 
 #: wp-includes/class-wp-customize-nav-menus.php:537
 msgid "Close reorder mode"
-msgstr "Chiudere la modalità di riordino"
+msgstr "Chiudi la modalità di riordino"
 
 #: wp-includes/class-wp-customize-nav-menus.php:536
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:55
 msgid "Reorder menu items"
-msgstr "Riordinare le voci del menu"
+msgstr "Riordina le voci del menu"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:52
 msgid "Add or remove menu items"
-msgstr "Aggiungere o rimuovere voci dal menu"
+msgstr "Aggiungi o rimuovi voci dal menu"
 
 #. translators: Do not translate USERNAME, ADMIN_EMAIL, NEW_EMAIL, EMAIL,
 #. SITENAME, SITEURL: those are placeholders.
@@ -15864,7 +15864,7 @@ msgstr "Visualizza tag"
 
 #: wp-includes/pluggable.php:1266 wp-includes/pluggable.php:1311
 msgid "You should specify an action to be verified by using the first parameter."
-msgstr "È necessario specificare una azione da verificare utilizzando il primo parametro."
+msgstr "Devi specificare un'azione da verificare utilizzando il primo parametro."
 
 #. translators: 1: Login URL, 2: Network home URL.
 #: wp-activate.php:204
@@ -16177,7 +16177,7 @@ msgstr "Nuovo nome di categoria link"
 
 #: wp-includes/taxonomy.php:149
 msgid "Add New Link Category"
-msgstr "Aggiungere una nuova categoria di link"
+msgstr "Aggiungi nuova categoria di link"
 
 #: wp-includes/taxonomy.php:148
 msgid "Update Link Category"
@@ -16924,7 +16924,7 @@ msgstr "Questa pagina non esiste."
 
 #: wp-includes/class-wp-xmlrpc-server.php:609
 msgid "Allow new users to sign up"
-msgstr "Permettere ai nuovi utenti di iscriversi"
+msgstr "Permetti ai nuovi utenti di iscriversi"
 
 #: wp-includes/class-wp-xmlrpc-server.php:584
 msgid "Time Zone"
@@ -17112,7 +17112,7 @@ msgstr "Foglio di stile mancante."
 #. translators: %s: Theme directory name.
 #: wp-includes/class-wp-theme.php:413
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
-msgstr "Il tema padre è mancante. Installare il tema padre \"%s\"."
+msgstr "Il tema genitore è mancante. Installa il tema genitore \"%s\"."
 
 #: wp-includes/taxonomy.php:4785
 msgid "Invalid object ID."

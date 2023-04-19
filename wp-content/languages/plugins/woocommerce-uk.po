@@ -2,14 +2,17 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-13 19:55:34+0000\n"
+"Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-04-19 12:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0-alpha.4\n"
-"Language: uk_UA\n"
-"Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: src/Admin/Features/ShippingPartnerSuggestions/DefaultShippingPartners.php:82
 #: assets/client/admin/app/index.js:2
@@ -31294,7 +31297,7 @@ msgstr "Платіжну адресу не зазначено."
 #: packages/woocommerce-blocks/build/wc-shipping-method-pickup-location.js:232
 msgid "Address"
 msgid_plural "Addresses"
-msgstr[0] "Адреса"
+msgstr[0] "Адреса:"
 msgstr[1] ""
 msgstr[2] ""
 

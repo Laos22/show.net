@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-13 19:55:07+0000\n"
+"PO-Revision-Date: 2023-04-14 09:18:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -151,7 +151,7 @@ msgstr "Gestión de inventario desactivada en los ajustes de la tienda"
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:42
 msgid "Track stock quantity for this product"
-msgstr "Rastrear cantidad de inventario de este producto"
+msgstr "Hacer seguimiento de la cantidad de inventario de este producto"
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:41
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:116
@@ -4669,11 +4669,11 @@ msgstr "Lo siento, no tienes permisos para borrar entradas."
 
 #: includes/rest-api/Controllers/Telemetry/class-wc-rest-telemetry-controller.php:134
 msgid "Platform version to track."
-msgstr "Versión de plataforma para rastrear."
+msgstr "Versión de plataforma a realizar seguimiento."
 
 #: includes/rest-api/Controllers/Telemetry/class-wc-rest-telemetry-controller.php:127
 msgid "Platform to track."
-msgstr "Plataforma para rastrear."
+msgstr "Plataforma a realizar seguimiento."
 
 #: includes/rest-api/Controllers/Telemetry/class-wc-rest-telemetry-controller.php:62
 msgid "Sorry, you post telemetry data."
